@@ -1,3 +1,10 @@
 /build/
 /dist/
 /nbproject/private/
+/log/
+/nbproject/
+.DS_Store
+/build.xml
+/log
+/nbproject
+/dist
