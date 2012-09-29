@@ -1,0 +1,2404 @@
+14:41:04,966 [DEBUG:main] Error found in lexical subblk declaration for DB120:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:04,966 [DEBUG:main] Error found in lexical subblk declaration for DB120:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:04,970 [DEBUG:main] STRUCT UDT1903
+14:41:04,970 [DEBUG:main] STRUCT UDT1903
+14:41:04,973 [DEBUG:main]    0.0	Achse: ARRAY[6] OF DINT
+14:41:04,973 [DEBUG:main]    0.0	Achse: ARRAY[6] OF DINT
+14:41:04,974 [DEBUG:main] END_STRUCT UDT1903: 24
+14:41:04,974 [DEBUG:main] END_STRUCT UDT1903: 24
+14:41:04,976 [DEBUG:main] STRUCT UDT1902
+14:41:04,976 [DEBUG:main] STRUCT UDT1902
+14:41:04,976 [DEBUG:main]    0.0	CmdPending:BOOL
+14:41:04,976 [DEBUG:main]    0.0	CmdPending:BOOL
+14:41:04,976 [DEBUG:main]    0.1	AckPending:BOOL
+14:41:04,976 [DEBUG:main]    0.1	AckPending:BOOL
+14:41:04,976 [DEBUG:main]    0.2	Active:BOOL
+14:41:04,976 [DEBUG:main]    0.2	Active:BOOL
+14:41:04,976 [DEBUG:main]    0.3	ResultOk:BOOL
+14:41:04,976 [DEBUG:main]    0.3	ResultOk:BOOL
+14:41:04,977 [DEBUG:main]    2.0	Result:INT
+14:41:04,977 [DEBUG:main]    2.0	Result:INT
+14:41:04,977 [DEBUG:main] END_STRUCT UDT1902: 4
+14:41:04,977 [DEBUG:main] END_STRUCT UDT1902: 4
+14:41:04,977 [DEBUG:main] Error found in lexical subblk declaration for DB98:org.jpac.plc.s7.symaddr.parser.ParserException: [2,11] expecting: structsym, bool, byte, char, word, dword, int, dint, real, string, udt, s5time, time, timeofday, date, dateandtime, array
+14:41:04,977 [DEBUG:main] Error found in lexical subblk declaration for DB98:org.jpac.plc.s7.symaddr.parser.ParserException: [2,11] expecting: structsym, bool, byte, char, word, dword, int, dint, real, string, udt, s5time, time, timeofday, date, dateandtime, array
+14:41:04,978 [DEBUG:main] STRUCT DB96
+14:41:04,978 [DEBUG:main] STRUCT DB96
+14:41:04,979 [DEBUG:main] STRUCT UDT3
+14:41:04,979 [DEBUG:main] STRUCT UDT3
+14:41:04,980 [DEBUG:main] STRUCT UDT2
+14:41:04,980 [DEBUG:main] STRUCT UDT2
+14:41:04,980 [DEBUG:main]    0.0	X:BOOL
+14:41:04,980 [DEBUG:main]    0.0	X:BOOL
+14:41:04,980 [DEBUG:main]    0.1	Y:BOOL
+14:41:04,980 [DEBUG:main]    0.1	Y:BOOL
+14:41:04,980 [DEBUG:main]    0.2	Z:BOOL
+14:41:04,980 [DEBUG:main]    0.2	Z:BOOL
+14:41:04,980 [DEBUG:main] END_STRUCT UDT2: 2
+14:41:04,980 [DEBUG:main] END_STRUCT UDT2: 2
+14:41:04,981 [DEBUG:main]    0.0	E:UDT2
+14:41:04,981 [DEBUG:main]    0.0	E:UDT2
+14:41:04,981 [DEBUG:main]    2.0	G:UDT2
+14:41:04,981 [DEBUG:main]    2.0	G:UDT2
+14:41:04,981 [DEBUG:main]    4.0	F:UDT2
+14:41:04,981 [DEBUG:main]    4.0	F:UDT2
+14:41:04,981 [DEBUG:main] END_STRUCT UDT3: 6
+14:41:04,981 [DEBUG:main] END_STRUCT UDT3: 6
+14:41:04,981 [DEBUG:main]    0.0	UebernahmeQS:UDT3
+14:41:04,981 [DEBUG:main]    0.0	UebernahmeQS:UDT3
+14:41:04,981 [DEBUG:main]    6.0	UebernahmeNonius:UDT3
+14:41:04,981 [DEBUG:main]    6.0	UebernahmeNonius:UDT3
+14:41:04,981 [DEBUG:main] END_STRUCT DB96: 12
+14:41:04,981 [DEBUG:main] END_STRUCT DB96: 12
+14:41:04,982 [DEBUG:main] STRUCT DB504
+14:41:04,982 [DEBUG:main] STRUCT DB504
+14:41:04,983 [DEBUG:main] STRUCT UDT1
+14:41:04,983 [DEBUG:main] STRUCT UDT1
+14:41:04,983 [DEBUG:main]    0.0	Display:BOOL
+14:41:04,983 [DEBUG:main]    0.0	Display:BOOL
+14:41:04,983 [DEBUG:main]    0.1	bOK:BOOL
+14:41:04,983 [DEBUG:main]    0.1	bOK:BOOL
+14:41:04,983 [DEBUG:main]    0.2	bCancel:BOOL
+14:41:04,983 [DEBUG:main]    0.2	bCancel:BOOL
+14:41:04,983 [DEBUG:main] END_STRUCT UDT1: 2
+14:41:04,983 [DEBUG:main] END_STRUCT UDT1: 2
+14:41:04,984 [DEBUG:main]    0.0	Abfrage:UDT1
+14:41:04,984 [DEBUG:main]    0.0	Abfrage:UDT1
+14:41:04,984 [DEBUG:main] END_STRUCT DB504: 2
+14:41:04,984 [DEBUG:main] END_STRUCT DB504: 2
+14:41:04,985 [DEBUG:main] STRUCT DB501
+14:41:04,985 [DEBUG:main] STRUCT DB501
+14:41:04,985 [DEBUG:main]    0.0	AbfrageAenderung:UDT1
+14:41:04,985 [DEBUG:main]    0.0	AbfrageAenderung:UDT1
+14:41:04,985 [DEBUG:main]    2.0	DatenAendern:UDT1
+14:41:04,985 [DEBUG:main]    2.0	DatenAendern:UDT1
+14:41:04,986 [DEBUG:main]    4.0	Flugzeugtyp:BYTE
+14:41:04,986 [DEBUG:main]    4.0	Flugzeugtyp:BYTE
+14:41:04,986 [DEBUG:main] STRUCT UDT24
+14:41:04,986 [DEBUG:main] STRUCT UDT24
+14:41:04,987 [DEBUG:main] STRUCT UDT23
+14:41:04,987 [DEBUG:main] STRUCT UDT23
+14:41:04,987 [DEBUG:main]    0.0	X:DINT
+14:41:04,987 [DEBUG:main]    0.0	X:DINT
+14:41:04,987 [DEBUG:main]    4.0	Y:DINT
+14:41:04,987 [DEBUG:main]    4.0	Y:DINT
+14:41:04,988 [DEBUG:main]    8.0	Z:DINT
+14:41:04,988 [DEBUG:main]    8.0	Z:DINT
+14:41:04,988 [DEBUG:main] END_STRUCT UDT23: 12
+14:41:04,988 [DEBUG:main] END_STRUCT UDT23: 12
+14:41:04,988 [DEBUG:main]    0.0	E:UDT23
+14:41:04,988 [DEBUG:main]    0.0	E:UDT23
+14:41:04,988 [DEBUG:main]    12.0	G:UDT23
+14:41:04,988 [DEBUG:main]    12.0	G:UDT23
+14:41:04,988 [DEBUG:main]    24.0	F:UDT23
+14:41:04,988 [DEBUG:main]    24.0	F:UDT23
+14:41:04,988 [DEBUG:main] END_STRUCT UDT24: 36
+14:41:04,988 [DEBUG:main] END_STRUCT UDT24: 36
+14:41:04,988 [DEBUG:main]    6.0	GeladeneRapPositionen:UDT24
+14:41:04,988 [DEBUG:main]    6.0	GeladeneRapPositionen:UDT24
+14:41:04,989 [DEBUG:main]    42.0	FinaleRapPositionen:UDT24
+14:41:04,989 [DEBUG:main]    42.0	FinaleRapPositionen:UDT24
+14:41:04,989 [DEBUG:main] END_STRUCT DB501: 78
+14:41:04,989 [DEBUG:main] END_STRUCT DB501: 78
+14:41:05,004 [DEBUG:main] STRUCT DB500
+14:41:05,004 [DEBUG:main] STRUCT DB500
+14:41:05,004 [DEBUG:main]    0.0	F1:BOOL
+14:41:05,004 [DEBUG:main]    0.0	F1:BOOL
+14:41:05,004 [DEBUG:main]    0.1	F2:BOOL
+14:41:05,004 [DEBUG:main]    0.1	F2:BOOL
+14:41:05,004 [DEBUG:main]    0.2	F3:BOOL
+14:41:05,004 [DEBUG:main]    0.2	F3:BOOL
+14:41:05,004 [DEBUG:main]    0.3	F4:BOOL
+14:41:05,004 [DEBUG:main]    0.3	F4:BOOL
+14:41:05,004 [DEBUG:main]    0.4	F5:BOOL
+14:41:05,004 [DEBUG:main]    0.4	F5:BOOL
+14:41:05,004 [DEBUG:main]    0.5	F6:BOOL
+14:41:05,004 [DEBUG:main]    0.5	F6:BOOL
+14:41:05,005 [DEBUG:main]    0.6	F7:BOOL
+14:41:05,005 [DEBUG:main]    0.6	F7:BOOL
+14:41:05,005 [DEBUG:main]    0.7	F8:BOOL
+14:41:05,005 [DEBUG:main]    0.7	F8:BOOL
+14:41:05,005 [DEBUG:main]    1.0	F9:BOOL
+14:41:05,005 [DEBUG:main]    1.0	F9:BOOL
+14:41:05,005 [DEBUG:main]    1.1	F10:BOOL
+14:41:05,005 [DEBUG:main]    1.1	F10:BOOL
+14:41:05,005 [DEBUG:main]    1.2	F11:BOOL
+14:41:05,005 [DEBUG:main]    1.2	F11:BOOL
+14:41:05,005 [DEBUG:main]    1.3	F12:BOOL
+14:41:05,005 [DEBUG:main]    1.3	F12:BOOL
+14:41:05,005 [DEBUG:main]    1.4	F13:BOOL
+14:41:05,005 [DEBUG:main]    1.4	F13:BOOL
+14:41:05,005 [DEBUG:main]    1.5	F14:BOOL
+14:41:05,005 [DEBUG:main]    1.5	F14:BOOL
+14:41:05,006 [DEBUG:main]    1.6	F15:BOOL
+14:41:05,006 [DEBUG:main]    1.6	F15:BOOL
+14:41:05,006 [DEBUG:main]    1.7	F16:BOOL
+14:41:05,006 [DEBUG:main]    1.7	F16:BOOL
+14:41:05,006 [DEBUG:main]    2.0	F17:BOOL
+14:41:05,006 [DEBUG:main]    2.0	F17:BOOL
+14:41:05,006 [DEBUG:main]    2.1	F18:BOOL
+14:41:05,006 [DEBUG:main]    2.1	F18:BOOL
+14:41:05,006 [DEBUG:main]    2.2	F19:BOOL
+14:41:05,006 [DEBUG:main]    2.2	F19:BOOL
+14:41:05,006 [DEBUG:main]    2.3	F20:BOOL
+14:41:05,006 [DEBUG:main]    2.3	F20:BOOL
+14:41:05,006 [DEBUG:main]    2.4	Reserve1:BOOL
+14:41:05,006 [DEBUG:main]    2.4	Reserve1:BOOL
+14:41:05,007 [DEBUG:main]    2.5	Reserve2:BOOL
+14:41:05,007 [DEBUG:main]    2.5	Reserve2:BOOL
+14:41:05,007 [DEBUG:main]    2.6	Reserve3:BOOL
+14:41:05,007 [DEBUG:main]    2.6	Reserve3:BOOL
+14:41:05,007 [DEBUG:main]    2.7	Reserve4:BOOL
+14:41:05,007 [DEBUG:main]    2.7	Reserve4:BOOL
+14:41:05,007 [DEBUG:main]    3.0	Reserve5:BOOL
+14:41:05,007 [DEBUG:main]    3.0	Reserve5:BOOL
+14:41:05,007 [DEBUG:main]    3.1	Reserve6:BOOL
+14:41:05,007 [DEBUG:main]    3.1	Reserve6:BOOL
+14:41:05,007 [DEBUG:main]    3.2	Reserve7:BOOL
+14:41:05,007 [DEBUG:main]    3.2	Reserve7:BOOL
+14:41:05,007 [DEBUG:main]    3.3	Reserve8:BOOL
+14:41:05,007 [DEBUG:main]    3.3	Reserve8:BOOL
+14:41:05,007 [DEBUG:main]    3.4	Reserve9:BOOL
+14:41:05,007 [DEBUG:main]    3.4	Reserve9:BOOL
+14:41:05,008 [DEBUG:main]    3.5	Reserve10:BOOL
+14:41:05,008 [DEBUG:main]    3.5	Reserve10:BOOL
+14:41:05,008 [DEBUG:main]    3.6	Reserve11:BOOL
+14:41:05,008 [DEBUG:main]    3.6	Reserve11:BOOL
+14:41:05,008 [DEBUG:main]    3.7	LastmessungNullen:BOOL
+14:41:05,008 [DEBUG:main]    3.7	LastmessungNullen:BOOL
+14:41:05,008 [DEBUG:main]    4.0	S1:BOOL
+14:41:05,008 [DEBUG:main]    4.0	S1:BOOL
+14:41:05,008 [DEBUG:main]    4.1	S2:BOOL
+14:41:05,008 [DEBUG:main]    4.1	S2:BOOL
+14:41:05,008 [DEBUG:main]    4.2	S3:BOOL
+14:41:05,008 [DEBUG:main]    4.2	S3:BOOL
+14:41:05,008 [DEBUG:main]    4.3	S4:BOOL
+14:41:05,008 [DEBUG:main]    4.3	S4:BOOL
+14:41:05,008 [DEBUG:main]    4.4	S5:BOOL
+14:41:05,008 [DEBUG:main]    4.4	S5:BOOL
+14:41:05,009 [DEBUG:main]    4.5	S6:BOOL
+14:41:05,009 [DEBUG:main]    4.5	S6:BOOL
+14:41:05,009 [DEBUG:main]    4.6	S7:BOOL
+14:41:05,009 [DEBUG:main]    4.6	S7:BOOL
+14:41:05,009 [DEBUG:main]    4.7	S8:BOOL
+14:41:05,009 [DEBUG:main]    4.7	S8:BOOL
+14:41:05,009 [DEBUG:main]    5.0	S9:BOOL
+14:41:05,009 [DEBUG:main]    5.0	S9:BOOL
+14:41:05,009 [DEBUG:main]    5.1	S10:BOOL
+14:41:05,009 [DEBUG:main]    5.1	S10:BOOL
+14:41:05,009 [DEBUG:main]    5.2	S11:BOOL
+14:41:05,009 [DEBUG:main]    5.2	S11:BOOL
+14:41:05,009 [DEBUG:main]    5.3	S12:BOOL
+14:41:05,009 [DEBUG:main]    5.3	S12:BOOL
+14:41:05,010 [DEBUG:main]    5.4	S13:BOOL
+14:41:05,010 [DEBUG:main]    5.4	S13:BOOL
+14:41:05,010 [DEBUG:main]    5.5	S14:BOOL
+14:41:05,010 [DEBUG:main]    5.5	S14:BOOL
+14:41:05,010 [DEBUG:main]    5.6	S15:BOOL
+14:41:05,010 [DEBUG:main]    5.6	S15:BOOL
+14:41:05,010 [DEBUG:main]    5.7	S16:BOOL
+14:41:05,010 [DEBUG:main]    5.7	S16:BOOL
+14:41:05,010 [DEBUG:main]    6.0	Reserve13:BOOL
+14:41:05,010 [DEBUG:main]    6.0	Reserve13:BOOL
+14:41:05,010 [DEBUG:main]    6.1	Reserve14:BOOL
+14:41:05,010 [DEBUG:main]    6.1	Reserve14:BOOL
+14:41:05,010 [DEBUG:main]    6.2	Reserve15:BOOL
+14:41:05,010 [DEBUG:main]    6.2	Reserve15:BOOL
+14:41:05,010 [DEBUG:main]    6.3	Reserve16:BOOL
+14:41:05,010 [DEBUG:main]    6.3	Reserve16:BOOL
+14:41:05,011 [DEBUG:main]    6.4	Reserve17:BOOL
+14:41:05,011 [DEBUG:main]    6.4	Reserve17:BOOL
+14:41:05,011 [DEBUG:main]    6.5	Reserve18:BOOL
+14:41:05,011 [DEBUG:main]    6.5	Reserve18:BOOL
+14:41:05,011 [DEBUG:main]    6.6	Reserve19:BOOL
+14:41:05,011 [DEBUG:main]    6.6	Reserve19:BOOL
+14:41:05,011 [DEBUG:main]    6.7	Reserve20:BOOL
+14:41:05,011 [DEBUG:main]    6.7	Reserve20:BOOL
+14:41:05,011 [DEBUG:main]    8.0	Anmeldung:INT
+14:41:05,011 [DEBUG:main]    8.0	Anmeldung:INT
+14:41:05,011 [DEBUG:main]    10.0	MPKennung:BYTE
+14:41:05,011 [DEBUG:main]    10.0	MPKennung:BYTE
+14:41:05,011 [DEBUG:main]    12.0	Reserve_Wort1:WORD
+14:41:05,011 [DEBUG:main]    12.0	Reserve_Wort1:WORD
+14:41:05,011 [DEBUG:main]    14.0	Reserve_Wort2:WORD
+14:41:05,011 [DEBUG:main]    14.0	Reserve_Wort2:WORD
+14:41:05,012 [DEBUG:main]    16.0	Reserve_Wort3:WORD
+14:41:05,012 [DEBUG:main]    16.0	Reserve_Wort3:WORD
+14:41:05,012 [DEBUG:main]    18.0	Reserve_Wort4:WORD
+14:41:05,012 [DEBUG:main]    18.0	Reserve_Wort4:WORD
+14:41:05,012 [DEBUG:main]    20.0	Reserve_Wort5:WORD
+14:41:05,012 [DEBUG:main]    20.0	Reserve_Wort5:WORD
+14:41:05,012 [DEBUG:main]    22.0	Reserve_Wort6:WORD
+14:41:05,012 [DEBUG:main]    22.0	Reserve_Wort6:WORD
+14:41:05,012 [DEBUG:main]    24.0	Reserve_Wort7:WORD
+14:41:05,012 [DEBUG:main]    24.0	Reserve_Wort7:WORD
+14:41:05,012 [DEBUG:main]    26.0	Reserve_Wort8:WORD
+14:41:05,012 [DEBUG:main]    26.0	Reserve_Wort8:WORD
+14:41:05,012 [DEBUG:main]    28.0	Reserve_Wort9:WORD
+14:41:05,012 [DEBUG:main]    28.0	Reserve_Wort9:WORD
+14:41:05,013 [DEBUG:main]    30.0	Reserve_Wort10:WORD
+14:41:05,013 [DEBUG:main]    30.0	Reserve_Wort10:WORD
+14:41:05,013 [DEBUG:main]    32.0	Reserve_Wort11:WORD
+14:41:05,013 [DEBUG:main]    32.0	Reserve_Wort11:WORD
+14:41:05,013 [DEBUG:main]    34.0	Reserve_Wort12:WORD
+14:41:05,013 [DEBUG:main]    34.0	Reserve_Wort12:WORD
+14:41:05,013 [DEBUG:main]    36.0	Reserve_Wort13:WORD
+14:41:05,013 [DEBUG:main]    36.0	Reserve_Wort13:WORD
+14:41:05,013 [DEBUG:main]    38.0	Reserve_Wort14:WORD
+14:41:05,013 [DEBUG:main]    38.0	Reserve_Wort14:WORD
+14:41:05,013 [DEBUG:main]    40.0	Reserve_Wort15:WORD
+14:41:05,013 [DEBUG:main]    40.0	Reserve_Wort15:WORD
+14:41:05,013 [DEBUG:main]    42.0	Reserve_Wort16:WORD
+14:41:05,013 [DEBUG:main]    42.0	Reserve_Wort16:WORD
+14:41:05,014 [DEBUG:main]    44.0	Reserve_Wort17:WORD
+14:41:05,014 [DEBUG:main]    44.0	Reserve_Wort17:WORD
+14:41:05,014 [DEBUG:main]    46.0	Reserve_Wort18:WORD
+14:41:05,014 [DEBUG:main]    46.0	Reserve_Wort18:WORD
+14:41:05,014 [DEBUG:main]    48.0	Reserve_Wort19:WORD
+14:41:05,014 [DEBUG:main]    48.0	Reserve_Wort19:WORD
+14:41:05,014 [DEBUG:main]    50.0	Reserve_Wort20:WORD
+14:41:05,014 [DEBUG:main]    50.0	Reserve_Wort20:WORD
+14:41:05,014 [DEBUG:main]    52.0	Bildnummer_Wort1:WORD
+14:41:05,014 [DEBUG:main]    52.0	Bildnummer_Wort1:WORD
+14:41:05,014 [DEBUG:main]    54.0	Bildnummer_Wort2:WORD
+14:41:05,014 [DEBUG:main]    54.0	Bildnummer_Wort2:WORD
+14:41:05,014 [DEBUG:main]    56.0	Bildnummer_Wort3:WORD
+14:41:05,014 [DEBUG:main]    56.0	Bildnummer_Wort3:WORD
+14:41:05,014 [DEBUG:main]    58.0	Bildnummer_Wort4:WORD
+14:41:05,014 [DEBUG:main]    58.0	Bildnummer_Wort4:WORD
+14:41:05,015 [DEBUG:main]    60.0	Bildnummer_Wort5:WORD
+14:41:05,015 [DEBUG:main]    60.0	Bildnummer_Wort5:WORD
+14:41:05,015 [DEBUG:main]    62.0	Koordinierung_1:WORD
+14:41:05,015 [DEBUG:main]    62.0	Koordinierung_1:WORD
+14:41:05,015 [DEBUG:main]    64.0	Koordinierung_2:WORD
+14:41:05,015 [DEBUG:main]    64.0	Koordinierung_2:WORD
+14:41:05,015 [DEBUG:main]    66.0	BildwechselGesperrt:BOOL
+14:41:05,015 [DEBUG:main]    66.0	BildwechselGesperrt:BOOL
+14:41:05,015 [DEBUG:main] END_STRUCT DB500: 68
+14:41:05,015 [DEBUG:main] END_STRUCT DB500: 68
+14:41:05,016 [DEBUG:main] STRUCT DB1930
+14:41:05,016 [DEBUG:main] STRUCT DB1930
+14:41:05,029 [DEBUG:main] STRUCT UDT530
+14:41:05,029 [DEBUG:main] STRUCT UDT530
+14:41:05,029 [DEBUG:main]    0.0	AntriebEinschalten:BOOL
+14:41:05,029 [DEBUG:main]    0.0	AntriebEinschalten:BOOL
+14:41:05,030 [DEBUG:main]    0.1	CmdPosbetrieb:BOOL
+14:41:05,030 [DEBUG:main]    0.1	CmdPosbetrieb:BOOL
+14:41:05,030 [DEBUG:main]    0.2	CmdTippbetrieb:BOOL
+14:41:05,030 [DEBUG:main]    0.2	CmdTippbetrieb:BOOL
+14:41:05,030 [DEBUG:main]    0.3	CmdGLPosbetrieb:BOOL
+14:41:05,030 [DEBUG:main]    0.3	CmdGLPosbetrieb:BOOL
+14:41:05,030 [DEBUG:main]    0.4	CmdGLTippbetrieb:BOOL
+14:41:05,030 [DEBUG:main]    0.4	CmdGLTippbetrieb:BOOL
+14:41:05,030 [DEBUG:main]    0.5	CmdStop:BOOL
+14:41:05,030 [DEBUG:main]    0.5	CmdStop:BOOL
+14:41:05,031 [DEBUG:main]    0.6	TippPositiv:BOOL
+14:41:05,031 [DEBUG:main]    0.6	TippPositiv:BOOL
+14:41:05,031 [DEBUG:main]    0.7	TippNegativ:BOOL
+14:41:05,031 [DEBUG:main]    0.7	TippNegativ:BOOL
+14:41:05,031 [DEBUG:main]    1.0	Cmd_Abwaehlen:BOOL
+14:41:05,031 [DEBUG:main]    1.0	Cmd_Abwaehlen:BOOL
+14:41:05,031 [DEBUG:main]    1.1	CmdHandradbetrieb:BOOL
+14:41:05,031 [DEBUG:main]    1.1	CmdHandradbetrieb:BOOL
+14:41:05,031 [DEBUG:main]    1.2	CmdGLHandradbetrieb:BOOL
+14:41:05,031 [DEBUG:main]    1.2	CmdGLHandradbetrieb:BOOL
+14:41:05,031 [DEBUG:main]    2.0	Sollposition:DINT
+14:41:05,031 [DEBUG:main]    2.0	Sollposition:DINT
+14:41:05,032 [DEBUG:main]    6.0	Geschwindigkeit:DINT
+14:41:05,032 [DEBUG:main]    6.0	Geschwindigkeit:DINT
+14:41:05,032 [DEBUG:main]    10.0	Beschleunigung:DINT
+14:41:05,032 [DEBUG:main]    10.0	Beschleunigung:DINT
+14:41:05,032 [DEBUG:main]    14.0	Override:BYTE
+14:41:05,032 [DEBUG:main]    14.0	Override:BYTE
+14:41:05,032 [DEBUG:main]    15.0	AntriebIstEin:BOOL
+14:41:05,032 [DEBUG:main]    15.0	AntriebIstEin:BOOL
+14:41:05,032 [DEBUG:main]    15.1	PosbetriebAktiv:BOOL
+14:41:05,032 [DEBUG:main]    15.1	PosbetriebAktiv:BOOL
+14:41:05,033 [DEBUG:main]    15.2	TippbetriebAktiv:BOOL
+14:41:05,033 [DEBUG:main]    15.2	TippbetriebAktiv:BOOL
+14:41:05,033 [DEBUG:main]    15.3	GLPosbetriebAktiv:BOOL
+14:41:05,033 [DEBUG:main]    15.3	GLPosbetriebAktiv:BOOL
+14:41:05,033 [DEBUG:main]    15.4	GLTippbetriebAktiv:BOOL
+14:41:05,033 [DEBUG:main]    15.4	GLTippbetriebAktiv:BOOL
+14:41:05,033 [DEBUG:main]    15.5	StopAktiv:BOOL
+14:41:05,033 [DEBUG:main]    15.5	StopAktiv:BOOL
+14:41:05,033 [DEBUG:main]    15.6	StopBeendet:BOOL
+14:41:05,033 [DEBUG:main]    15.6	StopBeendet:BOOL
+14:41:05,033 [DEBUG:main]    15.7	PositionErreicht:BOOL
+14:41:05,033 [DEBUG:main]    15.7	PositionErreicht:BOOL
+14:41:05,033 [DEBUG:main]    16.0	BremseFreigeben:BOOL
+14:41:05,033 [DEBUG:main]    16.0	BremseFreigeben:BOOL
+14:41:05,034 [DEBUG:main]    16.1	AntriebAbgewaehlt:BOOL
+14:41:05,034 [DEBUG:main]    16.1	AntriebAbgewaehlt:BOOL
+14:41:05,034 [DEBUG:main]    16.2	StoerungWR:BOOL
+14:41:05,034 [DEBUG:main]    16.2	StoerungWR:BOOL
+14:41:05,034 [DEBUG:main]    16.3	Summenstoerung:BOOL
+14:41:05,034 [DEBUG:main]    16.3	Summenstoerung:BOOL
+14:41:05,034 [DEBUG:main]    16.4	AntriebSteht:BOOL
+14:41:05,034 [DEBUG:main]    16.4	AntriebSteht:BOOL
+14:41:05,034 [DEBUG:main]    16.5	NetzschuetzEinschalten:BOOL
+14:41:05,034 [DEBUG:main]    16.5	NetzschuetzEinschalten:BOOL
+14:41:05,034 [DEBUG:main]    16.6	Master:BOOL
+14:41:05,034 [DEBUG:main]    16.6	Master:BOOL
+14:41:05,034 [DEBUG:main]    16.7	Slave:BOOL
+14:41:05,034 [DEBUG:main]    16.7	Slave:BOOL
+14:41:05,035 [DEBUG:main]    17.0	MasterHatGLAktiv:BOOL
+14:41:05,035 [DEBUG:main]    17.0	MasterHatGLAktiv:BOOL
+14:41:05,035 [DEBUG:main]    17.1	SlaveHatGLAktiv:BOOL
+14:41:05,035 [DEBUG:main]    17.1	SlaveHatGLAktiv:BOOL
+14:41:05,035 [DEBUG:main]    17.2	OffsetLatchen:BOOL
+14:41:05,035 [DEBUG:main]    17.2	OffsetLatchen:BOOL
+14:41:05,035 [DEBUG:main]    17.3	Master_0_A1_1_A2:BOOL
+14:41:05,035 [DEBUG:main]    17.3	Master_0_A1_1_A2:BOOL
+14:41:05,035 [DEBUG:main]    17.4	HandradbetriebAktiv:BOOL
+14:41:05,035 [DEBUG:main]    17.4	HandradbetriebAktiv:BOOL
+14:41:05,035 [DEBUG:main]    17.5	GLHandradbetriebAktiv:BOOL
+14:41:05,035 [DEBUG:main]    17.5	GLHandradbetriebAktiv:BOOL
+14:41:05,035 [DEBUG:main]    18.0	StoerungNummer:INT
+14:41:05,035 [DEBUG:main]    18.0	StoerungNummer:INT
+14:41:05,035 [DEBUG:main]    20.0	WarnungNummer:INT
+14:41:05,035 [DEBUG:main]    20.0	WarnungNummer:INT
+14:41:05,036 [DEBUG:main]    22.0	Istposition:DINT
+14:41:05,036 [DEBUG:main]    22.0	Istposition:DINT
+14:41:05,036 [DEBUG:main]    26.0	Span:REAL
+14:41:05,036 [DEBUG:main]    26.0	Span:REAL
+14:41:05,036 [DEBUG:main]    30.0	Nullpunktverschiebung:DINT
+14:41:05,036 [DEBUG:main]    30.0	Nullpunktverschiebung:DINT
+14:41:05,036 [DEBUG:main]    34.0	Offset:DINT
+14:41:05,036 [DEBUG:main]    34.0	Offset:DINT
+14:41:05,036 [DEBUG:main]    38.0	EndlagePos:DINT
+14:41:05,036 [DEBUG:main]    38.0	EndlagePos:DINT
+14:41:05,036 [DEBUG:main]    42.0	EndlageNeg:DINT
+14:41:05,036 [DEBUG:main]    42.0	EndlageNeg:DINT
+14:41:05,036 [DEBUG:main]    46.0	aktiveEndlagePos:DINT
+14:41:05,036 [DEBUG:main]    46.0	aktiveEndlagePos:DINT
+14:41:05,036 [DEBUG:main]    50.0	aktiveEndlageNeg:DINT
+14:41:05,036 [DEBUG:main]    50.0	aktiveEndlageNeg:DINT
+14:41:05,037 [DEBUG:main] END_STRUCT UDT530: 54
+14:41:05,037 [DEBUG:main] END_STRUCT UDT530: 54
+14:41:05,037 [DEBUG:main]    0.0	Antrieb: ARRAY[6] OF UDT530
+14:41:05,037 [DEBUG:main]    0.0	Antrieb: ARRAY[6] OF UDT530
+14:41:05,037 [DEBUG:main] END_STRUCT DB1930: 324
+14:41:05,037 [DEBUG:main] END_STRUCT DB1930: 324
+14:41:05,037 [DEBUG:main] STRUCT UDT999
+14:41:05,037 [DEBUG:main] STRUCT UDT999
+14:41:05,038 [DEBUG:main]    0.0	Sig: ARRAY[256] OF BOOL
+14:41:05,038 [DEBUG:main]    0.0	Sig: ARRAY[256] OF BOOL
+14:41:05,038 [DEBUG:main] END_STRUCT UDT999: 32
+14:41:05,038 [DEBUG:main] END_STRUCT UDT999: 32
+14:41:05,038 [DEBUG:main] STRUCT DB202
+14:41:05,038 [DEBUG:main] STRUCT DB202
+14:41:05,039 [DEBUG:main] STRUCT UDT204
+14:41:05,039 [DEBUG:main] STRUCT UDT204
+14:41:05,040 [DEBUG:main]    0.0	Dint1:DINT
+14:41:05,040 [DEBUG:main]    0.0	Dint1:DINT
+14:41:05,040 [DEBUG:main]    4.0	Dint2:DINT
+14:41:05,040 [DEBUG:main]    4.0	Dint2:DINT
+14:41:05,040 [DEBUG:main]    8.0	Dint3:DINT
+14:41:05,040 [DEBUG:main]    8.0	Dint3:DINT
+14:41:05,040 [DEBUG:main]    12.0	Dint4:DINT
+14:41:05,040 [DEBUG:main]    12.0	Dint4:DINT
+14:41:05,040 [DEBUG:main]    16.0	Dint5:DINT
+14:41:05,040 [DEBUG:main]    16.0	Dint5:DINT
+14:41:05,040 [DEBUG:main]    20.0	Dint6:DINT
+14:41:05,040 [DEBUG:main]    20.0	Dint6:DINT
+14:41:05,040 [DEBUG:main]    24.0	Dint7:DINT
+14:41:05,040 [DEBUG:main]    24.0	Dint7:DINT
+14:41:05,041 [DEBUG:main]    28.0	Dint8:DINT
+14:41:05,041 [DEBUG:main]    28.0	Dint8:DINT
+14:41:05,041 [DEBUG:main] END_STRUCT UDT204: 32
+14:41:05,041 [DEBUG:main] END_STRUCT UDT204: 32
+14:41:05,041 [DEBUG:main]    0.0	ST:UDT204
+14:41:05,041 [DEBUG:main]    0.0	ST:UDT204
+14:41:05,041 [DEBUG:main] END_STRUCT DB202: 32
+14:41:05,041 [DEBUG:main] END_STRUCT DB202: 32
+14:41:05,041 [DEBUG:main] STRUCT DB201
+14:41:05,041 [DEBUG:main] STRUCT DB201
+14:41:05,043 [DEBUG:main] STRUCT UDT203
+14:41:05,043 [DEBUG:main] STRUCT UDT203
+14:41:05,044 [DEBUG:main] >>>> nested
+14:41:05,044 [DEBUG:main] >>>> nested
+14:41:05,044 [DEBUG:main] STRUCT UDT203$0
+14:41:05,044 [DEBUG:main] STRUCT UDT203$0
+14:41:05,044 [DEBUG:main]    0.0	lfdNr:DINT
+14:41:05,044 [DEBUG:main]    0.0	lfdNr:DINT
+14:41:05,044 [DEBUG:main]    4.0	Index:INT
+14:41:05,044 [DEBUG:main]    4.0	Index:INT
+14:41:05,044 [DEBUG:main] END_STRUCT UDT203$0: 6
+14:41:05,044 [DEBUG:main] END_STRUCT UDT203$0: 6
+14:41:05,045 [DEBUG:main] <<<< nested
+14:41:05,045 [DEBUG:main] <<<< nested
+14:41:05,045 [DEBUG:main]    0.0	Kopf:UDT203$0
+14:41:05,045 [DEBUG:main]    0.0	Kopf:UDT203$0
+14:41:05,045 [DEBUG:main]    6.0	MinIdx:INT
+14:41:05,045 [DEBUG:main]    6.0	MinIdx:INT
+14:41:05,045 [DEBUG:main]    8.0	MaxIdx:INT
+14:41:05,045 [DEBUG:main]    8.0	MaxIdx:INT
+14:41:05,046 [DEBUG:main] STRUCT UDT202
+14:41:05,046 [DEBUG:main] STRUCT UDT202
+14:41:05,046 [DEBUG:main]    0.0	lfdNr:DINT
+14:41:05,046 [DEBUG:main]    0.0	lfdNr:DINT
+14:41:05,047 [DEBUG:main]    4.0	MeldeNr:INT
+14:41:05,047 [DEBUG:main]    4.0	MeldeNr:INT
+14:41:05,047 [DEBUG:main] STRUCT UDT201
+14:41:05,047 [DEBUG:main] STRUCT UDT201
+14:41:05,048 [DEBUG:main]    0.0	Wert: ARRAY[8] OF DINT
+14:41:05,048 [DEBUG:main]    0.0	Wert: ARRAY[8] OF DINT
+14:41:05,048 [DEBUG:main] END_STRUCT UDT201: 32
+14:41:05,048 [DEBUG:main] END_STRUCT UDT201: 32
+14:41:05,048 [DEBUG:main]    6.0	Param:UDT201
+14:41:05,048 [DEBUG:main]    6.0	Param:UDT201
+14:41:05,048 [DEBUG:main] END_STRUCT UDT202: 38
+14:41:05,048 [DEBUG:main] END_STRUCT UDT202: 38
+14:41:05,048 [DEBUG:main]    10.0	Buffer: ARRAY[10] OF UDT202
+14:41:05,048 [DEBUG:main]    10.0	Buffer: ARRAY[10] OF UDT202
+14:41:05,049 [DEBUG:main] END_STRUCT UDT203: 390
+14:41:05,049 [DEBUG:main] END_STRUCT UDT203: 390
+14:41:05,049 [DEBUG:main]    0.0	Logtable:UDT203
+14:41:05,049 [DEBUG:main]    0.0	Logtable:UDT203
+14:41:05,049 [DEBUG:main] END_STRUCT DB201: 390
+14:41:05,049 [DEBUG:main] END_STRUCT DB201: 390
+14:41:05,049 [DEBUG:main] Error found in lexical subblk declaration for DB26:org.jpac.plc.s7.symaddr.parser.ParserException: [2,13] expecting: structsym, bool, byte, char, word, dword, int, dint, real, string, udt, s5time, time, timeofday, date, dateandtime, array
+14:41:05,049 [DEBUG:main] Error found in lexical subblk declaration for DB26:org.jpac.plc.s7.symaddr.parser.ParserException: [2,13] expecting: structsym, bool, byte, char, word, dword, int, dint, real, string, udt, s5time, time, timeofday, date, dateandtime, array
+14:41:05,050 [DEBUG:main] STRUCT DB103
+14:41:05,050 [DEBUG:main] STRUCT DB103
+14:41:05,051 [DEBUG:main] >>>> nested
+14:41:05,051 [DEBUG:main] >>>> nested
+14:41:05,051 [DEBUG:main] STRUCT DB103$0
+14:41:05,051 [DEBUG:main] STRUCT DB103$0
+14:41:05,057 [DEBUG:main] STRUCT UDT504
+14:41:05,057 [DEBUG:main] STRUCT UDT504
+14:41:05,057 [DEBUG:main]    0.0	Tippen1:BOOL
+14:41:05,057 [DEBUG:main]    0.0	Tippen1:BOOL
+14:41:05,057 [DEBUG:main]    0.1	Tippen2:BOOL
+14:41:05,057 [DEBUG:main]    0.1	Tippen2:BOOL
+14:41:05,058 [DEBUG:main]    0.2	AGFuehrung:BOOL
+14:41:05,058 [DEBUG:main]    0.2	AGFuehrung:BOOL
+14:41:05,058 [DEBUG:main]    0.3	Rechtsdrehfeld:BOOL
+14:41:05,058 [DEBUG:main]    0.3	Rechtsdrehfeld:BOOL
+14:41:05,058 [DEBUG:main]    0.4	Linksdrehfeld:BOOL
+14:41:05,058 [DEBUG:main]    0.4	Linksdrehfeld:BOOL
+14:41:05,058 [DEBUG:main]    0.5	MotorpotiHoeher:BOOL
+14:41:05,058 [DEBUG:main]    0.5	MotorpotiHoeher:BOOL
+14:41:05,058 [DEBUG:main]    0.6	MotorpotiTiefer:BOOL
+14:41:05,058 [DEBUG:main]    0.6	MotorpotiTiefer:BOOL
+14:41:05,059 [DEBUG:main]    0.7	StoerungExt1:BOOL
+14:41:05,059 [DEBUG:main]    0.7	StoerungExt1:BOOL
+14:41:05,059 [DEBUG:main]    1.0	Ein:BOOL
+14:41:05,059 [DEBUG:main]    1.0	Ein:BOOL
+14:41:05,059 [DEBUG:main]    1.1	Aus2:BOOL
+14:41:05,059 [DEBUG:main]    1.1	Aus2:BOOL
+14:41:05,059 [DEBUG:main]    1.2	Schnellhalt:BOOL
+14:41:05,059 [DEBUG:main]    1.2	Schnellhalt:BOOL
+14:41:05,059 [DEBUG:main]    1.3	WrFreigabe:BOOL
+14:41:05,059 [DEBUG:main]    1.3	WrFreigabe:BOOL
+14:41:05,059 [DEBUG:main]    1.4	GL_Quittung:BOOL
+14:41:05,059 [DEBUG:main]    1.4	GL_Quittung:BOOL
+14:41:05,060 [DEBUG:main]    1.5	GL_Latch:BOOL
+14:41:05,060 [DEBUG:main]    1.5	GL_Latch:BOOL
+14:41:05,060 [DEBUG:main]    1.6	SollwertFreigabe:BOOL
+14:41:05,060 [DEBUG:main]    1.6	SollwertFreigabe:BOOL
+14:41:05,060 [DEBUG:main]    1.7	Quittieren:BOOL
+14:41:05,060 [DEBUG:main]    1.7	Quittieren:BOOL
+14:41:05,060 [DEBUG:main]    2.0	SatzAusblenden:BOOL
+14:41:05,060 [DEBUG:main]    2.0	SatzAusblenden:BOOL
+14:41:05,060 [DEBUG:main]    2.1	TippenRueckwaerts:BOOL
+14:41:05,060 [DEBUG:main]    2.1	TippenRueckwaerts:BOOL
+14:41:05,061 [DEBUG:main]    2.2	Schnell:BOOL
+14:41:05,061 [DEBUG:main]    2.2	Schnell:BOOL
+14:41:05,061 [DEBUG:main]    2.3	TippenVorwaerts:BOOL
+14:41:05,061 [DEBUG:main]    2.3	TippenVorwaerts:BOOL
+14:41:05,061 [DEBUG:main]    2.4	BetriebsartBit0:BOOL
+14:41:05,061 [DEBUG:main]    2.4	BetriebsartBit0:BOOL
+14:41:05,061 [DEBUG:main]    2.5	BetriebsartBit1:BOOL
+14:41:05,061 [DEBUG:main]    2.5	BetriebsartBit1:BOOL
+14:41:05,061 [DEBUG:main]    2.6	BetriebsartBit2:BOOL
+14:41:05,061 [DEBUG:main]    2.6	BetriebsartBit2:BOOL
+14:41:05,061 [DEBUG:main]    2.7	BetriebsartBit3:BOOL
+14:41:05,061 [DEBUG:main]    2.7	BetriebsartBit3:BOOL
+14:41:05,062 [DEBUG:main]    3.0	Override:BYTE
+14:41:05,062 [DEBUG:main]    3.0	Override:BYTE
+14:41:05,062 [DEBUG:main]    4.0	Prog_NO:BYTE
+14:41:05,062 [DEBUG:main]    4.0	Prog_NO:BYTE
+14:41:05,062 [DEBUG:main]    5.0	ToggleBit:BOOL
+14:41:05,062 [DEBUG:main]    5.0	ToggleBit:BOOL
+14:41:05,062 [DEBUG:main]    5.1	Einlesefreigabe:BOOL
+14:41:05,062 [DEBUG:main]    5.1	Einlesefreigabe:BOOL
+14:41:05,062 [DEBUG:main]    5.2	Start:BOOL
+14:41:05,062 [DEBUG:main]    5.2	Start:BOOL
+14:41:05,062 [DEBUG:main]    5.3	RestwegLoeschen:BOOL
+14:41:05,062 [DEBUG:main]    5.3	RestwegLoeschen:BOOL
+14:41:05,063 [DEBUG:main]    5.4	QuitMFunktion:BOOL
+14:41:05,063 [DEBUG:main]    5.4	QuitMFunktion:BOOL
+14:41:05,063 [DEBUG:main]    5.5	Nachfuehrbetrieb:BOOL
+14:41:05,063 [DEBUG:main]    5.5	Nachfuehrbetrieb:BOOL
+14:41:05,063 [DEBUG:main]    5.6	TechnologieRueck:BOOL
+14:41:05,063 [DEBUG:main]    5.6	TechnologieRueck:BOOL
+14:41:05,063 [DEBUG:main]    5.7	Einzelschritt:BOOL
+14:41:05,063 [DEBUG:main]    5.7	Einzelschritt:BOOL
+14:41:05,063 [DEBUG:main]    6.0	OffsetSpeichern:BOOL
+14:41:05,063 [DEBUG:main]    6.0	OffsetSpeichern:BOOL
+14:41:05,063 [DEBUG:main]    6.1	Masterbetrieb:BOOL
+14:41:05,063 [DEBUG:main]    6.1	Masterbetrieb:BOOL
+14:41:05,063 [DEBUG:main]    6.2	Master_0_A1_1_A2:BOOL
+14:41:05,063 [DEBUG:main]    6.2	Master_0_A1_1_A2:BOOL
+14:41:05,064 [DEBUG:main]    8.0	Sollgeschwindigkeit:DINT
+14:41:05,064 [DEBUG:main]    8.0	Sollgeschwindigkeit:DINT
+14:41:05,064 [DEBUG:main]    12.0	Sollposition:DINT
+14:41:05,064 [DEBUG:main]    12.0	Sollposition:DINT
+14:41:05,064 [DEBUG:main]    16.0	Offsetwert:DINT
+14:41:05,064 [DEBUG:main]    16.0	Offsetwert:DINT
+14:41:05,064 [DEBUG:main] END_STRUCT UDT504: 20
+14:41:05,064 [DEBUG:main] END_STRUCT UDT504: 20
+14:41:05,064 [DEBUG:main]    0.0	Out:UDT504
+14:41:05,064 [DEBUG:main]    0.0	Out:UDT504
+14:41:05,068 [DEBUG:main] STRUCT UDT505
+14:41:05,068 [DEBUG:main] STRUCT UDT505
+14:41:05,068 [DEBUG:main]    0.0	WarnUebertempBremswid:BOOL
+14:41:05,068 [DEBUG:main]    0.0	WarnUebertempBremswid:BOOL
+14:41:05,069 [DEBUG:main]    0.1	WarnUeberlastWR:BOOL
+14:41:05,069 [DEBUG:main]    0.1	WarnUeberlastWR:BOOL
+14:41:05,069 [DEBUG:main]    0.2	WarnUebertempWR:BOOL
+14:41:05,069 [DEBUG:main]    0.2	WarnUebertempWR:BOOL
+14:41:05,069 [DEBUG:main]    0.3	WarnUebertempMotor:BOOL
+14:41:05,069 [DEBUG:main]    0.3	WarnUebertempMotor:BOOL
+14:41:05,069 [DEBUG:main]    0.4	BremseLueften:BOOL
+14:41:05,069 [DEBUG:main]    0.4	BremseLueften:BOOL
+14:41:05,069 [DEBUG:main]    0.5	HauptschuetzAnsteuern:BOOL
+14:41:05,069 [DEBUG:main]    0.5	HauptschuetzAnsteuern:BOOL
+14:41:05,069 [DEBUG:main]    0.6	StoerGleichlaufAbstand:BOOL
+14:41:05,069 [DEBUG:main]    0.6	StoerGleichlaufAbstand:BOOL
+14:41:05,070 [DEBUG:main]    0.7	OffsetGespeichert:BOOL
+14:41:05,070 [DEBUG:main]    0.7	OffsetGespeichert:BOOL
+14:41:05,070 [DEBUG:main]    1.0	Einschaltbereit:BOOL
+14:41:05,070 [DEBUG:main]    1.0	Einschaltbereit:BOOL
+14:41:05,070 [DEBUG:main]    1.1	Betriebsbereit:BOOL
+14:41:05,070 [DEBUG:main]    1.1	Betriebsbereit:BOOL
+14:41:05,070 [DEBUG:main]    1.2	Betrieb:BOOL
+14:41:05,070 [DEBUG:main]    1.2	Betrieb:BOOL
+14:41:05,070 [DEBUG:main]    1.3	Stoerung:BOOL
+14:41:05,070 [DEBUG:main]    1.3	Stoerung:BOOL
+14:41:05,071 [DEBUG:main]    1.4	MeldungAus2:BOOL
+14:41:05,071 [DEBUG:main]    1.4	MeldungAus2:BOOL
+14:41:05,071 [DEBUG:main]    1.5	MeldungAus3:BOOL
+14:41:05,071 [DEBUG:main]    1.5	MeldungAus3:BOOL
+14:41:05,071 [DEBUG:main]    1.6	Einschaltsperre:BOOL
+14:41:05,071 [DEBUG:main]    1.6	Einschaltsperre:BOOL
+14:41:05,071 [DEBUG:main]    1.7	Warnung:BOOL
+14:41:05,071 [DEBUG:main]    1.7	Warnung:BOOL
+14:41:05,071 [DEBUG:main]    2.0	StoerungNummer:BYTE
+14:41:05,071 [DEBUG:main]    2.0	StoerungNummer:BYTE
+14:41:05,072 [DEBUG:main]    3.0	WarnungNummer:BYTE
+14:41:05,072 [DEBUG:main]    3.0	WarnungNummer:BYTE
+14:41:05,072 [DEBUG:main]    4.0	PositionErreicht:BOOL
+14:41:05,072 [DEBUG:main]    4.0	PositionErreicht:BOOL
+14:41:05,072 [DEBUG:main]    4.1	AchseFaehrtVorwaerts:BOOL
+14:41:05,072 [DEBUG:main]    4.1	AchseFaehrtVorwaerts:BOOL
+14:41:05,072 [DEBUG:main]    4.2	AchseFaehrtRueckwaerts:BOOL
+14:41:05,072 [DEBUG:main]    4.2	AchseFaehrtRueckwaerts:BOOL
+14:41:05,072 [DEBUG:main]    4.3	FunktionBeendet:BOOL
+14:41:05,072 [DEBUG:main]    4.3	FunktionBeendet:BOOL
+14:41:05,073 [DEBUG:main]    4.4	SwEndschalterErreicht:BOOL
+14:41:05,073 [DEBUG:main]    4.4	SwEndschalterErreicht:BOOL
+14:41:05,073 [DEBUG:main]    4.5	VirtMasterLaeuft:BOOL
+14:41:05,073 [DEBUG:main]    4.5	VirtMasterLaeuft:BOOL
+14:41:05,073 [DEBUG:main]    4.6	AchseIstReferenziert:BOOL
+14:41:05,073 [DEBUG:main]    4.6	AchseIstReferenziert:BOOL
+14:41:05,073 [DEBUG:main]    4.7	MAenderungssignal:BOOL
+14:41:05,073 [DEBUG:main]    4.7	MAenderungssignal:BOOL
+14:41:05,073 [DEBUG:main]    5.0	M_NO_1:BYTE
+14:41:05,073 [DEBUG:main]    5.0	M_NO_1:BYTE
+14:41:05,073 [DEBUG:main]    6.0	ToggleBitOutput:BOOL
+14:41:05,073 [DEBUG:main]    6.0	ToggleBitOutput:BOOL
+14:41:05,073 [DEBUG:main]    6.1	VerweilzeitLaeuft:BOOL
+14:41:05,073 [DEBUG:main]    6.1	VerweilzeitLaeuft:BOOL
+14:41:05,074 [DEBUG:main]    6.2	Startfreigabe:BOOL
+14:41:05,074 [DEBUG:main]    6.2	Startfreigabe:BOOL
+14:41:05,074 [DEBUG:main]    6.3	BearbeitungLaeuft:BOOL
+14:41:05,074 [DEBUG:main]    6.3	BearbeitungLaeuft:BOOL
+14:41:05,074 [DEBUG:main]    6.4	BetriebsartRueckmeld0:BOOL
+14:41:05,074 [DEBUG:main]    6.4	BetriebsartRueckmeld0:BOOL
+14:41:05,074 [DEBUG:main]    6.5	BetriebsartRueckmeld1:BOOL
+14:41:05,074 [DEBUG:main]    6.5	BetriebsartRueckmeld1:BOOL
+14:41:05,074 [DEBUG:main]    6.6	BetriebsartRueckmeld2:BOOL
+14:41:05,074 [DEBUG:main]    6.6	BetriebsartRueckmeld2:BOOL
+14:41:05,074 [DEBUG:main]    6.7	BetriebsartRueckmeld3:BOOL
+14:41:05,074 [DEBUG:main]    6.7	BetriebsartRueckmeld3:BOOL
+14:41:05,074 [DEBUG:main]    7.0	M_NO_2:BYTE
+14:41:05,074 [DEBUG:main]    7.0	M_NO_2:BYTE
+14:41:05,075 [DEBUG:main]    8.0	Istposition:DINT
+14:41:05,075 [DEBUG:main]    8.0	Istposition:DINT
+14:41:05,075 [DEBUG:main]    12.0	Istgeschwindigkeit:DINT
+14:41:05,075 [DEBUG:main]    12.0	Istgeschwindigkeit:DINT
+14:41:05,075 [DEBUG:main]    16.0	Reserve4: ARRAY[2] OF WORD
+14:41:05,075 [DEBUG:main]    16.0	Reserve4: ARRAY[2] OF WORD
+14:41:05,075 [DEBUG:main] END_STRUCT UDT505: 20
+14:41:05,075 [DEBUG:main] END_STRUCT UDT505: 20
+14:41:05,075 [DEBUG:main]    20.0	In:UDT505
+14:41:05,075 [DEBUG:main]    20.0	In:UDT505
+14:41:05,075 [DEBUG:main] END_STRUCT DB103$0: 40
+14:41:05,075 [DEBUG:main] END_STRUCT DB103$0: 40
+14:41:05,075 [DEBUG:main] <<<< nested
+14:41:05,075 [DEBUG:main] <<<< nested
+14:41:05,075 [DEBUG:main]    0.0	WR: ARRAY[18] OF DB103$0
+14:41:05,075 [DEBUG:main]    0.0	WR: ARRAY[18] OF DB103$0
+14:41:05,076 [DEBUG:main] END_STRUCT DB103: 720
+14:41:05,076 [DEBUG:main] END_STRUCT DB103: 720
+14:41:05,076 [DEBUG:main] STRUCT DB1988
+14:41:05,076 [DEBUG:main] STRUCT DB1988
+14:41:05,076 [DEBUG:main]    0.0	Startpos:UDT1903
+14:41:05,076 [DEBUG:main]    0.0	Startpos:UDT1903
+14:41:05,076 [DEBUG:main] END_STRUCT DB1988: 24
+14:41:05,076 [DEBUG:main] END_STRUCT DB1988: 24
+14:41:05,077 [DEBUG:main] STRUCT DB82
+14:41:05,077 [DEBUG:main] STRUCT DB82
+14:41:05,078 [DEBUG:main]    0.0	AnzahlBits:INT
+14:41:05,078 [DEBUG:main]    0.0	AnzahlBits:INT
+14:41:05,078 [DEBUG:main]    2.0	Nummer:INT
+14:41:05,078 [DEBUG:main]    2.0	Nummer:INT
+14:41:05,078 [DEBUG:main]    4.0	Freigabesignal:BOOL
+14:41:05,078 [DEBUG:main]    4.0	Freigabesignal:BOOL
+14:41:05,078 [DEBUG:main]    4.1	StoerungUngueltig:BOOL
+14:41:05,078 [DEBUG:main]    4.1	StoerungUngueltig:BOOL
+14:41:05,078 [DEBUG:main]    4.2	StoerungMehrfach:BOOL
+14:41:05,078 [DEBUG:main]    4.2	StoerungMehrfach:BOOL
+14:41:05,078 [DEBUG:main]    6.0	IdxNaechsteMeldezeile:INT
+14:41:05,078 [DEBUG:main]    6.0	IdxNaechsteMeldezeile:INT
+14:41:05,078 [DEBUG:main]    8.0	MinIdx:INT
+14:41:05,078 [DEBUG:main]    8.0	MinIdx:INT
+14:41:05,079 [DEBUG:main]    10.0	MaxIdx:INT
+14:41:05,079 [DEBUG:main]    10.0	MaxIdx:INT
+14:41:05,079 [DEBUG:main]    12.0	Meldezeile: ARRAY[12] OF INT
+14:41:05,079 [DEBUG:main]    12.0	Meldezeile: ARRAY[12] OF INT
+14:41:05,079 [DEBUG:main]    36.0	Trigger:BOOL
+14:41:05,079 [DEBUG:main]    36.0	Trigger:BOOL
+14:41:05,079 [DEBUG:main]    36.1	LostTrigger:BOOL
+14:41:05,079 [DEBUG:main]    36.1	LostTrigger:BOOL
+14:41:05,079 [DEBUG:main]    36.2	DebugLostTrigger:BOOL
+14:41:05,079 [DEBUG:main]    36.2	DebugLostTrigger:BOOL
+14:41:05,079 [DEBUG:main]    36.3	DebugOffsetSpeichern:BOOL
+14:41:05,079 [DEBUG:main]    36.3	DebugOffsetSpeichern:BOOL
+14:41:05,079 [DEBUG:main]    36.4	ZyklischerTrigger:BOOL
+14:41:05,079 [DEBUG:main]    36.4	ZyklischerTrigger:BOOL
+14:41:05,080 [DEBUG:main]    38.0	ZeileAlt: ARRAY[12] OF INT
+14:41:05,080 [DEBUG:main]    38.0	ZeileAlt: ARRAY[12] OF INT
+14:41:05,080 [DEBUG:main]    62.0	NummerMehrfach:INT
+14:41:05,080 [DEBUG:main]    62.0	NummerMehrfach:INT
+14:41:05,080 [DEBUG:main] END_STRUCT DB82: 64
+14:41:05,080 [DEBUG:main] END_STRUCT DB82: 64
+14:41:05,091 [DEBUG:main] STRUCT DB81
+14:41:05,091 [DEBUG:main] STRUCT DB81
+14:41:05,091 [DEBUG:main]    0.0	B001_PreCond_Prepare:BOOL
+14:41:05,091 [DEBUG:main]    0.0	B001_PreCond_Prepare:BOOL
+14:41:05,091 [DEBUG:main]    0.1	B002Interlocks_S1:BOOL
+14:41:05,091 [DEBUG:main]    0.1	B002Interlocks_S1:BOOL
+14:41:05,091 [DEBUG:main]    0.2	B003Interlocks_S2:BOOL
+14:41:05,091 [DEBUG:main]    0.2	B003Interlocks_S2:BOOL
+14:41:05,091 [DEBUG:main]    0.3	B004IntlocksPreJoin:BOOL
+14:41:05,091 [DEBUG:main]    0.3	B004IntlocksPreJoin:BOOL
+14:41:05,092 [DEBUG:main]    0.4	B005IntLocksJoin:BOOL
+14:41:05,092 [DEBUG:main]    0.4	B005IntLocksJoin:BOOL
+14:41:05,092 [DEBUG:main]    0.5	B006InterlocksClean:BOOL
+14:41:05,092 [DEBUG:main]    0.5	B006InterlocksClean:BOOL
+14:41:05,092 [DEBUG:main]    0.6	B007IntLocksGoJoin:BOOL
+14:41:05,092 [DEBUG:main]    0.6	B007IntLocksGoJoin:BOOL
+14:41:05,092 [DEBUG:main]    0.7	B008IntDropPillars:BOOL
+14:41:05,092 [DEBUG:main]    0.7	B008IntDropPillars:BOOL
+14:41:05,092 [DEBUG:main]    1.0	B009IntTransferPosY:BOOL
+14:41:05,092 [DEBUG:main]    1.0	B009IntTransferPosY:BOOL
+14:41:05,092 [DEBUG:main]    1.1	B010IntGoTransPos:BOOL
+14:41:05,092 [DEBUG:main]    1.1	B010IntGoTransPos:BOOL
+14:41:05,092 [DEBUG:main]    1.2	B011Handbedienung:BOOL
+14:41:05,092 [DEBUG:main]    1.2	B011Handbedienung:BOOL
+14:41:05,092 [DEBUG:main]    1.3	B012ManDropPillar:BOOL
+14:41:05,092 [DEBUG:main]    1.3	B012ManDropPillar:BOOL
+14:41:05,093 [DEBUG:main]    1.4	B013ManLiftPillar:BOOL
+14:41:05,093 [DEBUG:main]    1.4	B013ManLiftPillar:BOOL
+14:41:05,093 [DEBUG:main]    1.5	B014ManLockPillar:BOOL
+14:41:05,093 [DEBUG:main]    1.5	B014ManLockPillar:BOOL
+14:41:05,093 [DEBUG:main]    1.6	B015ManUnlockPillar:BOOL
+14:41:05,093 [DEBUG:main]    1.6	B015ManUnlockPillar:BOOL
+14:41:05,093 [DEBUG:main]    1.7	B016Relativfahrt:BOOL
+14:41:05,093 [DEBUG:main]    1.7	B016Relativfahrt:BOOL
+14:41:05,093 [DEBUG:main]    2.0	B017QSFahrt:BOOL
+14:41:05,093 [DEBUG:main]    2.0	B017QSFahrt:BOOL
+14:41:05,093 [DEBUG:main]    2.1	B018Referenz:BOOL
+14:41:05,093 [DEBUG:main]    2.1	B018Referenz:BOOL
+14:41:05,093 [DEBUG:main]    2.2	B019WR_schreiben:BOOL
+14:41:05,093 [DEBUG:main]    2.2	B019WR_schreiben:BOOL
+14:41:05,094 [DEBUG:main]    2.3	B020SetzeFreigabeHeben:BOOL
+14:41:05,094 [DEBUG:main]    2.3	B020SetzeFreigabeHeben:BOOL
+14:41:05,094 [DEBUG:main]    2.4	B021SetzeFreigabeSenken:BOOL
+14:41:05,094 [DEBUG:main]    2.4	B021SetzeFreigabeSenken:BOOL
+14:41:05,094 [DEBUG:main]    2.5	B022SaeulenAbschwenken:BOOL
+14:41:05,094 [DEBUG:main]    2.5	B022SaeulenAbschwenken:BOOL
+14:41:05,094 [DEBUG:main]    2.6	B023:BOOL
+14:41:05,094 [DEBUG:main]    2.6	B023:BOOL
+14:41:05,094 [DEBUG:main]    2.7	B024:BOOL
+14:41:05,094 [DEBUG:main]    2.7	B024:BOOL
+14:41:05,094 [DEBUG:main]    3.0	B025:BOOL
+14:41:05,094 [DEBUG:main]    3.0	B025:BOOL
+14:41:05,094 [DEBUG:main]    3.1	B026:BOOL
+14:41:05,094 [DEBUG:main]    3.1	B026:BOOL
+14:41:05,094 [DEBUG:main]    3.2	B027:BOOL
+14:41:05,094 [DEBUG:main]    3.2	B027:BOOL
+14:41:05,095 [DEBUG:main]    3.3	B028:BOOL
+14:41:05,095 [DEBUG:main]    3.3	B028:BOOL
+14:41:05,095 [DEBUG:main]    3.4	B029:BOOL
+14:41:05,095 [DEBUG:main]    3.4	B029:BOOL
+14:41:05,095 [DEBUG:main]    3.5	B030:BOOL
+14:41:05,095 [DEBUG:main]    3.5	B030:BOOL
+14:41:05,095 [DEBUG:main]    3.6	B031:BOOL
+14:41:05,095 [DEBUG:main]    3.6	B031:BOOL
+14:41:05,095 [DEBUG:main]    3.7	B032:BOOL
+14:41:05,095 [DEBUG:main]    3.7	B032:BOOL
+14:41:05,095 [DEBUG:main]    4.0	B033:BOOL
+14:41:05,095 [DEBUG:main]    4.0	B033:BOOL
+14:41:05,095 [DEBUG:main]    4.1	B034:BOOL
+14:41:05,095 [DEBUG:main]    4.1	B034:BOOL
+14:41:05,095 [DEBUG:main]    4.2	B035:BOOL
+14:41:05,095 [DEBUG:main]    4.2	B035:BOOL
+14:41:05,096 [DEBUG:main]    4.3	B036:BOOL
+14:41:05,096 [DEBUG:main]    4.3	B036:BOOL
+14:41:05,096 [DEBUG:main]    4.4	B037:BOOL
+14:41:05,096 [DEBUG:main]    4.4	B037:BOOL
+14:41:05,096 [DEBUG:main]    4.5	B038:BOOL
+14:41:05,096 [DEBUG:main]    4.5	B038:BOOL
+14:41:05,096 [DEBUG:main]    4.6	B039:BOOL
+14:41:05,096 [DEBUG:main]    4.6	B039:BOOL
+14:41:05,096 [DEBUG:main]    4.7	B040:BOOL
+14:41:05,096 [DEBUG:main]    4.7	B040:BOOL
+14:41:05,096 [DEBUG:main]    5.0	B041:BOOL
+14:41:05,096 [DEBUG:main]    5.0	B041:BOOL
+14:41:05,096 [DEBUG:main]    5.1	B042:BOOL
+14:41:05,096 [DEBUG:main]    5.1	B042:BOOL
+14:41:05,096 [DEBUG:main]    5.2	B043:BOOL
+14:41:05,096 [DEBUG:main]    5.2	B043:BOOL
+14:41:05,097 [DEBUG:main]    5.3	B044:BOOL
+14:41:05,097 [DEBUG:main]    5.3	B044:BOOL
+14:41:05,097 [DEBUG:main]    5.4	B045:BOOL
+14:41:05,097 [DEBUG:main]    5.4	B045:BOOL
+14:41:05,097 [DEBUG:main]    5.5	B046:BOOL
+14:41:05,097 [DEBUG:main]    5.5	B046:BOOL
+14:41:05,097 [DEBUG:main]    5.6	B047:BOOL
+14:41:05,097 [DEBUG:main]    5.6	B047:BOOL
+14:41:05,097 [DEBUG:main]    5.7	B048:BOOL
+14:41:05,097 [DEBUG:main]    5.7	B048:BOOL
+14:41:05,097 [DEBUG:main]    6.0	B049:BOOL
+14:41:05,097 [DEBUG:main]    6.0	B049:BOOL
+14:41:05,097 [DEBUG:main]    6.1	B050:BOOL
+14:41:05,097 [DEBUG:main]    6.1	B050:BOOL
+14:41:05,097 [DEBUG:main]    6.2	B051:BOOL
+14:41:05,097 [DEBUG:main]    6.2	B051:BOOL
+14:41:05,097 [DEBUG:main]    6.3	B052:BOOL
+14:41:05,097 [DEBUG:main]    6.3	B052:BOOL
+14:41:05,098 [DEBUG:main]    6.4	B053:BOOL
+14:41:05,098 [DEBUG:main]    6.4	B053:BOOL
+14:41:05,098 [DEBUG:main]    6.5	B054:BOOL
+14:41:05,098 [DEBUG:main]    6.5	B054:BOOL
+14:41:05,098 [DEBUG:main]    6.6	B055:BOOL
+14:41:05,098 [DEBUG:main]    6.6	B055:BOOL
+14:41:05,098 [DEBUG:main]    6.7	B056:BOOL
+14:41:05,098 [DEBUG:main]    6.7	B056:BOOL
+14:41:05,098 [DEBUG:main]    7.0	B057:BOOL
+14:41:05,098 [DEBUG:main]    7.0	B057:BOOL
+14:41:05,098 [DEBUG:main]    7.1	B058:BOOL
+14:41:05,098 [DEBUG:main]    7.1	B058:BOOL
+14:41:05,098 [DEBUG:main]    7.2	B059:BOOL
+14:41:05,098 [DEBUG:main]    7.2	B059:BOOL
+14:41:05,098 [DEBUG:main]    7.3	B060:BOOL
+14:41:05,098 [DEBUG:main]    7.3	B060:BOOL
+14:41:05,099 [DEBUG:main]    7.4	B061:BOOL
+14:41:05,099 [DEBUG:main]    7.4	B061:BOOL
+14:41:05,099 [DEBUG:main]    7.5	B062:BOOL
+14:41:05,099 [DEBUG:main]    7.5	B062:BOOL
+14:41:05,099 [DEBUG:main]    7.6	B063:BOOL
+14:41:05,099 [DEBUG:main]    7.6	B063:BOOL
+14:41:05,099 [DEBUG:main]    7.7	B064:BOOL
+14:41:05,099 [DEBUG:main]    7.7	B064:BOOL
+14:41:05,099 [DEBUG:main]    8.0	B065:BOOL
+14:41:05,099 [DEBUG:main]    8.0	B065:BOOL
+14:41:05,099 [DEBUG:main]    8.1	B066:BOOL
+14:41:05,099 [DEBUG:main]    8.1	B066:BOOL
+14:41:05,099 [DEBUG:main]    8.2	B067:BOOL
+14:41:05,099 [DEBUG:main]    8.2	B067:BOOL
+14:41:05,099 [DEBUG:main]    8.3	B068:BOOL
+14:41:05,099 [DEBUG:main]    8.3	B068:BOOL
+14:41:05,100 [DEBUG:main]    8.4	B069:BOOL
+14:41:05,100 [DEBUG:main]    8.4	B069:BOOL
+14:41:05,100 [DEBUG:main]    8.5	B070:BOOL
+14:41:05,100 [DEBUG:main]    8.5	B070:BOOL
+14:41:05,100 [DEBUG:main]    8.6	B071:BOOL
+14:41:05,100 [DEBUG:main]    8.6	B071:BOOL
+14:41:05,100 [DEBUG:main]    8.7	B072:BOOL
+14:41:05,100 [DEBUG:main]    8.7	B072:BOOL
+14:41:05,100 [DEBUG:main]    9.0	B073:BOOL
+14:41:05,100 [DEBUG:main]    9.0	B073:BOOL
+14:41:05,100 [DEBUG:main]    9.1	B074:BOOL
+14:41:05,100 [DEBUG:main]    9.1	B074:BOOL
+14:41:05,100 [DEBUG:main]    9.2	B075:BOOL
+14:41:05,100 [DEBUG:main]    9.2	B075:BOOL
+14:41:05,100 [DEBUG:main]    9.3	B076:BOOL
+14:41:05,100 [DEBUG:main]    9.3	B076:BOOL
+14:41:05,101 [DEBUG:main]    9.4	B077:BOOL
+14:41:05,101 [DEBUG:main]    9.4	B077:BOOL
+14:41:05,101 [DEBUG:main]    9.5	B078:BOOL
+14:41:05,101 [DEBUG:main]    9.5	B078:BOOL
+14:41:05,101 [DEBUG:main]    9.6	B079:BOOL
+14:41:05,101 [DEBUG:main]    9.6	B079:BOOL
+14:41:05,101 [DEBUG:main]    9.7	B080:BOOL
+14:41:05,101 [DEBUG:main]    9.7	B080:BOOL
+14:41:05,101 [DEBUG:main]    10.0	B081:BOOL
+14:41:05,101 [DEBUG:main]    10.0	B081:BOOL
+14:41:05,101 [DEBUG:main]    10.1	B082:BOOL
+14:41:05,101 [DEBUG:main]    10.1	B082:BOOL
+14:41:05,101 [DEBUG:main]    10.2	B083:BOOL
+14:41:05,101 [DEBUG:main]    10.2	B083:BOOL
+14:41:05,101 [DEBUG:main]    10.3	B084:BOOL
+14:41:05,101 [DEBUG:main]    10.3	B084:BOOL
+14:41:05,102 [DEBUG:main]    10.4	B085:BOOL
+14:41:05,102 [DEBUG:main]    10.4	B085:BOOL
+14:41:05,102 [DEBUG:main]    10.5	B086:BOOL
+14:41:05,102 [DEBUG:main]    10.5	B086:BOOL
+14:41:05,102 [DEBUG:main]    10.6	B087:BOOL
+14:41:05,102 [DEBUG:main]    10.6	B087:BOOL
+14:41:05,102 [DEBUG:main]    10.7	B088:BOOL
+14:41:05,102 [DEBUG:main]    10.7	B088:BOOL
+14:41:05,102 [DEBUG:main]    11.0	B089:BOOL
+14:41:05,102 [DEBUG:main]    11.0	B089:BOOL
+14:41:05,102 [DEBUG:main]    11.1	B090:BOOL
+14:41:05,102 [DEBUG:main]    11.1	B090:BOOL
+14:41:05,102 [DEBUG:main]    11.2	B091:BOOL
+14:41:05,102 [DEBUG:main]    11.2	B091:BOOL
+14:41:05,102 [DEBUG:main]    11.3	B092:BOOL
+14:41:05,102 [DEBUG:main]    11.3	B092:BOOL
+14:41:05,103 [DEBUG:main]    11.4	B093:BOOL
+14:41:05,103 [DEBUG:main]    11.4	B093:BOOL
+14:41:05,103 [DEBUG:main]    11.5	B094:BOOL
+14:41:05,103 [DEBUG:main]    11.5	B094:BOOL
+14:41:05,103 [DEBUG:main]    11.6	B095:BOOL
+14:41:05,103 [DEBUG:main]    11.6	B095:BOOL
+14:41:05,103 [DEBUG:main]    11.7	B096:BOOL
+14:41:05,103 [DEBUG:main]    11.7	B096:BOOL
+14:41:05,103 [DEBUG:main]    12.0	B097:BOOL
+14:41:05,103 [DEBUG:main]    12.0	B097:BOOL
+14:41:05,103 [DEBUG:main]    12.1	B098:BOOL
+14:41:05,103 [DEBUG:main]    12.1	B098:BOOL
+14:41:05,103 [DEBUG:main]    12.2	B099:BOOL
+14:41:05,103 [DEBUG:main]    12.2	B099:BOOL
+14:41:05,103 [DEBUG:main]    12.3	B100:BOOL
+14:41:05,103 [DEBUG:main]    12.3	B100:BOOL
+14:41:05,104 [DEBUG:main]    12.4	B101:BOOL
+14:41:05,104 [DEBUG:main]    12.4	B101:BOOL
+14:41:05,104 [DEBUG:main]    12.5	B102:BOOL
+14:41:05,104 [DEBUG:main]    12.5	B102:BOOL
+14:41:05,104 [DEBUG:main]    12.6	B103:BOOL
+14:41:05,104 [DEBUG:main]    12.6	B103:BOOL
+14:41:05,104 [DEBUG:main]    12.7	B104:BOOL
+14:41:05,104 [DEBUG:main]    12.7	B104:BOOL
+14:41:05,104 [DEBUG:main]    13.0	B105:BOOL
+14:41:05,104 [DEBUG:main]    13.0	B105:BOOL
+14:41:05,104 [DEBUG:main]    13.1	B106:BOOL
+14:41:05,104 [DEBUG:main]    13.1	B106:BOOL
+14:41:05,104 [DEBUG:main]    13.2	B107:BOOL
+14:41:05,104 [DEBUG:main]    13.2	B107:BOOL
+14:41:05,104 [DEBUG:main]    13.3	B108:BOOL
+14:41:05,104 [DEBUG:main]    13.3	B108:BOOL
+14:41:05,105 [DEBUG:main]    13.4	B109:BOOL
+14:41:05,105 [DEBUG:main]    13.4	B109:BOOL
+14:41:05,105 [DEBUG:main]    13.5	B110:BOOL
+14:41:05,105 [DEBUG:main]    13.5	B110:BOOL
+14:41:05,105 [DEBUG:main]    13.6	B111:BOOL
+14:41:05,105 [DEBUG:main]    13.6	B111:BOOL
+14:41:05,105 [DEBUG:main]    13.7	B112:BOOL
+14:41:05,105 [DEBUG:main]    13.7	B112:BOOL
+14:41:05,105 [DEBUG:main]    14.0	B113:BOOL
+14:41:05,105 [DEBUG:main]    14.0	B113:BOOL
+14:41:05,105 [DEBUG:main]    14.1	B114:BOOL
+14:41:05,105 [DEBUG:main]    14.1	B114:BOOL
+14:41:05,105 [DEBUG:main]    14.2	B115:BOOL
+14:41:05,105 [DEBUG:main]    14.2	B115:BOOL
+14:41:05,105 [DEBUG:main]    14.3	B116:BOOL
+14:41:05,105 [DEBUG:main]    14.3	B116:BOOL
+14:41:05,106 [DEBUG:main]    14.4	B117:BOOL
+14:41:05,106 [DEBUG:main]    14.4	B117:BOOL
+14:41:05,106 [DEBUG:main]    14.5	B118:BOOL
+14:41:05,106 [DEBUG:main]    14.5	B118:BOOL
+14:41:05,106 [DEBUG:main]    14.6	B119:BOOL
+14:41:05,106 [DEBUG:main]    14.6	B119:BOOL
+14:41:05,106 [DEBUG:main]    14.7	B120:BOOL
+14:41:05,106 [DEBUG:main]    14.7	B120:BOOL
+14:41:05,106 [DEBUG:main]    15.0	B121:BOOL
+14:41:05,106 [DEBUG:main]    15.0	B121:BOOL
+14:41:05,106 [DEBUG:main]    15.1	B122:BOOL
+14:41:05,106 [DEBUG:main]    15.1	B122:BOOL
+14:41:05,106 [DEBUG:main]    15.2	B123:BOOL
+14:41:05,106 [DEBUG:main]    15.2	B123:BOOL
+14:41:05,106 [DEBUG:main]    15.3	B124:BOOL
+14:41:05,106 [DEBUG:main]    15.3	B124:BOOL
+14:41:05,107 [DEBUG:main]    15.4	B125:BOOL
+14:41:05,107 [DEBUG:main]    15.4	B125:BOOL
+14:41:05,107 [DEBUG:main]    15.5	B126:BOOL
+14:41:05,107 [DEBUG:main]    15.5	B126:BOOL
+14:41:05,107 [DEBUG:main]    15.6	B127:BOOL
+14:41:05,107 [DEBUG:main]    15.6	B127:BOOL
+14:41:05,107 [DEBUG:main]    15.7	B128:BOOL
+14:41:05,107 [DEBUG:main]    15.7	B128:BOOL
+14:41:05,107 [DEBUG:main]    16.0	B129:BOOL
+14:41:05,107 [DEBUG:main]    16.0	B129:BOOL
+14:41:05,107 [DEBUG:main]    16.1	B130:BOOL
+14:41:05,107 [DEBUG:main]    16.1	B130:BOOL
+14:41:05,107 [DEBUG:main]    16.2	B131:BOOL
+14:41:05,107 [DEBUG:main]    16.2	B131:BOOL
+14:41:05,107 [DEBUG:main]    16.3	B132:BOOL
+14:41:05,107 [DEBUG:main]    16.3	B132:BOOL
+14:41:05,107 [DEBUG:main]    16.4	B133:BOOL
+14:41:05,107 [DEBUG:main]    16.4	B133:BOOL
+14:41:05,108 [DEBUG:main]    16.5	B134:BOOL
+14:41:05,108 [DEBUG:main]    16.5	B134:BOOL
+14:41:05,108 [DEBUG:main]    16.6	B135:BOOL
+14:41:05,108 [DEBUG:main]    16.6	B135:BOOL
+14:41:05,108 [DEBUG:main]    16.7	B136:BOOL
+14:41:05,108 [DEBUG:main]    16.7	B136:BOOL
+14:41:05,108 [DEBUG:main]    17.0	B137:BOOL
+14:41:05,108 [DEBUG:main]    17.0	B137:BOOL
+14:41:05,108 [DEBUG:main]    17.1	B138:BOOL
+14:41:05,108 [DEBUG:main]    17.1	B138:BOOL
+14:41:05,108 [DEBUG:main]    17.2	B139:BOOL
+14:41:05,108 [DEBUG:main]    17.2	B139:BOOL
+14:41:05,108 [DEBUG:main]    17.3	B140:BOOL
+14:41:05,108 [DEBUG:main]    17.3	B140:BOOL
+14:41:05,108 [DEBUG:main]    17.4	B141:BOOL
+14:41:05,108 [DEBUG:main]    17.4	B141:BOOL
+14:41:05,109 [DEBUG:main]    17.5	B142:BOOL
+14:41:05,109 [DEBUG:main]    17.5	B142:BOOL
+14:41:05,109 [DEBUG:main]    17.6	B143:BOOL
+14:41:05,109 [DEBUG:main]    17.6	B143:BOOL
+14:41:05,109 [DEBUG:main]    17.7	B144:BOOL
+14:41:05,109 [DEBUG:main]    17.7	B144:BOOL
+14:41:05,109 [DEBUG:main]    18.0	B145:BOOL
+14:41:05,109 [DEBUG:main]    18.0	B145:BOOL
+14:41:05,109 [DEBUG:main]    18.1	B146:BOOL
+14:41:05,109 [DEBUG:main]    18.1	B146:BOOL
+14:41:05,109 [DEBUG:main]    18.2	B147:BOOL
+14:41:05,109 [DEBUG:main]    18.2	B147:BOOL
+14:41:05,109 [DEBUG:main]    18.3	B148:BOOL
+14:41:05,109 [DEBUG:main]    18.3	B148:BOOL
+14:41:05,109 [DEBUG:main]    18.4	B149:BOOL
+14:41:05,109 [DEBUG:main]    18.4	B149:BOOL
+14:41:05,109 [DEBUG:main]    18.5	B150:BOOL
+14:41:05,109 [DEBUG:main]    18.5	B150:BOOL
+14:41:05,110 [DEBUG:main]    18.6	B151:BOOL
+14:41:05,110 [DEBUG:main]    18.6	B151:BOOL
+14:41:05,110 [DEBUG:main]    18.7	B152:BOOL
+14:41:05,110 [DEBUG:main]    18.7	B152:BOOL
+14:41:05,110 [DEBUG:main]    19.0	B153:BOOL
+14:41:05,110 [DEBUG:main]    19.0	B153:BOOL
+14:41:05,110 [DEBUG:main]    19.1	B154:BOOL
+14:41:05,110 [DEBUG:main]    19.1	B154:BOOL
+14:41:05,110 [DEBUG:main]    19.2	B155:BOOL
+14:41:05,110 [DEBUG:main]    19.2	B155:BOOL
+14:41:05,110 [DEBUG:main]    19.3	B156:BOOL
+14:41:05,110 [DEBUG:main]    19.3	B156:BOOL
+14:41:05,110 [DEBUG:main]    19.4	B157:BOOL
+14:41:05,110 [DEBUG:main]    19.4	B157:BOOL
+14:41:05,110 [DEBUG:main]    19.5	B158:BOOL
+14:41:05,110 [DEBUG:main]    19.5	B158:BOOL
+14:41:05,110 [DEBUG:main]    19.6	B159:BOOL
+14:41:05,110 [DEBUG:main]    19.6	B159:BOOL
+14:41:05,111 [DEBUG:main]    19.7	B160:BOOL
+14:41:05,111 [DEBUG:main]    19.7	B160:BOOL
+14:41:05,111 [DEBUG:main]    20.0	B161:BOOL
+14:41:05,111 [DEBUG:main]    20.0	B161:BOOL
+14:41:05,111 [DEBUG:main]    20.1	B162:BOOL
+14:41:05,111 [DEBUG:main]    20.1	B162:BOOL
+14:41:05,111 [DEBUG:main]    20.2	B163:BOOL
+14:41:05,111 [DEBUG:main]    20.2	B163:BOOL
+14:41:05,111 [DEBUG:main]    20.3	B164:BOOL
+14:41:05,111 [DEBUG:main]    20.3	B164:BOOL
+14:41:05,111 [DEBUG:main]    20.4	B165:BOOL
+14:41:05,111 [DEBUG:main]    20.4	B165:BOOL
+14:41:05,111 [DEBUG:main]    20.5	B166:BOOL
+14:41:05,111 [DEBUG:main]    20.5	B166:BOOL
+14:41:05,111 [DEBUG:main]    20.6	B167:BOOL
+14:41:05,111 [DEBUG:main]    20.6	B167:BOOL
+14:41:05,111 [DEBUG:main]    20.7	B168:BOOL
+14:41:05,111 [DEBUG:main]    20.7	B168:BOOL
+14:41:05,112 [DEBUG:main]    21.0	B169:BOOL
+14:41:05,112 [DEBUG:main]    21.0	B169:BOOL
+14:41:05,112 [DEBUG:main]    21.1	B170:BOOL
+14:41:05,112 [DEBUG:main]    21.1	B170:BOOL
+14:41:05,112 [DEBUG:main]    21.2	B171:BOOL
+14:41:05,112 [DEBUG:main]    21.2	B171:BOOL
+14:41:05,112 [DEBUG:main]    21.3	B172:BOOL
+14:41:05,112 [DEBUG:main]    21.3	B172:BOOL
+14:41:05,112 [DEBUG:main]    21.4	B173:BOOL
+14:41:05,112 [DEBUG:main]    21.4	B173:BOOL
+14:41:05,112 [DEBUG:main]    21.5	B174:BOOL
+14:41:05,112 [DEBUG:main]    21.5	B174:BOOL
+14:41:05,112 [DEBUG:main]    21.6	B175:BOOL
+14:41:05,112 [DEBUG:main]    21.6	B175:BOOL
+14:41:05,112 [DEBUG:main]    21.7	B176:BOOL
+14:41:05,112 [DEBUG:main]    21.7	B176:BOOL
+14:41:05,113 [DEBUG:main]    22.0	B177:BOOL
+14:41:05,113 [DEBUG:main]    22.0	B177:BOOL
+14:41:05,113 [DEBUG:main]    22.1	B178:BOOL
+14:41:05,113 [DEBUG:main]    22.1	B178:BOOL
+14:41:05,113 [DEBUG:main]    22.2	B179:BOOL
+14:41:05,113 [DEBUG:main]    22.2	B179:BOOL
+14:41:05,113 [DEBUG:main]    22.3	B180:BOOL
+14:41:05,113 [DEBUG:main]    22.3	B180:BOOL
+14:41:05,113 [DEBUG:main]    22.4	B181:BOOL
+14:41:05,113 [DEBUG:main]    22.4	B181:BOOL
+14:41:05,113 [DEBUG:main]    22.5	B182:BOOL
+14:41:05,113 [DEBUG:main]    22.5	B182:BOOL
+14:41:05,113 [DEBUG:main]    22.6	B183:BOOL
+14:41:05,113 [DEBUG:main]    22.6	B183:BOOL
+14:41:05,113 [DEBUG:main]    22.7	B184:BOOL
+14:41:05,113 [DEBUG:main]    22.7	B184:BOOL
+14:41:05,113 [DEBUG:main]    23.0	B185:BOOL
+14:41:05,113 [DEBUG:main]    23.0	B185:BOOL
+14:41:05,114 [DEBUG:main]    23.1	B186:BOOL
+14:41:05,114 [DEBUG:main]    23.1	B186:BOOL
+14:41:05,114 [DEBUG:main]    23.2	B187:BOOL
+14:41:05,114 [DEBUG:main]    23.2	B187:BOOL
+14:41:05,114 [DEBUG:main]    23.3	B188:BOOL
+14:41:05,114 [DEBUG:main]    23.3	B188:BOOL
+14:41:05,114 [DEBUG:main]    23.4	B189:BOOL
+14:41:05,114 [DEBUG:main]    23.4	B189:BOOL
+14:41:05,114 [DEBUG:main]    23.5	B190:BOOL
+14:41:05,114 [DEBUG:main]    23.5	B190:BOOL
+14:41:05,114 [DEBUG:main]    23.6	B191:BOOL
+14:41:05,114 [DEBUG:main]    23.6	B191:BOOL
+14:41:05,114 [DEBUG:main]    23.7	B192:BOOL
+14:41:05,114 [DEBUG:main]    23.7	B192:BOOL
+14:41:05,114 [DEBUG:main]    24.0	B193:BOOL
+14:41:05,114 [DEBUG:main]    24.0	B193:BOOL
+14:41:05,114 [DEBUG:main]    24.1	B194:BOOL
+14:41:05,114 [DEBUG:main]    24.1	B194:BOOL
+14:41:05,115 [DEBUG:main]    24.2	B195:BOOL
+14:41:05,115 [DEBUG:main]    24.2	B195:BOOL
+14:41:05,115 [DEBUG:main]    24.3	B196:BOOL
+14:41:05,115 [DEBUG:main]    24.3	B196:BOOL
+14:41:05,115 [DEBUG:main]    24.4	B197:BOOL
+14:41:05,115 [DEBUG:main]    24.4	B197:BOOL
+14:41:05,115 [DEBUG:main]    24.5	B198:BOOL
+14:41:05,115 [DEBUG:main]    24.5	B198:BOOL
+14:41:05,115 [DEBUG:main]    24.6	B199:BOOL
+14:41:05,115 [DEBUG:main]    24.6	B199:BOOL
+14:41:05,115 [DEBUG:main]    24.7	B200:BOOL
+14:41:05,115 [DEBUG:main]    24.7	B200:BOOL
+14:41:05,115 [DEBUG:main] END_STRUCT DB81: 26
+14:41:05,115 [DEBUG:main] END_STRUCT DB81: 26
+14:41:05,115 [DEBUG:main] Error found in lexical subblk declaration for DB1920:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,115 [DEBUG:main] Error found in lexical subblk declaration for DB1920:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,116 [DEBUG:main] Error found in lexical subblk declaration for DB14:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,116 [DEBUG:main] Error found in lexical subblk declaration for DB14:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,116 [DEBUG:main] Error found in lexical subblk declaration for DB13:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,116 [DEBUG:main] Error found in lexical subblk declaration for DB13:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,116 [DEBUG:main] Error found in lexical subblk declaration for DB12:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,116 [DEBUG:main] Error found in lexical subblk declaration for DB12:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,116 [DEBUG:main] Error found in lexical subblk declaration for DB11:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,116 [DEBUG:main] Error found in lexical subblk declaration for DB11:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,116 [DEBUG:main] Error found in lexical subblk declaration for DB10:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,116 [DEBUG:main] Error found in lexical subblk declaration for DB10:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,116 [DEBUG:main] STRUCT DB999
+14:41:05,116 [DEBUG:main] STRUCT DB999
+14:41:05,116 [DEBUG:main]    0.0	HandradMitTasteBeendet:BOOL
+14:41:05,116 [DEBUG:main]    0.0	HandradMitTasteBeendet:BOOL
+14:41:05,117 [DEBUG:main]    2.0	F10F5_aktiv:UDT999
+14:41:05,117 [DEBUG:main]    2.0	F10F5_aktiv:UDT999
+14:41:05,117 [DEBUG:main]    34.0	F10F5_Speicher:UDT999
+14:41:05,117 [DEBUG:main]    34.0	F10F5_Speicher:UDT999
+14:41:05,117 [DEBUG:main] END_STRUCT DB999: 66
+14:41:05,117 [DEBUG:main] END_STRUCT DB999: 66
+14:41:05,118 [DEBUG:main] STRUCT DB1904
+14:41:05,118 [DEBUG:main] STRUCT DB1904
+14:41:05,118 [DEBUG:main]    0.0	Enable: ARRAY[6] OF BOOL
+14:41:05,118 [DEBUG:main]    0.0	Enable: ARRAY[6] OF BOOL
+14:41:05,118 [DEBUG:main]    2.0	Ziel: ARRAY[6] OF DINT
+14:41:05,118 [DEBUG:main]    2.0	Ziel: ARRAY[6] OF DINT
+14:41:05,118 [DEBUG:main]    26.0	Geschw: ARRAY[6] OF DINT
+14:41:05,118 [DEBUG:main]    26.0	Geschw: ARRAY[6] OF DINT
+14:41:05,118 [DEBUG:main]    50.0	Beschl: ARRAY[6] OF DINT
+14:41:05,118 [DEBUG:main]    50.0	Beschl: ARRAY[6] OF DINT
+14:41:05,119 [DEBUG:main]    74.0	Over: ARRAY[6] OF BYTE
+14:41:05,119 [DEBUG:main]    74.0	Over: ARRAY[6] OF BYTE
+14:41:05,119 [DEBUG:main]    80.0	ReduzierteGeschwindig:BOOL
+14:41:05,119 [DEBUG:main]    80.0	ReduzierteGeschwindig:BOOL
+14:41:05,119 [DEBUG:main] END_STRUCT DB1904: 82
+14:41:05,119 [DEBUG:main] END_STRUCT DB1904: 82
+14:41:05,119 [DEBUG:main] Error found in lexical subblk declaration for DB1903:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,119 [DEBUG:main] Error found in lexical subblk declaration for DB1903:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,120 [DEBUG:main] STRUCT DB1902
+14:41:05,120 [DEBUG:main] STRUCT DB1902
+14:41:05,120 [DEBUG:main]    0.0	PositionierenGleichzGrup:UDT1902
+14:41:05,120 [DEBUG:main]    0.0	PositionierenGleichzGrup:UDT1902
+14:41:05,120 [DEBUG:main]    4.0	PositionierenSyncGruppe:UDT1902
+14:41:05,120 [DEBUG:main]    4.0	PositionierenSyncGruppe:UDT1902
+14:41:05,120 [DEBUG:main]    8.0	HandradEinzelSyncGruppe:UDT1902
+14:41:05,120 [DEBUG:main]    8.0	HandradEinzelSyncGruppe:UDT1902
+14:41:05,120 [DEBUG:main]    12.0	TippenGleichzGruppe:UDT1902
+14:41:05,120 [DEBUG:main]    12.0	TippenGleichzGruppe:UDT1902
+14:41:05,120 [DEBUG:main]    16.0	TippenSyncGruppe:UDT1902
+14:41:05,120 [DEBUG:main]    16.0	TippenSyncGruppe:UDT1902
+14:41:05,120 [DEBUG:main]    20.0	Enable:UDT3
+14:41:05,120 [DEBUG:main]    20.0	Enable:UDT3
+14:41:05,120 [DEBUG:main]    26.0	Zielposition:UDT24
+14:41:05,120 [DEBUG:main]    26.0	Zielposition:UDT24
+14:41:05,121 [DEBUG:main]    62.0	ReduzierteGeschwindig:BOOL
+14:41:05,121 [DEBUG:main]    62.0	ReduzierteGeschwindig:BOOL
+14:41:05,121 [DEBUG:main] END_STRUCT DB1902: 64
+14:41:05,121 [DEBUG:main] END_STRUCT DB1902: 64
+14:41:05,121 [DEBUG:main] Error found in lexical subblk declaration for DB1901:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,121 [DEBUG:main] Error found in lexical subblk declaration for DB1901:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,122 [DEBUG:main] Error found in lexical subblk declaration for DB1900:org.jpac.plc.s7.symaddr.parser.ParserException: [20,30] expecting: structsym, bool, byte, char, word, dword, int, dint, real, string, udt, s5time, time, timeofday, date, dateandtime, array
+14:41:05,122 [DEBUG:main] Error found in lexical subblk declaration for DB1900:org.jpac.plc.s7.symaddr.parser.ParserException: [20,30] expecting: structsym, bool, byte, char, word, dword, int, dint, real, string, udt, s5time, time, timeofday, date, dateandtime, array
+14:41:05,122 [DEBUG:main] Error found in lexical subblk declaration for DB1806:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,122 [DEBUG:main] Error found in lexical subblk declaration for DB1806:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,122 [DEBUG:main] Error found in lexical subblk declaration for DB1805:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,122 [DEBUG:main] Error found in lexical subblk declaration for DB1805:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,122 [DEBUG:main] Error found in lexical subblk declaration for DB1804:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,122 [DEBUG:main] Error found in lexical subblk declaration for DB1804:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,122 [DEBUG:main] Error found in lexical subblk declaration for DB1803:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,122 [DEBUG:main] Error found in lexical subblk declaration for DB1803:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,123 [DEBUG:main] Error found in lexical subblk declaration for DB1802:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,123 [DEBUG:main] Error found in lexical subblk declaration for DB1802:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,123 [DEBUG:main] STRUCT UDT28
+14:41:05,123 [DEBUG:main] STRUCT UDT28
+14:41:05,123 [DEBUG:main]    0.0	E_X:BOOL
+14:41:05,123 [DEBUG:main]    0.0	E_X:BOOL
+14:41:05,123 [DEBUG:main]    0.1	E_Y:BOOL
+14:41:05,123 [DEBUG:main]    0.1	E_Y:BOOL
+14:41:05,123 [DEBUG:main]    0.2	E_Z:BOOL
+14:41:05,123 [DEBUG:main]    0.2	E_Z:BOOL
+14:41:05,123 [DEBUG:main]    0.3	G_X:BOOL
+14:41:05,123 [DEBUG:main]    0.3	G_X:BOOL
+14:41:05,124 [DEBUG:main]    0.4	G_Z:BOOL
+14:41:05,124 [DEBUG:main]    0.4	G_Z:BOOL
+14:41:05,124 [DEBUG:main]    0.5	F_Z:BOOL
+14:41:05,124 [DEBUG:main]    0.5	F_Z:BOOL
+14:41:05,124 [DEBUG:main] END_STRUCT UDT28: 2
+14:41:05,124 [DEBUG:main] END_STRUCT UDT28: 2
+14:41:05,124 [DEBUG:main] Error found in lexical subblk declaration for DB1801:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,124 [DEBUG:main] Error found in lexical subblk declaration for DB1801:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,124 [DEBUG:main] STRUCT UDT27
+14:41:05,124 [DEBUG:main] STRUCT UDT27
+14:41:05,124 [DEBUG:main]    0.0	Z3X:INT
+14:41:05,124 [DEBUG:main]    0.0	Z3X:INT
+14:41:05,125 [DEBUG:main]    2.0	Z3Y:INT
+14:41:05,125 [DEBUG:main]    2.0	Z3Y:INT
+14:41:05,125 [DEBUG:main]    4.0	Z3Z:INT
+14:41:05,125 [DEBUG:main]    4.0	Z3Z:INT
+14:41:05,125 [DEBUG:main]    6.0	Z1Z:INT
+14:41:05,125 [DEBUG:main]    6.0	Z1Z:INT
+14:41:05,125 [DEBUG:main] END_STRUCT UDT27: 8
+14:41:05,125 [DEBUG:main] END_STRUCT UDT27: 8
+14:41:05,125 [DEBUG:main] STRUCT UDT26
+14:41:05,125 [DEBUG:main] STRUCT UDT26
+14:41:05,126 [DEBUG:main] STRUCT UDT25
+14:41:05,126 [DEBUG:main] STRUCT UDT25
+14:41:05,126 [DEBUG:main]    0.0	Erkannt:BOOL
+14:41:05,126 [DEBUG:main]    0.0	Erkannt:BOOL
+14:41:05,126 [DEBUG:main]    0.1	Ueberprueft:BOOL
+14:41:05,126 [DEBUG:main]    0.1	Ueberprueft:BOOL
+14:41:05,126 [DEBUG:main] END_STRUCT UDT25: 2
+14:41:05,126 [DEBUG:main] END_STRUCT UDT25: 2
+14:41:05,126 [DEBUG:main]    0.0	E:UDT25
+14:41:05,126 [DEBUG:main]    0.0	E:UDT25
+14:41:05,126 [DEBUG:main]    2.0	G:UDT25
+14:41:05,126 [DEBUG:main]    2.0	G:UDT25
+14:41:05,126 [DEBUG:main]    4.0	F:UDT25
+14:41:05,126 [DEBUG:main]    4.0	F:UDT25
+14:41:05,126 [DEBUG:main] END_STRUCT UDT26: 6
+14:41:05,126 [DEBUG:main] END_STRUCT UDT26: 6
+14:41:05,138 [DEBUG:main] STRUCT DB499
+14:41:05,138 [DEBUG:main] STRUCT DB499
+14:41:05,139 [DEBUG:main]    0.0	Aktiv_F1:BOOL
+14:41:05,139 [DEBUG:main]    0.0	Aktiv_F1:BOOL
+14:41:05,139 [DEBUG:main]    0.1	Aktiv_F2:BOOL
+14:41:05,139 [DEBUG:main]    0.1	Aktiv_F2:BOOL
+14:41:05,139 [DEBUG:main]    0.2	Aktiv_F3:BOOL
+14:41:05,139 [DEBUG:main]    0.2	Aktiv_F3:BOOL
+14:41:05,139 [DEBUG:main]    0.3	Aktiv_F4:BOOL
+14:41:05,139 [DEBUG:main]    0.3	Aktiv_F4:BOOL
+14:41:05,139 [DEBUG:main]    0.4	Aktiv_F5:BOOL
+14:41:05,139 [DEBUG:main]    0.4	Aktiv_F5:BOOL
+14:41:05,139 [DEBUG:main]    0.5	Aktiv_F6:BOOL
+14:41:05,139 [DEBUG:main]    0.5	Aktiv_F6:BOOL
+14:41:05,140 [DEBUG:main]    0.6	Aktiv_F7:BOOL
+14:41:05,140 [DEBUG:main]    0.6	Aktiv_F7:BOOL
+14:41:05,140 [DEBUG:main]    0.7	Aktiv_F8:BOOL
+14:41:05,140 [DEBUG:main]    0.7	Aktiv_F8:BOOL
+14:41:05,140 [DEBUG:main]    1.0	Aktiv_F9:BOOL
+14:41:05,140 [DEBUG:main]    1.0	Aktiv_F9:BOOL
+14:41:05,140 [DEBUG:main]    1.1	Aktiv_F10:BOOL
+14:41:05,140 [DEBUG:main]    1.1	Aktiv_F10:BOOL
+14:41:05,140 [DEBUG:main]    1.2	Aktiv_F11:BOOL
+14:41:05,140 [DEBUG:main]    1.2	Aktiv_F11:BOOL
+14:41:05,140 [DEBUG:main]    1.3	Aktiv_F12:BOOL
+14:41:05,140 [DEBUG:main]    1.3	Aktiv_F12:BOOL
+14:41:05,140 [DEBUG:main]    1.4	Aktiv_F13:BOOL
+14:41:05,140 [DEBUG:main]    1.4	Aktiv_F13:BOOL
+14:41:05,141 [DEBUG:main]    1.5	Aktiv_F14:BOOL
+14:41:05,141 [DEBUG:main]    1.5	Aktiv_F14:BOOL
+14:41:05,141 [DEBUG:main]    1.6	Aktiv_F15:BOOL
+14:41:05,141 [DEBUG:main]    1.6	Aktiv_F15:BOOL
+14:41:05,141 [DEBUG:main]    1.7	Aktiv_F16:BOOL
+14:41:05,141 [DEBUG:main]    1.7	Aktiv_F16:BOOL
+14:41:05,141 [DEBUG:main]    2.0	Aktiv_F17:BOOL
+14:41:05,141 [DEBUG:main]    2.0	Aktiv_F17:BOOL
+14:41:05,141 [DEBUG:main]    2.1	Aktiv_F18:BOOL
+14:41:05,141 [DEBUG:main]    2.1	Aktiv_F18:BOOL
+14:41:05,141 [DEBUG:main]    2.2	Aktiv_F19:BOOL
+14:41:05,141 [DEBUG:main]    2.2	Aktiv_F19:BOOL
+14:41:05,141 [DEBUG:main]    2.3	Aktiv_F20:BOOL
+14:41:05,141 [DEBUG:main]    2.3	Aktiv_F20:BOOL
+14:41:05,141 [DEBUG:main]    2.4	Aktiv_Reserve1:BOOL
+14:41:05,141 [DEBUG:main]    2.4	Aktiv_Reserve1:BOOL
+14:41:05,142 [DEBUG:main]    2.5	Aktiv_Reserve2:BOOL
+14:41:05,142 [DEBUG:main]    2.5	Aktiv_Reserve2:BOOL
+14:41:05,142 [DEBUG:main]    2.6	Aktiv_Reserve3:BOOL
+14:41:05,142 [DEBUG:main]    2.6	Aktiv_Reserve3:BOOL
+14:41:05,142 [DEBUG:main]    2.7	Aktiv_Reserve4:BOOL
+14:41:05,142 [DEBUG:main]    2.7	Aktiv_Reserve4:BOOL
+14:41:05,142 [DEBUG:main]    3.0	Aktiv_Reserve5:BOOL
+14:41:05,142 [DEBUG:main]    3.0	Aktiv_Reserve5:BOOL
+14:41:05,142 [DEBUG:main]    3.1	Aktiv_Reserve6:BOOL
+14:41:05,142 [DEBUG:main]    3.1	Aktiv_Reserve6:BOOL
+14:41:05,142 [DEBUG:main]    3.2	Aktiv_Reserve7:BOOL
+14:41:05,142 [DEBUG:main]    3.2	Aktiv_Reserve7:BOOL
+14:41:05,143 [DEBUG:main]    3.3	Aktiv_Reserve8:BOOL
+14:41:05,143 [DEBUG:main]    3.3	Aktiv_Reserve8:BOOL
+14:41:05,143 [DEBUG:main]    3.4	Aktiv_Reserve9:BOOL
+14:41:05,143 [DEBUG:main]    3.4	Aktiv_Reserve9:BOOL
+14:41:05,143 [DEBUG:main]    3.5	Aktiv_Reserve10:BOOL
+14:41:05,143 [DEBUG:main]    3.5	Aktiv_Reserve10:BOOL
+14:41:05,143 [DEBUG:main]    3.6	Aktiv_Reserve11:BOOL
+14:41:05,143 [DEBUG:main]    3.6	Aktiv_Reserve11:BOOL
+14:41:05,143 [DEBUG:main]    3.7	Aktiv_Reserve12:BOOL
+14:41:05,143 [DEBUG:main]    3.7	Aktiv_Reserve12:BOOL
+14:41:05,143 [DEBUG:main]    4.0	Aktiv_Reserve13:BOOL
+14:41:05,143 [DEBUG:main]    4.0	Aktiv_Reserve13:BOOL
+14:41:05,144 [DEBUG:main]    4.1	Aktiv_Reserve14:BOOL
+14:41:05,144 [DEBUG:main]    4.1	Aktiv_Reserve14:BOOL
+14:41:05,144 [DEBUG:main]    4.2	Aktiv_Reserve15:BOOL
+14:41:05,144 [DEBUG:main]    4.2	Aktiv_Reserve15:BOOL
+14:41:05,144 [DEBUG:main]    4.3	Aktiv_Reserve16:BOOL
+14:41:05,144 [DEBUG:main]    4.3	Aktiv_Reserve16:BOOL
+14:41:05,144 [DEBUG:main]    4.4	Aktiv_Reserve17:BOOL
+14:41:05,144 [DEBUG:main]    4.4	Aktiv_Reserve17:BOOL
+14:41:05,144 [DEBUG:main]    4.5	Aktiv_Reserve18:BOOL
+14:41:05,144 [DEBUG:main]    4.5	Aktiv_Reserve18:BOOL
+14:41:05,144 [DEBUG:main]    4.6	Aktiv_Reserve19:BOOL
+14:41:05,144 [DEBUG:main]    4.6	Aktiv_Reserve19:BOOL
+14:41:05,145 [DEBUG:main]    4.7	LastmessungNullenLaeuft:BOOL
+14:41:05,145 [DEBUG:main]    4.7	LastmessungNullenLaeuft:BOOL
+14:41:05,145 [DEBUG:main]    5.0	Schritt_aktiv_S1:BOOL
+14:41:05,145 [DEBUG:main]    5.0	Schritt_aktiv_S1:BOOL
+14:41:05,145 [DEBUG:main]    5.1	Schritt_aktiv_S2:BOOL
+14:41:05,145 [DEBUG:main]    5.1	Schritt_aktiv_S2:BOOL
+14:41:05,145 [DEBUG:main]    5.2	Schritt_aktiv_S3:BOOL
+14:41:05,145 [DEBUG:main]    5.2	Schritt_aktiv_S3:BOOL
+14:41:05,145 [DEBUG:main]    5.3	Schritt_aktiv_S4:BOOL
+14:41:05,145 [DEBUG:main]    5.3	Schritt_aktiv_S4:BOOL
+14:41:05,146 [DEBUG:main]    5.4	Schritt_aktiv_S5:BOOL
+14:41:05,146 [DEBUG:main]    5.4	Schritt_aktiv_S5:BOOL
+14:41:05,146 [DEBUG:main]    5.5	Schritt_aktiv_S6:BOOL
+14:41:05,146 [DEBUG:main]    5.5	Schritt_aktiv_S6:BOOL
+14:41:05,146 [DEBUG:main]    5.6	Schritt_aktiv_S7:BOOL
+14:41:05,146 [DEBUG:main]    5.6	Schritt_aktiv_S7:BOOL
+14:41:05,146 [DEBUG:main]    5.7	Schritt_aktiv_S8:BOOL
+14:41:05,146 [DEBUG:main]    5.7	Schritt_aktiv_S8:BOOL
+14:41:05,146 [DEBUG:main]    6.0	Schritt_aktiv_Reserve1:BOOL
+14:41:05,146 [DEBUG:main]    6.0	Schritt_aktiv_Reserve1:BOOL
+14:41:05,146 [DEBUG:main]    6.1	Schritt_aktiv_Reserve2:BOOL
+14:41:05,146 [DEBUG:main]    6.1	Schritt_aktiv_Reserve2:BOOL
+14:41:05,147 [DEBUG:main]    6.2	Schritt_aktiv_Reserve3:BOOL
+14:41:05,147 [DEBUG:main]    6.2	Schritt_aktiv_Reserve3:BOOL
+14:41:05,147 [DEBUG:main]    6.3	Schritt_aktiv_Reserve4:BOOL
+14:41:05,147 [DEBUG:main]    6.3	Schritt_aktiv_Reserve4:BOOL
+14:41:05,147 [DEBUG:main]    6.4	Schritt_aktiv_Reserve5:BOOL
+14:41:05,147 [DEBUG:main]    6.4	Schritt_aktiv_Reserve5:BOOL
+14:41:05,147 [DEBUG:main]    6.5	Schritt_aktiv_Reserve6:BOOL
+14:41:05,147 [DEBUG:main]    6.5	Schritt_aktiv_Reserve6:BOOL
+14:41:05,147 [DEBUG:main]    6.6	Schritt_aktiv_Reserve7:BOOL
+14:41:05,147 [DEBUG:main]    6.6	Schritt_aktiv_Reserve7:BOOL
+14:41:05,148 [DEBUG:main]    6.7	Schritt_aktiv_Reserve8:BOOL
+14:41:05,148 [DEBUG:main]    6.7	Schritt_aktiv_Reserve8:BOOL
+14:41:05,148 [DEBUG:main]    7.0	Schritt_aktiv_Reserve9:BOOL
+14:41:05,148 [DEBUG:main]    7.0	Schritt_aktiv_Reserve9:BOOL
+14:41:05,148 [DEBUG:main]    7.1	Schritt_aktiv_Reserve10:BOOL
+14:41:05,148 [DEBUG:main]    7.1	Schritt_aktiv_Reserve10:BOOL
+14:41:05,148 [DEBUG:main]    7.2	Schritt_aktiv_Reserve11:BOOL
+14:41:05,148 [DEBUG:main]    7.2	Schritt_aktiv_Reserve11:BOOL
+14:41:05,148 [DEBUG:main]    7.3	Schritt_aktiv_Reserve12:BOOL
+14:41:05,148 [DEBUG:main]    7.3	Schritt_aktiv_Reserve12:BOOL
+14:41:05,149 [DEBUG:main]    7.4	Schritt_aktiv_Reserve13:BOOL
+14:41:05,149 [DEBUG:main]    7.4	Schritt_aktiv_Reserve13:BOOL
+14:41:05,149 [DEBUG:main]    7.5	Schritt_aktiv_Reserve14:BOOL
+14:41:05,149 [DEBUG:main]    7.5	Schritt_aktiv_Reserve14:BOOL
+14:41:05,149 [DEBUG:main]    7.6	Schritt_aktiv_Reserve15:BOOL
+14:41:05,149 [DEBUG:main]    7.6	Schritt_aktiv_Reserve15:BOOL
+14:41:05,149 [DEBUG:main]    7.7	DiagnoseSperren:BOOL
+14:41:05,149 [DEBUG:main]    7.7	DiagnoseSperren:BOOL
+14:41:05,149 [DEBUG:main]    8.0	Aktiv_S1:BOOL
+14:41:05,149 [DEBUG:main]    8.0	Aktiv_S1:BOOL
+14:41:05,149 [DEBUG:main]    8.1	Aktiv_S2:BOOL
+14:41:05,149 [DEBUG:main]    8.1	Aktiv_S2:BOOL
+14:41:05,150 [DEBUG:main]    8.2	Aktiv_S3:BOOL
+14:41:05,150 [DEBUG:main]    8.2	Aktiv_S3:BOOL
+14:41:05,150 [DEBUG:main]    8.3	Aktiv_S4:BOOL
+14:41:05,150 [DEBUG:main]    8.3	Aktiv_S4:BOOL
+14:41:05,150 [DEBUG:main]    8.4	Aktiv_S5:BOOL
+14:41:05,150 [DEBUG:main]    8.4	Aktiv_S5:BOOL
+14:41:05,150 [DEBUG:main]    8.5	Aktiv_S6:BOOL
+14:41:05,150 [DEBUG:main]    8.5	Aktiv_S6:BOOL
+14:41:05,150 [DEBUG:main]    8.6	Aktiv_S7:BOOL
+14:41:05,150 [DEBUG:main]    8.6	Aktiv_S7:BOOL
+14:41:05,150 [DEBUG:main]    8.7	Aktiv_S8:BOOL
+14:41:05,150 [DEBUG:main]    8.7	Aktiv_S8:BOOL
+14:41:05,151 [DEBUG:main]    9.0	Aktiv_S9:BOOL
+14:41:05,151 [DEBUG:main]    9.0	Aktiv_S9:BOOL
+14:41:05,151 [DEBUG:main]    9.1	Aktiv_S10:BOOL
+14:41:05,151 [DEBUG:main]    9.1	Aktiv_S10:BOOL
+14:41:05,151 [DEBUG:main]    9.2	Aktiv_S11:BOOL
+14:41:05,151 [DEBUG:main]    9.2	Aktiv_S11:BOOL
+14:41:05,151 [DEBUG:main]    9.3	Aktiv_S12:BOOL
+14:41:05,151 [DEBUG:main]    9.3	Aktiv_S12:BOOL
+14:41:05,151 [DEBUG:main]    9.4	Aktiv_S13:BOOL
+14:41:05,151 [DEBUG:main]    9.4	Aktiv_S13:BOOL
+14:41:05,151 [DEBUG:main]    9.5	Aktiv_S14:BOOL
+14:41:05,151 [DEBUG:main]    9.5	Aktiv_S14:BOOL
+14:41:05,151 [DEBUG:main]    9.6	Aktiv_S15:BOOL
+14:41:05,151 [DEBUG:main]    9.6	Aktiv_S15:BOOL
+14:41:05,151 [DEBUG:main]    9.7	Aktiv_S16:BOOL
+14:41:05,151 [DEBUG:main]    9.7	Aktiv_S16:BOOL
+14:41:05,151 [DEBUG:main]    10.0	Aktiv_Reserve_S1:BOOL
+14:41:05,151 [DEBUG:main]    10.0	Aktiv_Reserve_S1:BOOL
+14:41:05,152 [DEBUG:main]    10.1	Aktiv_Reserve_S2:BOOL
+14:41:05,152 [DEBUG:main]    10.1	Aktiv_Reserve_S2:BOOL
+14:41:05,152 [DEBUG:main]    10.2	Aktiv_Reserve_S3:BOOL
+14:41:05,152 [DEBUG:main]    10.2	Aktiv_Reserve_S3:BOOL
+14:41:05,152 [DEBUG:main]    10.3	Aktiv_Reserve_S4:BOOL
+14:41:05,152 [DEBUG:main]    10.3	Aktiv_Reserve_S4:BOOL
+14:41:05,152 [DEBUG:main]    10.4	Aktiv_Reserve_S5:BOOL
+14:41:05,152 [DEBUG:main]    10.4	Aktiv_Reserve_S5:BOOL
+14:41:05,152 [DEBUG:main]    10.5	Aktiv_Reserve_S6:BOOL
+14:41:05,152 [DEBUG:main]    10.5	Aktiv_Reserve_S6:BOOL
+14:41:05,152 [DEBUG:main]    10.6	Aktiv_Reserve_S7:BOOL
+14:41:05,152 [DEBUG:main]    10.6	Aktiv_Reserve_S7:BOOL
+14:41:05,152 [DEBUG:main]    10.7	Aktiv_Reserve_S8:BOOL
+14:41:05,152 [DEBUG:main]    10.7	Aktiv_Reserve_S8:BOOL
+14:41:05,152 [DEBUG:main]    11.0	Aktiv_Reserve_S9:BOOL
+14:41:05,152 [DEBUG:main]    11.0	Aktiv_Reserve_S9:BOOL
+14:41:05,153 [DEBUG:main]    11.1	Aktiv_Reserve_S10:BOOL
+14:41:05,153 [DEBUG:main]    11.1	Aktiv_Reserve_S10:BOOL
+14:41:05,153 [DEBUG:main]    11.2	Aktiv_Reserve_S11:BOOL
+14:41:05,153 [DEBUG:main]    11.2	Aktiv_Reserve_S11:BOOL
+14:41:05,153 [DEBUG:main]    11.3	Aktiv_Reserve_S12:BOOL
+14:41:05,153 [DEBUG:main]    11.3	Aktiv_Reserve_S12:BOOL
+14:41:05,153 [DEBUG:main]    11.4	Aktiv_Reserve_S13:BOOL
+14:41:05,153 [DEBUG:main]    11.4	Aktiv_Reserve_S13:BOOL
+14:41:05,153 [DEBUG:main]    11.5	Aktiv_Reserve_S14:BOOL
+14:41:05,153 [DEBUG:main]    11.5	Aktiv_Reserve_S14:BOOL
+14:41:05,153 [DEBUG:main]    11.6	Aktiv_Reserve_S15:BOOL
+14:41:05,153 [DEBUG:main]    11.6	Aktiv_Reserve_S15:BOOL
+14:41:05,153 [DEBUG:main]    11.7	Aktiv_Reserve_S16:BOOL
+14:41:05,153 [DEBUG:main]    11.7	Aktiv_Reserve_S16:BOOL
+14:41:05,153 [DEBUG:main]    12.0	AnmeldeFreigabe:BOOL
+14:41:05,153 [DEBUG:main]    12.0	AnmeldeFreigabe:BOOL
+14:41:05,153 [DEBUG:main]    12.1	MP_Angemeldet:BOOL
+14:41:05,153 [DEBUG:main]    12.1	MP_Angemeldet:BOOL
+14:41:05,154 [DEBUG:main]    14.0	GlobalerSchrittzaehler:INT
+14:41:05,154 [DEBUG:main]    14.0	GlobalerSchrittzaehler:INT
+14:41:05,154 [DEBUG:main]    16.0	Reserve_Wort1:WORD
+14:41:05,154 [DEBUG:main]    16.0	Reserve_Wort1:WORD
+14:41:05,154 [DEBUG:main]    18.0	Reserve_Wort2:WORD
+14:41:05,154 [DEBUG:main]    18.0	Reserve_Wort2:WORD
+14:41:05,154 [DEBUG:main]    20.0	Reserve_Wort3:WORD
+14:41:05,154 [DEBUG:main]    20.0	Reserve_Wort3:WORD
+14:41:05,154 [DEBUG:main]    22.0	Reserve_Wort4:WORD
+14:41:05,154 [DEBUG:main]    22.0	Reserve_Wort4:WORD
+14:41:05,154 [DEBUG:main]    24.0	Reserve_Wort5:WORD
+14:41:05,154 [DEBUG:main]    24.0	Reserve_Wort5:WORD
+14:41:05,155 [DEBUG:main]    26.0	Reserve_Wort6:WORD
+14:41:05,155 [DEBUG:main]    26.0	Reserve_Wort6:WORD
+14:41:05,155 [DEBUG:main]    28.0	Reserve_Wort7:WORD
+14:41:05,155 [DEBUG:main]    28.0	Reserve_Wort7:WORD
+14:41:05,155 [DEBUG:main]    30.0	Reserve_Wort8:WORD
+14:41:05,155 [DEBUG:main]    30.0	Reserve_Wort8:WORD
+14:41:05,155 [DEBUG:main]    32.0	Reserve_Wort9:WORD
+14:41:05,155 [DEBUG:main]    32.0	Reserve_Wort9:WORD
+14:41:05,155 [DEBUG:main]    34.0	Reserve_Wort10:WORD
+14:41:05,155 [DEBUG:main]    34.0	Reserve_Wort10:WORD
+14:41:05,155 [DEBUG:main]    36.0	Reserve_Wort11:WORD
+14:41:05,155 [DEBUG:main]    36.0	Reserve_Wort11:WORD
+14:41:05,156 [DEBUG:main]    38.0	Reserve_Wort12:WORD
+14:41:05,156 [DEBUG:main]    38.0	Reserve_Wort12:WORD
+14:41:05,156 [DEBUG:main]    40.0	Reserve_Wort13:WORD
+14:41:05,156 [DEBUG:main]    40.0	Reserve_Wort13:WORD
+14:41:05,156 [DEBUG:main]    42.0	Reserve_Wort14:WORD
+14:41:05,156 [DEBUG:main]    42.0	Reserve_Wort14:WORD
+14:41:05,156 [DEBUG:main]    44.0	Reserve_Wort15:WORD
+14:41:05,156 [DEBUG:main]    44.0	Reserve_Wort15:WORD
+14:41:05,156 [DEBUG:main]    46.0	Reserve_Wort16:WORD
+14:41:05,156 [DEBUG:main]    46.0	Reserve_Wort16:WORD
+14:41:05,156 [DEBUG:main]    48.0	Reserve_Wort17:WORD
+14:41:05,156 [DEBUG:main]    48.0	Reserve_Wort17:WORD
+14:41:05,157 [DEBUG:main]    50.0	Reserve_Wort18:WORD
+14:41:05,157 [DEBUG:main]    50.0	Reserve_Wort18:WORD
+14:41:05,157 [DEBUG:main]    52.0	Reserve_Wort19:WORD
+14:41:05,157 [DEBUG:main]    52.0	Reserve_Wort19:WORD
+14:41:05,157 [DEBUG:main]    54.0	Reserve_Wort20:WORD
+14:41:05,157 [DEBUG:main]    54.0	Reserve_Wort20:WORD
+14:41:05,157 [DEBUG:main]    56.0	Auftragsfach_Dauer0:BYTE
+14:41:05,157 [DEBUG:main]    56.0	Auftragsfach_Dauer0:BYTE
+14:41:05,157 [DEBUG:main]    57.0	Auftragsfach_Auftragsnr:BYTE
+14:41:05,157 [DEBUG:main]    57.0	Auftragsfach_Auftragsnr:BYTE
+14:41:05,157 [DEBUG:main]    58.0	Auftragsfach_Param1:WORD
+14:41:05,157 [DEBUG:main]    58.0	Auftragsfach_Param1:WORD
+14:41:05,157 [DEBUG:main]    60.0	Auftragsfach_Param2:WORD
+14:41:05,157 [DEBUG:main]    60.0	Auftragsfach_Param2:WORD
+14:41:05,158 [DEBUG:main]    62.0	Auftragsfach_Param3:WORD
+14:41:05,158 [DEBUG:main]    62.0	Auftragsfach_Param3:WORD
+14:41:05,158 [DEBUG:main]    64.0	Uhrzeit_Dauer0:BYTE
+14:41:05,158 [DEBUG:main]    64.0	Uhrzeit_Dauer0:BYTE
+14:41:05,158 [DEBUG:main]    65.0	Uhrzeit_Stunde:BYTE
+14:41:05,158 [DEBUG:main]    65.0	Uhrzeit_Stunde:BYTE
+14:41:05,158 [DEBUG:main]    66.0	Uhrzeit_Minute:BYTE
+14:41:05,158 [DEBUG:main]    66.0	Uhrzeit_Minute:BYTE
+14:41:05,158 [DEBUG:main]    67.0	Uhrzeit_Sekunde:BYTE
+14:41:05,158 [DEBUG:main]    67.0	Uhrzeit_Sekunde:BYTE
+14:41:05,158 [DEBUG:main]    68.0	Uhrzeit_Datum_leer:WORD
+14:41:05,158 [DEBUG:main]    68.0	Uhrzeit_Datum_leer:WORD
+14:41:05,159 [DEBUG:main]    70.0	Datum_Dauer0:BYTE
+14:41:05,159 [DEBUG:main]    70.0	Datum_Dauer0:BYTE
+14:41:05,159 [DEBUG:main]    71.0	Datum_Wochentag:BYTE
+14:41:05,159 [DEBUG:main]    71.0	Datum_Wochentag:BYTE
+14:41:05,159 [DEBUG:main]    72.0	Datum_Tag:BYTE
+14:41:05,159 [DEBUG:main]    72.0	Datum_Tag:BYTE
+14:41:05,159 [DEBUG:main]    73.0	Datum_Monat:BYTE
+14:41:05,159 [DEBUG:main]    73.0	Datum_Monat:BYTE
+14:41:05,159 [DEBUG:main]    74.0	Datum_Jahr:BYTE
+14:41:05,159 [DEBUG:main]    74.0	Datum_Jahr:BYTE
+14:41:05,159 [DEBUG:main]    75.0	Datum_Dauer00:BYTE
+14:41:05,159 [DEBUG:main]    75.0	Datum_Dauer00:BYTE
+14:41:05,160 [DEBUG:main]    76.0	LEDAbbild_TP: ARRAY[80] OF BOOL
+14:41:05,160 [DEBUG:main]    76.0	LEDAbbild_TP: ARRAY[80] OF BOOL
+14:41:05,160 [DEBUG:main]    86.0	LEDAbbild_Runtime: ARRAY[80] OF BOOL
+14:41:05,160 [DEBUG:main]    86.0	LEDAbbild_Runtime: ARRAY[80] OF BOOL
+14:41:05,160 [DEBUG:main]    96.0	Reserve_Wort61:WORD
+14:41:05,160 [DEBUG:main]    96.0	Reserve_Wort61:WORD
+14:41:05,160 [DEBUG:main]    98.0	Reserve_Wort71:WORD
+14:41:05,160 [DEBUG:main]    98.0	Reserve_Wort71:WORD
+14:41:05,160 [DEBUG:main]    100.0	Reserve_Wort81:WORD
+14:41:05,160 [DEBUG:main]    100.0	Reserve_Wort81:WORD
+14:41:05,160 [DEBUG:main]    102.0	Reserve_Wort91:WORD
+14:41:05,160 [DEBUG:main]    102.0	Reserve_Wort91:WORD
+14:41:05,161 [DEBUG:main]    104.0	Reserve_Wort101:WORD
+14:41:05,161 [DEBUG:main]    104.0	Reserve_Wort101:WORD
+14:41:05,161 [DEBUG:main]    106.0	Reserve_Wort111:WORD
+14:41:05,161 [DEBUG:main]    106.0	Reserve_Wort111:WORD
+14:41:05,161 [DEBUG:main]    108.0	Reserve_Wort121:WORD
+14:41:05,161 [DEBUG:main]    108.0	Reserve_Wort121:WORD
+14:41:05,161 [DEBUG:main]    110.0	Reserve_Wort131:WORD
+14:41:05,161 [DEBUG:main]    110.0	Reserve_Wort131:WORD
+14:41:05,161 [DEBUG:main]    112.0	Reserve_Wort141:WORD
+14:41:05,161 [DEBUG:main]    112.0	Reserve_Wort141:WORD
+14:41:05,161 [DEBUG:main]    114.0	Reserve_Wort151:WORD
+14:41:05,161 [DEBUG:main]    114.0	Reserve_Wort151:WORD
+14:41:05,162 [DEBUG:main]    116.0	Reserve_Wort161:WORD
+14:41:05,162 [DEBUG:main]    116.0	Reserve_Wort161:WORD
+14:41:05,162 [DEBUG:main]    118.0	Reserve_Wort171:WORD
+14:41:05,162 [DEBUG:main]    118.0	Reserve_Wort171:WORD
+14:41:05,162 [DEBUG:main]    120.0	Reserve_Wort181:WORD
+14:41:05,162 [DEBUG:main]    120.0	Reserve_Wort181:WORD
+14:41:05,162 [DEBUG:main]    122.0	Reserve_Wort191:WORD
+14:41:05,162 [DEBUG:main]    122.0	Reserve_Wort191:WORD
+14:41:05,162 [DEBUG:main]    124.0	Reserve_Wort201:WORD
+14:41:05,162 [DEBUG:main]    124.0	Reserve_Wort201:WORD
+14:41:05,162 [DEBUG:main]    126.0	Bremsen:UDT28
+14:41:05,162 [DEBUG:main]    126.0	Bremsen:UDT28
+14:41:05,163 [DEBUG:main] >>>> nested
+14:41:05,163 [DEBUG:main] >>>> nested
+14:41:05,163 [DEBUG:main] STRUCT DB499$0
+14:41:05,163 [DEBUG:main] STRUCT DB499$0
+14:41:05,163 [DEBUG:main]    0.0	Z1Z:DINT
+14:41:05,163 [DEBUG:main]    0.0	Z1Z:DINT
+14:41:05,163 [DEBUG:main]    4.0	Z3Z:DINT
+14:41:05,163 [DEBUG:main]    4.0	Z3Z:DINT
+14:41:05,163 [DEBUG:main]    8.0	Z3X:DINT
+14:41:05,163 [DEBUG:main]    8.0	Z3X:DINT
+14:41:05,163 [DEBUG:main]    12.0	Z3Y:DINT
+14:41:05,163 [DEBUG:main]    12.0	Z3Y:DINT
+14:41:05,163 [DEBUG:main] END_STRUCT DB499$0: 16
+14:41:05,163 [DEBUG:main] END_STRUCT DB499$0: 16
+14:41:05,164 [DEBUG:main] <<<< nested
+14:41:05,164 [DEBUG:main] <<<< nested
+14:41:05,164 [DEBUG:main]    128.0	Kraefte:DB499$0
+14:41:05,164 [DEBUG:main]    128.0	Kraefte:DB499$0
+14:41:05,164 [DEBUG:main] END_STRUCT DB499: 144
+14:41:05,164 [DEBUG:main] END_STRUCT DB499: 144
+14:41:05,165 [DEBUG:main] STRUCT DB498
+14:41:05,165 [DEBUG:main] STRUCT DB498
+14:41:05,165 [DEBUG:main]    0.0	LED_FLW:BOOL
+14:41:05,165 [DEBUG:main]    0.0	LED_FLW:BOOL
+14:41:05,165 [DEBUG:main]    0.1	LED_LST:BOOL
+14:41:05,165 [DEBUG:main]    0.1	LED_LST:BOOL
+14:41:05,165 [DEBUG:main]    0.2	LED_RAP:BOOL
+14:41:05,165 [DEBUG:main]    0.2	LED_RAP:BOOL
+14:41:05,165 [DEBUG:main]    0.3	LED_andererFLW:BOOL
+14:41:05,165 [DEBUG:main]    0.3	LED_andererFLW:BOOL
+14:41:05,165 [DEBUG:main]    0.4	LED_FRG1:BOOL
+14:41:05,165 [DEBUG:main]    0.4	LED_FRG1:BOOL
+14:41:05,165 [DEBUG:main]    0.5	LED_FRG2:BOOL
+14:41:05,165 [DEBUG:main]    0.5	LED_FRG2:BOOL
+14:41:05,166 [DEBUG:main]    0.6	KraftsmessEin:BOOL
+14:41:05,166 [DEBUG:main]    0.6	KraftsmessEin:BOOL
+14:41:05,166 [DEBUG:main]    0.7	Reserve:BOOL
+14:41:05,166 [DEBUG:main]    0.7	Reserve:BOOL
+14:41:05,166 [DEBUG:main]    1.0	FZ_Typ:BYTE
+14:41:05,166 [DEBUG:main]    1.0	FZ_Typ:BYTE
+14:41:05,166 [DEBUG:main]    2.0	Betriebsart:BYTE
+14:41:05,166 [DEBUG:main]    2.0	Betriebsart:BYTE
+14:41:05,166 [DEBUG:main]    3.0	Reserve2:BYTE
+14:41:05,166 [DEBUG:main]    3.0	Reserve2:BYTE
+14:41:05,166 [DEBUG:main]    4.0	FZ_Nr:DINT
+14:41:05,166 [DEBUG:main]    4.0	FZ_Nr:DINT
+14:41:05,166 [DEBUG:main] END_STRUCT DB498: 8
+14:41:05,166 [DEBUG:main] END_STRUCT DB498: 8
+14:41:05,167 [DEBUG:main] STRUCT DB497
+14:41:05,167 [DEBUG:main] STRUCT DB497
+14:41:05,167 [DEBUG:main]    0.0	Freigabe_Produktion:BOOL
+14:41:05,167 [DEBUG:main]    0.0	Freigabe_Produktion:BOOL
+14:41:05,167 [DEBUG:main]    0.1	Freigabe_zurueck:BOOL
+14:41:05,167 [DEBUG:main]    0.1	Freigabe_zurueck:BOOL
+14:41:05,167 [DEBUG:main]    0.2	Freigabe_Heben_an_LST:BOOL
+14:41:05,167 [DEBUG:main]    0.2	Freigabe_Heben_an_LST:BOOL
+14:41:05,167 [DEBUG:main]    0.3	Programm_beenden:BOOL
+14:41:05,167 [DEBUG:main]    0.3	Programm_beenden:BOOL
+14:41:05,167 [DEBUG:main]    0.4	Verbindung_beenden:BOOL
+14:41:05,167 [DEBUG:main]    0.4	Verbindung_beenden:BOOL
+14:41:05,167 [DEBUG:main]    0.5	Freigabe_Fuegen:BOOL
+14:41:05,167 [DEBUG:main]    0.5	Freigabe_Fuegen:BOOL
+14:41:05,168 [DEBUG:main]    0.6	Freigabe_Senken_an_LST:BOOL
+14:41:05,168 [DEBUG:main]    0.6	Freigabe_Senken_an_LST:BOOL
+14:41:05,168 [DEBUG:main] END_STRUCT DB497: 2
+14:41:05,168 [DEBUG:main] END_STRUCT DB497: 2
+14:41:05,171 [DEBUG:main] STRUCT DB496
+14:41:05,171 [DEBUG:main] STRUCT DB496
+14:41:05,171 [DEBUG:main] >>>> nested
+14:41:05,171 [DEBUG:main] >>>> nested
+14:41:05,171 [DEBUG:main] STRUCT DB496$0
+14:41:05,171 [DEBUG:main] STRUCT DB496$0
+14:41:05,171 [DEBUG:main]    0.0	Taster:BOOL
+14:41:05,171 [DEBUG:main]    0.0	Taster:BOOL
+14:41:05,171 [DEBUG:main]    0.1	BBU_nicht_oben:BOOL
+14:41:05,171 [DEBUG:main]    0.1	BBU_nicht_oben:BOOL
+14:41:05,172 [DEBUG:main]    0.2	BBU_ist_unten:BOOL
+14:41:05,172 [DEBUG:main]    0.2	BBU_ist_unten:BOOL
+14:41:05,172 [DEBUG:main]    0.3	Leiste_unten_frei:BOOL
+14:41:05,172 [DEBUG:main]    0.3	Leiste_unten_frei:BOOL
+14:41:05,172 [DEBUG:main]    0.4	Leiste_oben_frei:BOOL
+14:41:05,172 [DEBUG:main]    0.4	Leiste_oben_frei:BOOL
+14:41:05,172 [DEBUG:main]    0.5	Hydraulik_bereit:BOOL
+14:41:05,172 [DEBUG:main]    0.5	Hydraulik_bereit:BOOL
+14:41:05,172 [DEBUG:main]    0.6	Y_Pos_groesser_1000mm:BOOL
+14:41:05,172 [DEBUG:main]    0.6	Y_Pos_groesser_1000mm:BOOL
+14:41:05,173 [DEBUG:main]    0.7	Ventil:BOOL
+14:41:05,173 [DEBUG:main]    0.7	Ventil:BOOL
+14:41:05,173 [DEBUG:main]    1.0	Ist_ausgefahren:BOOL
+14:41:05,173 [DEBUG:main]    1.0	Ist_ausgefahren:BOOL
+14:41:05,173 [DEBUG:main] END_STRUCT DB496$0: 2
+14:41:05,173 [DEBUG:main] END_STRUCT DB496$0: 2
+14:41:05,173 [DEBUG:main] <<<< nested
+14:41:05,173 [DEBUG:main] <<<< nested
+14:41:05,173 [DEBUG:main]    0.0	Vor:DB496$0
+14:41:05,173 [DEBUG:main]    0.0	Vor:DB496$0
+14:41:05,173 [DEBUG:main] >>>> nested
+14:41:05,173 [DEBUG:main] >>>> nested
+14:41:05,173 [DEBUG:main] STRUCT DB496$1
+14:41:05,173 [DEBUG:main] STRUCT DB496$1
+14:41:05,174 [DEBUG:main]    0.0	Taster:BOOL
+14:41:05,174 [DEBUG:main]    0.0	Taster:BOOL
+14:41:05,174 [DEBUG:main]    0.1	Tele_nicht_eingefahren:BOOL
+14:41:05,174 [DEBUG:main]    0.1	Tele_nicht_eingefahren:BOOL
+14:41:05,174 [DEBUG:main]    0.2	Tele_ist_ausgefahren:BOOL
+14:41:05,174 [DEBUG:main]    0.2	Tele_ist_ausgefahren:BOOL
+14:41:05,174 [DEBUG:main]    0.3	Leiste_fest_frei:BOOL
+14:41:05,174 [DEBUG:main]    0.3	Leiste_fest_frei:BOOL
+14:41:05,174 [DEBUG:main]    0.4	Leiste_oben_frei:BOOL
+14:41:05,174 [DEBUG:main]    0.4	Leiste_oben_frei:BOOL
+14:41:05,174 [DEBUG:main]    0.5	Motorschutz_ok:BOOL
+14:41:05,174 [DEBUG:main]    0.5	Motorschutz_ok:BOOL
+14:41:05,174 [DEBUG:main]    0.6	Ventil:BOOL
+14:41:05,174 [DEBUG:main]    0.6	Ventil:BOOL
+14:41:05,174 [DEBUG:main]    0.7	Ist_oben:BOOL
+14:41:05,174 [DEBUG:main]    0.7	Ist_oben:BOOL
+14:41:05,178 [DEBUG:main]    1.0	Gelaender_ok:BOOL
+14:41:05,178 [DEBUG:main]    1.0	Gelaender_ok:BOOL
+14:41:05,178 [DEBUG:main] END_STRUCT DB496$1: 2
+14:41:05,178 [DEBUG:main] END_STRUCT DB496$1: 2
+14:41:05,178 [DEBUG:main] <<<< nested
+14:41:05,178 [DEBUG:main] <<<< nested
+14:41:05,178 [DEBUG:main]    2.0	Heben:DB496$1
+14:41:05,178 [DEBUG:main]    2.0	Heben:DB496$1
+14:41:05,178 [DEBUG:main] >>>> nested
+14:41:05,178 [DEBUG:main] >>>> nested
+14:41:05,178 [DEBUG:main] STRUCT DB496$2
+14:41:05,178 [DEBUG:main] STRUCT DB496$2
+14:41:05,179 [DEBUG:main]    0.0	Taster:BOOL
+14:41:05,179 [DEBUG:main]    0.0	Taster:BOOL
+14:41:05,179 [DEBUG:main]    0.1	BBU_nicht_oben:BOOL
+14:41:05,179 [DEBUG:main]    0.1	BBU_nicht_oben:BOOL
+14:41:05,179 [DEBUG:main]    0.2	BBU_ist_unten:BOOL
+14:41:05,179 [DEBUG:main]    0.2	BBU_ist_unten:BOOL
+14:41:05,179 [DEBUG:main]    0.3	Leiste_fest_frei:BOOL
+14:41:05,179 [DEBUG:main]    0.3	Leiste_fest_frei:BOOL
+14:41:05,179 [DEBUG:main]    0.4	Hydraulik_bereit:BOOL
+14:41:05,179 [DEBUG:main]    0.4	Hydraulik_bereit:BOOL
+14:41:05,179 [DEBUG:main]    0.5	Ventil:BOOL
+14:41:05,179 [DEBUG:main]    0.5	Ventil:BOOL
+14:41:05,180 [DEBUG:main]    0.6	Ist_eingefahren:BOOL
+14:41:05,180 [DEBUG:main]    0.6	Ist_eingefahren:BOOL
+14:41:05,180 [DEBUG:main] END_STRUCT DB496$2: 2
+14:41:05,180 [DEBUG:main] END_STRUCT DB496$2: 2
+14:41:05,180 [DEBUG:main] <<<< nested
+14:41:05,180 [DEBUG:main] <<<< nested
+14:41:05,180 [DEBUG:main]    4.0	Zurueck:DB496$2
+14:41:05,180 [DEBUG:main]    4.0	Zurueck:DB496$2
+14:41:05,180 [DEBUG:main] >>>> nested
+14:41:05,180 [DEBUG:main] >>>> nested
+14:41:05,180 [DEBUG:main] STRUCT DB496$3
+14:41:05,180 [DEBUG:main] STRUCT DB496$3
+14:41:05,181 [DEBUG:main]    0.0	Taster:BOOL
+14:41:05,181 [DEBUG:main]    0.0	Taster:BOOL
+14:41:05,181 [DEBUG:main]    0.1	Tele_nicht_eingefahren:BOOL
+14:41:05,181 [DEBUG:main]    0.1	Tele_nicht_eingefahren:BOOL
+14:41:05,181 [DEBUG:main]    0.2	Tele_ist_ausgefahren:BOOL
+14:41:05,181 [DEBUG:main]    0.2	Tele_ist_ausgefahren:BOOL
+14:41:05,181 [DEBUG:main]    0.3	Leiste_fest_frei:BOOL
+14:41:05,181 [DEBUG:main]    0.3	Leiste_fest_frei:BOOL
+14:41:05,181 [DEBUG:main]    0.4	Leiste_oben_frei:BOOL
+14:41:05,181 [DEBUG:main]    0.4	Leiste_oben_frei:BOOL
+14:41:05,181 [DEBUG:main]    0.5	Leiste_senken_frei:BOOL
+14:41:05,181 [DEBUG:main]    0.5	Leiste_senken_frei:BOOL
+14:41:05,182 [DEBUG:main]    0.6	Kette_Hubtisch_ok:BOOL
+14:41:05,182 [DEBUG:main]    0.6	Kette_Hubtisch_ok:BOOL
+14:41:05,182 [DEBUG:main]    0.7	Motorschutz_ok:BOOL
+14:41:05,182 [DEBUG:main]    0.7	Motorschutz_ok:BOOL
+14:41:05,182 [DEBUG:main]    1.0	Ventil:BOOL
+14:41:05,182 [DEBUG:main]    1.0	Ventil:BOOL
+14:41:05,182 [DEBUG:main]    1.1	Ist_unten:BOOL
+14:41:05,182 [DEBUG:main]    1.1	Ist_unten:BOOL
+14:41:05,182 [DEBUG:main] END_STRUCT DB496$3: 2
+14:41:05,182 [DEBUG:main] END_STRUCT DB496$3: 2
+14:41:05,182 [DEBUG:main] <<<< nested
+14:41:05,182 [DEBUG:main] <<<< nested
+14:41:05,183 [DEBUG:main]    6.0	Senken:DB496$3
+14:41:05,183 [DEBUG:main]    6.0	Senken:DB496$3
+14:41:05,183 [DEBUG:main]    8.0	BBU_Freigabe:BOOL
+14:41:05,183 [DEBUG:main]    8.0	BBU_Freigabe:BOOL
+14:41:05,183 [DEBUG:main] END_STRUCT DB496: 10
+14:41:05,183 [DEBUG:main] END_STRUCT DB496: 10
+14:41:05,184 [DEBUG:main] STRUCT DB495
+14:41:05,184 [DEBUG:main] STRUCT DB495
+14:41:05,185 [DEBUG:main]    0.0	Freigabe_Vorlauf:BOOL
+14:41:05,185 [DEBUG:main]    0.0	Freigabe_Vorlauf:BOOL
+14:41:05,185 [DEBUG:main]    0.1	Rueckmeldung_Achse_EX:BOOL
+14:41:05,185 [DEBUG:main]    0.1	Rueckmeldung_Achse_EX:BOOL
+14:41:05,185 [DEBUG:main]    0.2	Rueckmeldung_Achse_EY:BOOL
+14:41:05,185 [DEBUG:main]    0.2	Rueckmeldung_Achse_EY:BOOL
+14:41:05,185 [DEBUG:main]    0.3	Rueckmeldung_Achse_EZ:BOOL
+14:41:05,185 [DEBUG:main]    0.3	Rueckmeldung_Achse_EZ:BOOL
+14:41:05,185 [DEBUG:main]    0.4	Rueckmeldung_Achse_GX:BOOL
+14:41:05,185 [DEBUG:main]    0.4	Rueckmeldung_Achse_GX:BOOL
+14:41:05,185 [DEBUG:main]    0.5	Rueckmeldung_Achse_GZ:BOOL
+14:41:05,185 [DEBUG:main]    0.5	Rueckmeldung_Achse_GZ:BOOL
+14:41:05,185 [DEBUG:main]    0.6	Rueckmeldung_Achse_FZ:BOOL
+14:41:05,185 [DEBUG:main]    0.6	Rueckmeldung_Achse_FZ:BOOL
+14:41:05,186 [DEBUG:main]    0.7	Rueckmeldung_Aufl_1000ym:BOOL
+14:41:05,186 [DEBUG:main]    0.7	Rueckmeldung_Aufl_1000ym:BOOL
+14:41:05,186 [DEBUG:main]    1.0	Rueckmeldung_Aufl_100ym:BOOL
+14:41:05,186 [DEBUG:main]    1.0	Rueckmeldung_Aufl_100ym:BOOL
+14:41:05,186 [DEBUG:main]    1.1	Rueckmeldung_Aufl_10ym:BOOL
+14:41:05,186 [DEBUG:main]    1.1	Rueckmeldung_Aufl_10ym:BOOL
+14:41:05,186 [DEBUG:main]    1.2	Rueckmeldung_HandBruecke:BOOL
+14:41:05,186 [DEBUG:main]    1.2	Rueckmeldung_HandBruecke:BOOL
+14:41:05,186 [DEBUG:main]    1.3	Reserve1:BOOL
+14:41:05,186 [DEBUG:main]    1.3	Reserve1:BOOL
+14:41:05,186 [DEBUG:main]    1.4	Reserve2:BOOL
+14:41:05,186 [DEBUG:main]    1.4	Reserve2:BOOL
+14:41:05,186 [DEBUG:main]    1.5	Reserve3:BOOL
+14:41:05,186 [DEBUG:main]    1.5	Reserve3:BOOL
+14:41:05,187 [DEBUG:main]    1.6	Reserve4:BOOL
+14:41:05,187 [DEBUG:main]    1.6	Reserve4:BOOL
+14:41:05,187 [DEBUG:main]    1.7	Reserve5:BOOL
+14:41:05,187 [DEBUG:main]    1.7	Reserve5:BOOL
+14:41:05,187 [DEBUG:main]    2.0	Vorlauf_Handrad:DINT
+14:41:05,187 [DEBUG:main]    2.0	Vorlauf_Handrad:DINT
+14:41:05,187 [DEBUG:main]    6.0	Meldenummer:INT
+14:41:05,187 [DEBUG:main]    6.0	Meldenummer:INT
+14:41:05,187 [DEBUG:main] END_STRUCT DB495: 8
+14:41:05,187 [DEBUG:main] END_STRUCT DB495: 8
+14:41:05,189 [DEBUG:main] STRUCT DB494
+14:41:05,189 [DEBUG:main] STRUCT DB494
+14:41:05,189 [DEBUG:main]    0.0	Eingabe_QS_KorrekturPos:UDT24
+14:41:05,189 [DEBUG:main]    0.0	Eingabe_QS_KorrekturPos:UDT24
+14:41:05,189 [DEBUG:main]    36.0	Rueckmeldung_Achse_EX:BOOL
+14:41:05,189 [DEBUG:main]    36.0	Rueckmeldung_Achse_EX:BOOL
+14:41:05,189 [DEBUG:main]    36.1	Rueckmeldung_Achse_EY:BOOL
+14:41:05,189 [DEBUG:main]    36.1	Rueckmeldung_Achse_EY:BOOL
+14:41:05,189 [DEBUG:main]    36.2	Rueckmeldung_Achse_EZ:BOOL
+14:41:05,189 [DEBUG:main]    36.2	Rueckmeldung_Achse_EZ:BOOL
+14:41:05,190 [DEBUG:main]    36.3	Rueckmeldung_Achse_GX:BOOL
+14:41:05,190 [DEBUG:main]    36.3	Rueckmeldung_Achse_GX:BOOL
+14:41:05,190 [DEBUG:main]    36.4	Rueckmeldung_Achse_GZ:BOOL
+14:41:05,190 [DEBUG:main]    36.4	Rueckmeldung_Achse_GZ:BOOL
+14:41:05,190 [DEBUG:main]    36.5	Rueckmeldung_Achse_FZ:BOOL
+14:41:05,190 [DEBUG:main]    36.5	Rueckmeldung_Achse_FZ:BOOL
+14:41:05,190 [DEBUG:main]    36.6	Rueckmeldung_SollAnfahre:BOOL
+14:41:05,190 [DEBUG:main]    36.6	Rueckmeldung_SollAnfahre:BOOL
+14:41:05,190 [DEBUG:main]    36.7	Rueckmeldung_OffsetSetze:BOOL
+14:41:05,190 [DEBUG:main]    36.7	Rueckmeldung_OffsetSetze:BOOL
+14:41:05,190 [DEBUG:main]    37.0	Reserve1:BOOL
+14:41:05,190 [DEBUG:main]    37.0	Reserve1:BOOL
+14:41:05,190 [DEBUG:main]    37.1	Reserve2:BOOL
+14:41:05,190 [DEBUG:main]    37.1	Reserve2:BOOL
+14:41:05,191 [DEBUG:main]    37.2	Reserve3:BOOL
+14:41:05,191 [DEBUG:main]    37.2	Reserve3:BOOL
+14:41:05,191 [DEBUG:main]    37.3	Reserve4:BOOL
+14:41:05,191 [DEBUG:main]    37.3	Reserve4:BOOL
+14:41:05,191 [DEBUG:main]    37.4	Reserve5:BOOL
+14:41:05,191 [DEBUG:main]    37.4	Reserve5:BOOL
+14:41:05,191 [DEBUG:main]    37.5	Reserve6:BOOL
+14:41:05,191 [DEBUG:main]    37.5	Reserve6:BOOL
+14:41:05,191 [DEBUG:main]    37.6	Reserve7:BOOL
+14:41:05,191 [DEBUG:main]    37.6	Reserve7:BOOL
+14:41:05,191 [DEBUG:main]    37.7	Reserve8:BOOL
+14:41:05,191 [DEBUG:main]    37.7	Reserve8:BOOL
+14:41:05,191 [DEBUG:main]    38.0	Meldenummer:INT
+14:41:05,191 [DEBUG:main]    38.0	Meldenummer:INT
+14:41:05,192 [DEBUG:main] END_STRUCT DB494: 40
+14:41:05,192 [DEBUG:main] END_STRUCT DB494: 40
+14:41:05,193 [DEBUG:main] STRUCT DB493
+14:41:05,193 [DEBUG:main] STRUCT DB493
+14:41:05,193 [DEBUG:main]    0.0	Rueckmeldung_Achse_EX:BOOL
+14:41:05,193 [DEBUG:main]    0.0	Rueckmeldung_Achse_EX:BOOL
+14:41:05,193 [DEBUG:main]    0.1	Rueckmeldung_Achse_EY:BOOL
+14:41:05,193 [DEBUG:main]    0.1	Rueckmeldung_Achse_EY:BOOL
+14:41:05,193 [DEBUG:main]    0.2	Rueckmeldung_Achse_EZ:BOOL
+14:41:05,193 [DEBUG:main]    0.2	Rueckmeldung_Achse_EZ:BOOL
+14:41:05,194 [DEBUG:main]    0.3	Rueckmeldung_Achse_GX:BOOL
+14:41:05,194 [DEBUG:main]    0.3	Rueckmeldung_Achse_GX:BOOL
+14:41:05,194 [DEBUG:main]    0.4	Rueckmeldung_Achse_GZ:BOOL
+14:41:05,194 [DEBUG:main]    0.4	Rueckmeldung_Achse_GZ:BOOL
+14:41:05,194 [DEBUG:main]    0.5	Rueckmeldung_Achse_FZ:BOOL
+14:41:05,194 [DEBUG:main]    0.5	Rueckmeldung_Achse_FZ:BOOL
+14:41:05,194 [DEBUG:main]    0.6	Freigabe_ReferenzSetzen:BOOL
+14:41:05,194 [DEBUG:main]    0.6	Freigabe_ReferenzSetzen:BOOL
+14:41:05,194 [DEBUG:main]    0.7	Reserve1:BOOL
+14:41:05,194 [DEBUG:main]    0.7	Reserve1:BOOL
+14:41:05,194 [DEBUG:main]    1.0	Reserve2:BOOL
+14:41:05,194 [DEBUG:main]    1.0	Reserve2:BOOL
+14:41:05,195 [DEBUG:main]    1.1	Reserve3:BOOL
+14:41:05,195 [DEBUG:main]    1.1	Reserve3:BOOL
+14:41:05,195 [DEBUG:main]    1.2	Reserve4:BOOL
+14:41:05,195 [DEBUG:main]    1.2	Reserve4:BOOL
+14:41:05,195 [DEBUG:main]    1.3	Reserve5:BOOL
+14:41:05,195 [DEBUG:main]    1.3	Reserve5:BOOL
+14:41:05,195 [DEBUG:main]    1.4	Reserve6:BOOL
+14:41:05,195 [DEBUG:main]    1.4	Reserve6:BOOL
+14:41:05,195 [DEBUG:main]    1.5	Reserve7:BOOL
+14:41:05,195 [DEBUG:main]    1.5	Reserve7:BOOL
+14:41:05,195 [DEBUG:main]    1.6	Reserve8:BOOL
+14:41:05,195 [DEBUG:main]    1.6	Reserve8:BOOL
+14:41:05,195 [DEBUG:main]    1.7	Reserve9:BOOL
+14:41:05,195 [DEBUG:main]    1.7	Reserve9:BOOL
+14:41:05,196 [DEBUG:main]    2.0	Meldenummer:INT
+14:41:05,196 [DEBUG:main]    2.0	Meldenummer:INT
+14:41:05,196 [DEBUG:main] END_STRUCT DB493: 4
+14:41:05,196 [DEBUG:main] END_STRUCT DB493: 4
+14:41:05,197 [DEBUG:main] STRUCT DB492
+14:41:05,197 [DEBUG:main] STRUCT DB492
+14:41:05,197 [DEBUG:main]    0.0	Sollweg_Eingabe:DINT
+14:41:05,197 [DEBUG:main]    0.0	Sollweg_Eingabe:DINT
+14:41:05,197 [DEBUG:main]    4.0	Sollweg_Ausgabe:DINT
+14:41:05,197 [DEBUG:main]    4.0	Sollweg_Ausgabe:DINT
+14:41:05,197 [DEBUG:main]    8.0	Rueckmeldung_Achse_EX:BOOL
+14:41:05,197 [DEBUG:main]    8.0	Rueckmeldung_Achse_EX:BOOL
+14:41:05,197 [DEBUG:main]    8.1	Rueckmeldung_Achse_EY:BOOL
+14:41:05,197 [DEBUG:main]    8.1	Rueckmeldung_Achse_EY:BOOL
+14:41:05,197 [DEBUG:main]    8.2	Rueckmeldung_Achse_EZ:BOOL
+14:41:05,197 [DEBUG:main]    8.2	Rueckmeldung_Achse_EZ:BOOL
+14:41:05,198 [DEBUG:main]    8.3	Rueckmeldung_Achse_GX:BOOL
+14:41:05,198 [DEBUG:main]    8.3	Rueckmeldung_Achse_GX:BOOL
+14:41:05,198 [DEBUG:main]    8.4	Rueckmeldung_Achse_GZ:BOOL
+14:41:05,198 [DEBUG:main]    8.4	Rueckmeldung_Achse_GZ:BOOL
+14:41:05,198 [DEBUG:main]    8.5	Rueckmeldung_Achse_FZ:BOOL
+14:41:05,198 [DEBUG:main]    8.5	Rueckmeldung_Achse_FZ:BOOL
+14:41:05,198 [DEBUG:main]    8.6	Freigabe_RelativerWeg:BOOL
+14:41:05,198 [DEBUG:main]    8.6	Freigabe_RelativerWeg:BOOL
+14:41:05,198 [DEBUG:main]    10.0	Meldenummer:INT
+14:41:05,198 [DEBUG:main]    10.0	Meldenummer:INT
+14:41:05,198 [DEBUG:main] END_STRUCT DB492: 12
+14:41:05,198 [DEBUG:main] END_STRUCT DB492: 12
+14:41:05,199 [DEBUG:main] STRUCT DB491
+14:41:05,199 [DEBUG:main] STRUCT DB491
+14:41:05,199 [DEBUG:main]    0.0	Saeule_E_Geloest:BOOL
+14:41:05,199 [DEBUG:main]    0.0	Saeule_E_Geloest:BOOL
+14:41:05,200 [DEBUG:main]    0.1	Saeule_G_Geloest:BOOL
+14:41:05,200 [DEBUG:main]    0.1	Saeule_G_Geloest:BOOL
+14:41:05,200 [DEBUG:main]    0.2	Saeule_F_Geloest:BOOL
+14:41:05,200 [DEBUG:main]    0.2	Saeule_F_Geloest:BOOL
+14:41:05,200 [DEBUG:main]    0.3	Saeule_E_Fixiert:BOOL
+14:41:05,200 [DEBUG:main]    0.3	Saeule_E_Fixiert:BOOL
+14:41:05,200 [DEBUG:main]    0.4	Saeule_G_Fixiert:BOOL
+14:41:05,200 [DEBUG:main]    0.4	Saeule_G_Fixiert:BOOL
+14:41:05,200 [DEBUG:main]    0.5	Saeule_F_Fixiert:BOOL
+14:41:05,200 [DEBUG:main]    0.5	Saeule_F_Fixiert:BOOL
+14:41:05,200 [DEBUG:main]    0.6	Rueckmeldung_Achse_E:BOOL
+14:41:05,200 [DEBUG:main]    0.6	Rueckmeldung_Achse_E:BOOL
+14:41:05,200 [DEBUG:main]    0.7	Rueckmeldung_Achse_G:BOOL
+14:41:05,200 [DEBUG:main]    0.7	Rueckmeldung_Achse_G:BOOL
+14:41:05,201 [DEBUG:main]    1.0	Rueckmeldung_Achse_F:BOOL
+14:41:05,201 [DEBUG:main]    1.0	Rueckmeldung_Achse_F:BOOL
+14:41:05,201 [DEBUG:main]    1.1	Rueckmeldung_Aufschwenke:BOOL
+14:41:05,201 [DEBUG:main]    1.1	Rueckmeldung_Aufschwenke:BOOL
+14:41:05,201 [DEBUG:main]    1.2	Rueckmeldung_Abschwenken:BOOL
+14:41:05,201 [DEBUG:main]    1.2	Rueckmeldung_Abschwenken:BOOL
+14:41:05,201 [DEBUG:main]    2.0	Meldenummer:INT
+14:41:05,201 [DEBUG:main]    2.0	Meldenummer:INT
+14:41:05,201 [DEBUG:main] END_STRUCT DB491: 4
+14:41:05,201 [DEBUG:main] END_STRUCT DB491: 4
+14:41:05,202 [DEBUG:main] STRUCT DB490
+14:41:05,202 [DEBUG:main] STRUCT DB490
+14:41:05,202 [DEBUG:main]    0.0	Trigger:BOOL
+14:41:05,202 [DEBUG:main]    0.0	Trigger:BOOL
+14:41:05,202 [DEBUG:main]    2.0	Messageindex: ARRAY[12] OF INT
+14:41:05,202 [DEBUG:main]    2.0	Messageindex: ARRAY[12] OF INT
+14:41:05,202 [DEBUG:main] END_STRUCT DB490: 26
+14:41:05,202 [DEBUG:main] END_STRUCT DB490: 26
+14:41:05,202 [DEBUG:main] Error found in lexical subblk declaration for DB9:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,202 [DEBUG:main] Error found in lexical subblk declaration for DB9:org.jpac.plc.s7.symaddr.parser.ParserException: [1,1] expecting: structsym, varsym
+14:41:05,203 [DEBUG:main] STRUCT DB3
+14:41:05,203 [DEBUG:main] STRUCT DB3
+14:41:05,203 [DEBUG:main]    0.0	PiezosensorZ1:WORD
+14:41:05,203 [DEBUG:main]    0.0	PiezosensorZ1:WORD
+14:41:05,231 [DEBUG:main]    2.0	PiezosensorZ3:WORD
+14:41:05,231 [DEBUG:main]    2.0	PiezosensorZ3:WORD
+14:41:05,231 [DEBUG:main]    4.0	PiezosensorX3:WORD
+14:41:05,231 [DEBUG:main]    4.0	PiezosensorX3:WORD
+14:41:05,232 [DEBUG:main]    6.0	PiezosensorY3:WORD
+14:41:05,232 [DEBUG:main]    6.0	PiezosensorY3:WORD
+14:41:05,232 [DEBUG:main] END_STRUCT DB3: 8
+14:41:05,232 [DEBUG:main] END_STRUCT DB3: 8
+14:41:05,232 [DEBUG:main] STRUCT DB2
+14:41:05,232 [DEBUG:main] STRUCT DB2
+14:41:05,233 [DEBUG:main]    0.0	AntriebX1:INT
+14:41:05,233 [DEBUG:main]    0.0	AntriebX1:INT
+14:41:05,233 [DEBUG:main]    2.0	AntriebX2:INT
+14:41:05,233 [DEBUG:main]    2.0	AntriebX2:INT
+14:41:05,233 [DEBUG:main]    4.0	AntriebY:INT
+14:41:05,233 [DEBUG:main]    4.0	AntriebY:INT
+14:41:05,233 [DEBUG:main]    6.0	AntriebZ1:INT
+14:41:05,233 [DEBUG:main]    6.0	AntriebZ1:INT
+14:41:05,233 [DEBUG:main]    8.0	AntriebZ2:INT
+14:41:05,233 [DEBUG:main]    8.0	AntriebZ2:INT
+14:41:05,233 [DEBUG:main]    10.0	AntriebZ3:INT
+14:41:05,233 [DEBUG:main]    10.0	AntriebZ3:INT
+14:41:05,233 [DEBUG:main] END_STRUCT DB2: 12
+14:41:05,233 [DEBUG:main] END_STRUCT DB2: 12
+14:41:05,240 [DEBUG:main] STRUCT DB1
+14:41:05,240 [DEBUG:main] STRUCT DB1
+14:41:05,241 [DEBUG:main]    0.0	MaxEbene:INT
+14:41:05,241 [DEBUG:main]    0.0	MaxEbene:INT
+14:41:05,241 [DEBUG:main]    2.0	TimeoutCmdHandling:TIME
+14:41:05,241 [DEBUG:main]    2.0	TimeoutCmdHandling:TIME
+14:41:05,241 [DEBUG:main]    6.0	StartPicture:INT
+14:41:05,241 [DEBUG:main]    6.0	StartPicture:INT
+14:41:05,241 [DEBUG:main]    8.0	DauerSignalAnfahrwarnung:S5TIME
+14:41:05,241 [DEBUG:main]    8.0	DauerSignalAnfahrwarnung:S5TIME
+14:41:05,241 [DEBUG:main]    10.0	DauerSignalZielerreich:S5TIME
+14:41:05,241 [DEBUG:main]    10.0	DauerSignalZielerreich:S5TIME
+14:41:05,241 [DEBUG:main]    12.0	DauerPauseZielerreich:S5TIME
+14:41:05,241 [DEBUG:main]    12.0	DauerPauseZielerreich:S5TIME
+14:41:05,242 [DEBUG:main]    14.0	DauerNachlaufAntriebe:TIME
+14:41:05,242 [DEBUG:main]    14.0	DauerNachlaufAntriebe:TIME
+14:41:05,242 [DEBUG:main]    18.0	DauerSimCmd:TIME
+14:41:05,242 [DEBUG:main]    18.0	DauerSimCmd:TIME
+14:41:05,242 [DEBUG:main]    22.0	vGGPosbetrieb1X:DINT
+14:41:05,242 [DEBUG:main]    22.0	vGGPosbetrieb1X:DINT
+14:41:05,242 [DEBUG:main]    26.0	vGGPosbetrieb2X:DINT
+14:41:05,242 [DEBUG:main]    26.0	vGGPosbetrieb2X:DINT
+14:41:05,242 [DEBUG:main]    30.0	Res02:DINT
+14:41:05,242 [DEBUG:main]    30.0	Res02:DINT
+14:41:05,242 [DEBUG:main]    34.0	vGGPosbetrieb1Y:DINT
+14:41:05,242 [DEBUG:main]    34.0	vGGPosbetrieb1Y:DINT
+14:41:05,242 [DEBUG:main]    38.0	vGGPosbetrieb2Y:DINT
+14:41:05,242 [DEBUG:main]    38.0	vGGPosbetrieb2Y:DINT
+14:41:05,242 [DEBUG:main]    42.0	Res04:DINT
+14:41:05,242 [DEBUG:main]    42.0	Res04:DINT
+14:41:05,243 [DEBUG:main]    46.0	vGGPosbetrieb1Z:DINT
+14:41:05,243 [DEBUG:main]    46.0	vGGPosbetrieb1Z:DINT
+14:41:05,243 [DEBUG:main]    50.0	vGGPosbetrieb2Z:DINT
+14:41:05,243 [DEBUG:main]    50.0	vGGPosbetrieb2Z:DINT
+14:41:05,243 [DEBUG:main]    54.0	Res06:DINT
+14:41:05,243 [DEBUG:main]    54.0	Res06:DINT
+14:41:05,243 [DEBUG:main]    58.0	aGGPosbetriebX:DINT
+14:41:05,243 [DEBUG:main]    58.0	aGGPosbetriebX:DINT
+14:41:05,243 [DEBUG:main]    62.0	aGGPosbetriebY:DINT
+14:41:05,243 [DEBUG:main]    62.0	aGGPosbetriebY:DINT
+14:41:05,243 [DEBUG:main]    66.0	aGGPosbetriebZ:DINT
+14:41:05,243 [DEBUG:main]    66.0	aGGPosbetriebZ:DINT
+14:41:05,243 [DEBUG:main]    70.0	vAGPosbetriebX:DINT
+14:41:05,243 [DEBUG:main]    70.0	vAGPosbetriebX:DINT
+14:41:05,243 [DEBUG:main]    74.0	Res07:DINT
+14:41:05,243 [DEBUG:main]    74.0	Res07:DINT
+14:41:05,244 [DEBUG:main]    78.0	Res08:DINT
+14:41:05,244 [DEBUG:main]    78.0	Res08:DINT
+14:41:05,244 [DEBUG:main]    82.0	vAGPosbetriebY:DINT
+14:41:05,244 [DEBUG:main]    82.0	vAGPosbetriebY:DINT
+14:41:05,244 [DEBUG:main]    86.0	Res09:DINT
+14:41:05,244 [DEBUG:main]    86.0	Res09:DINT
+14:41:05,244 [DEBUG:main]    90.0	Res10:DINT
+14:41:05,244 [DEBUG:main]    90.0	Res10:DINT
+14:41:05,244 [DEBUG:main]    94.0	vAGPosbetriebZ:DINT
+14:41:05,244 [DEBUG:main]    94.0	vAGPosbetriebZ:DINT
+14:41:05,244 [DEBUG:main]    98.0	Res11:DINT
+14:41:05,244 [DEBUG:main]    98.0	Res11:DINT
+14:41:05,244 [DEBUG:main]    102.0	Res12:DINT
+14:41:05,244 [DEBUG:main]    102.0	Res12:DINT
+14:41:05,244 [DEBUG:main]    106.0	aAGPosbetriebX:DINT
+14:41:05,244 [DEBUG:main]    106.0	aAGPosbetriebX:DINT
+14:41:05,245 [DEBUG:main]    110.0	aAGPosbetriebY:DINT
+14:41:05,245 [DEBUG:main]    110.0	aAGPosbetriebY:DINT
+14:41:05,245 [DEBUG:main]    114.0	aAGPosbetriebZ:DINT
+14:41:05,245 [DEBUG:main]    114.0	aAGPosbetriebZ:DINT
+14:41:05,245 [DEBUG:main]    118.0	vSGPosbetrieb1X:DINT
+14:41:05,245 [DEBUG:main]    118.0	vSGPosbetrieb1X:DINT
+14:41:05,245 [DEBUG:main]    122.0	vSGPosbetrieb2X:DINT
+14:41:05,245 [DEBUG:main]    122.0	vSGPosbetrieb2X:DINT
+14:41:05,245 [DEBUG:main]    126.0	Res14:DINT
+14:41:05,245 [DEBUG:main]    126.0	Res14:DINT
+14:41:05,245 [DEBUG:main]    130.0	vSGPosbetrieb1Y:DINT
+14:41:05,245 [DEBUG:main]    130.0	vSGPosbetrieb1Y:DINT
+14:41:05,245 [DEBUG:main]    134.0	vSGPosbetrieb2Y:DINT
+14:41:05,245 [DEBUG:main]    134.0	vSGPosbetrieb2Y:DINT
+14:41:05,246 [DEBUG:main]    138.0	Res16:DINT
+14:41:05,246 [DEBUG:main]    138.0	Res16:DINT
+14:41:05,246 [DEBUG:main]    142.0	vSGPosbetrieb1Z:DINT
+14:41:05,246 [DEBUG:main]    142.0	vSGPosbetrieb1Z:DINT
+14:41:05,246 [DEBUG:main]    146.0	vSGPosbetrieb2Z:DINT
+14:41:05,246 [DEBUG:main]    146.0	vSGPosbetrieb2Z:DINT
+14:41:05,246 [DEBUG:main]    150.0	Res18:DINT
+14:41:05,246 [DEBUG:main]    150.0	Res18:DINT
+14:41:05,246 [DEBUG:main]    154.0	aSGPosbetriebX:DINT
+14:41:05,246 [DEBUG:main]    154.0	aSGPosbetriebX:DINT
+14:41:05,246 [DEBUG:main]    158.0	aSGPosbetriebY:DINT
+14:41:05,246 [DEBUG:main]    158.0	aSGPosbetriebY:DINT
+14:41:05,246 [DEBUG:main]    162.0	aSGPosbetriebZ:DINT
+14:41:05,246 [DEBUG:main]    162.0	aSGPosbetriebZ:DINT
+14:41:05,246 [DEBUG:main]    166.0	vLUPosbetriebX:DINT
+14:41:05,246 [DEBUG:main]    166.0	vLUPosbetriebX:DINT
+14:41:05,247 [DEBUG:main]    170.0	Res19:DINT
+14:41:05,247 [DEBUG:main]    170.0	Res19:DINT
+14:41:05,247 [DEBUG:main]    174.0	Res20:DINT
+14:41:05,247 [DEBUG:main]    174.0	Res20:DINT
+14:41:05,247 [DEBUG:main]    178.0	vLUPosbetriebY:DINT
+14:41:05,247 [DEBUG:main]    178.0	vLUPosbetriebY:DINT
+14:41:05,266 [DEBUG:main]    182.0	Res21:DINT
+14:41:05,266 [DEBUG:main]    182.0	Res21:DINT
+14:41:05,266 [DEBUG:main]    186.0	Res22:DINT
+14:41:05,266 [DEBUG:main]    186.0	Res22:DINT
+14:41:05,267 [DEBUG:main]    190.0	vLUPosbetriebZ:DINT
+14:41:05,267 [DEBUG:main]    190.0	vLUPosbetriebZ:DINT
+14:41:05,267 [DEBUG:main]    194.0	Res23:DINT
+14:41:05,267 [DEBUG:main]    194.0	Res23:DINT
+14:41:05,267 [DEBUG:main]    198.0	Res24:DINT
+14:41:05,267 [DEBUG:main]    198.0	Res24:DINT
+14:41:05,267 [DEBUG:main]    202.0	aLUPosbetriebX:DINT
+14:41:05,267 [DEBUG:main]    202.0	aLUPosbetriebX:DINT
+14:41:05,267 [DEBUG:main]    206.0	aLUPosbetriebY:DINT
+14:41:05,267 [DEBUG:main]    206.0	aLUPosbetriebY:DINT
+14:41:05,267 [DEBUG:main]    210.0	aLUPosbetriebZ:DINT
+14:41:05,267 [DEBUG:main]    210.0	aLUPosbetriebZ:DINT
+14:41:05,268 [DEBUG:main]    214.0	vHRPosbetrieb1X:DINT
+14:41:05,268 [DEBUG:main]    214.0	vHRPosbetrieb1X:DINT
+14:41:05,268 [DEBUG:main]    218.0	vHRPosbetrieb2X:DINT
+14:41:05,268 [DEBUG:main]    218.0	vHRPosbetrieb2X:DINT
+14:41:05,268 [DEBUG:main]    222.0	Res25:DINT
+14:41:05,268 [DEBUG:main]    222.0	Res25:DINT
+14:41:05,268 [DEBUG:main]    226.0	vHRPosbetrieb1Y:DINT
+14:41:05,268 [DEBUG:main]    226.0	vHRPosbetrieb1Y:DINT
+14:41:05,268 [DEBUG:main]    230.0	vHRPosbetrieb2Y:DINT
+14:41:05,268 [DEBUG:main]    230.0	vHRPosbetrieb2Y:DINT
+14:41:05,268 [DEBUG:main]    234.0	Res26:DINT
+14:41:05,268 [DEBUG:main]    234.0	Res26:DINT
+14:41:05,268 [DEBUG:main]    238.0	vHRPosbetrieb1Z:DINT
+14:41:05,268 [DEBUG:main]    238.0	vHRPosbetrieb1Z:DINT
+14:41:05,268 [DEBUG:main]    242.0	vHRPosbetrieb2Z:DINT
+14:41:05,268 [DEBUG:main]    242.0	vHRPosbetrieb2Z:DINT
+14:41:05,268 [DEBUG:main]    246.0	Res27:DINT
+14:41:05,268 [DEBUG:main]    246.0	Res27:DINT
+14:41:05,268 [DEBUG:main]    250.0	aHRPosbetriebX:DINT
+14:41:05,268 [DEBUG:main]    250.0	aHRPosbetriebX:DINT
+14:41:05,268 [DEBUG:main]    254.0	aHRPosbetriebY:DINT
+14:41:05,268 [DEBUG:main]    254.0	aHRPosbetriebY:DINT
+14:41:05,269 [DEBUG:main]    258.0	aHRPosbetriebZ:DINT
+14:41:05,269 [DEBUG:main]    258.0	aHRPosbetriebZ:DINT
+14:41:05,269 [DEBUG:main]    262.0	AufloesungHandrad1:DINT
+14:41:05,269 [DEBUG:main]    262.0	AufloesungHandrad1:DINT
+14:41:05,269 [DEBUG:main]    266.0	AufloesungHandrad2:DINT
+14:41:05,269 [DEBUG:main]    266.0	AufloesungHandrad2:DINT
+14:41:05,269 [DEBUG:main]    270.0	AufloesungHandrad3:DINT
+14:41:05,269 [DEBUG:main]    270.0	AufloesungHandrad3:DINT
+14:41:05,269 [DEBUG:main]    274.0	vOverTippbetrieb1X:INT
+14:41:05,269 [DEBUG:main]    274.0	vOverTippbetrieb1X:INT
+14:41:05,269 [DEBUG:main]    276.0	vOverTippbetrieb2X:INT
+14:41:05,269 [DEBUG:main]    276.0	vOverTippbetrieb2X:INT
+14:41:05,269 [DEBUG:main]    278.0	vOverTippbetrieb3X:INT
+14:41:05,269 [DEBUG:main]    278.0	vOverTippbetrieb3X:INT
+14:41:05,269 [DEBUG:main]    280.0	vOverTippbetrieb1Y:INT
+14:41:05,269 [DEBUG:main]    280.0	vOverTippbetrieb1Y:INT
+14:41:05,269 [DEBUG:main]    282.0	vOverTippbetrieb2Y:INT
+14:41:05,269 [DEBUG:main]    282.0	vOverTippbetrieb2Y:INT
+14:41:05,269 [DEBUG:main]    284.0	vOverTippbetrieb3Y:INT
+14:41:05,269 [DEBUG:main]    284.0	vOverTippbetrieb3Y:INT
+14:41:05,269 [DEBUG:main]    286.0	vOverTippbetrieb1Z:INT
+14:41:05,269 [DEBUG:main]    286.0	vOverTippbetrieb1Z:INT
+14:41:05,269 [DEBUG:main]    288.0	vOverTippbetrieb2Z:INT
+14:41:05,269 [DEBUG:main]    288.0	vOverTippbetrieb2Z:INT
+14:41:05,269 [DEBUG:main]    290.0	vOverTippbetrieb3Z:INT
+14:41:05,269 [DEBUG:main]    290.0	vOverTippbetrieb3Z:INT
+14:41:05,270 [DEBUG:main]    292.0	StreckeLastuebernahmeZ:DINT
+14:41:05,270 [DEBUG:main]    292.0	StreckeLastuebernahmeZ:DINT
+14:41:05,270 [DEBUG:main]    296.0	SpanAbsolutGeber:REAL
+14:41:05,270 [DEBUG:main]    296.0	SpanAbsolutGeber:REAL
+14:41:05,270 [DEBUG:main]    300.0	OffsetAbsolutGeber:DINT
+14:41:05,270 [DEBUG:main]    300.0	OffsetAbsolutGeber:DINT
+14:41:05,270 [DEBUG:main]    304.0	MaxDGDifferenzX:DINT
+14:41:05,270 [DEBUG:main]    304.0	MaxDGDifferenzX:DINT
+14:41:05,270 [DEBUG:main]    308.0	MaxDifferenzDauerX:S5TIME
+14:41:05,270 [DEBUG:main]    308.0	MaxDifferenzDauerX:S5TIME
+14:41:05,270 [DEBUG:main]    310.0	XFangbereich:DINT
+14:41:05,270 [DEBUG:main]    310.0	XFangbereich:DINT
+14:41:05,270 [DEBUG:main]    314.0	YFangbereich:DINT
+14:41:05,270 [DEBUG:main]    314.0	YFangbereich:DINT
+14:41:05,270 [DEBUG:main]    318.0	ZFangbereich:DINT
+14:41:05,270 [DEBUG:main]    318.0	ZFangbereich:DINT
+14:41:05,270 [DEBUG:main]    322.0	v100ProAchsenX:DINT
+14:41:05,270 [DEBUG:main]    322.0	v100ProAchsenX:DINT
+14:41:05,270 [DEBUG:main]    326.0	v100ProAchsenY:DINT
+14:41:05,270 [DEBUG:main]    326.0	v100ProAchsenY:DINT
+14:41:05,270 [DEBUG:main]    330.0	v100ProAchsenZ:DINT
+14:41:05,270 [DEBUG:main]    330.0	v100ProAchsenZ:DINT
+14:41:05,270 [DEBUG:main]    334.0	AliveTimeout:S5TIME
+14:41:05,270 [DEBUG:main]    334.0	AliveTimeout:S5TIME
+14:41:05,271 [DEBUG:main]    336.0	MaxHandradVorlaufStriche:INT
+14:41:05,271 [DEBUG:main]    336.0	MaxHandradVorlaufStriche:INT
+14:41:05,271 [DEBUG:main]    338.0	Fluegelwagen:INT
+14:41:05,271 [DEBUG:main]    338.0	Fluegelwagen:INT
+14:41:05,271 [DEBUG:main]    340.0	NoniusNull:UDT24
+14:41:05,271 [DEBUG:main]    340.0	NoniusNull:UDT24
+14:41:05,271 [DEBUG:main]    376.0	Maximalpositionen:UDT24
+14:41:05,271 [DEBUG:main]    376.0	Maximalpositionen:UDT24
+14:41:05,271 [DEBUG:main]    412.0	Minimalpositionen:UDT24
+14:41:05,271 [DEBUG:main]    412.0	Minimalpositionen:UDT24
+14:41:05,271 [DEBUG:main]    448.0	TimeoutHand:S5TIME
+14:41:05,271 [DEBUG:main]    448.0	TimeoutHand:S5TIME
+14:41:05,271 [DEBUG:main]    450.0	MaximalerRelativweg:DINT
+14:41:05,271 [DEBUG:main]    450.0	MaximalerRelativweg:DINT
+14:41:05,271 [DEBUG:main]    454.0	MinimalerRelativweg:DINT
+14:41:05,271 [DEBUG:main]    454.0	MinimalerRelativweg:DINT
+14:41:05,271 [DEBUG:main]    458.0	Z1Z_Max_Toleranz:DINT
+14:41:05,271 [DEBUG:main]    458.0	Z1Z_Max_Toleranz:DINT
+14:41:05,271 [DEBUG:main]    462.0	Z3X_Max_Toleranz:DINT
+14:41:05,271 [DEBUG:main]    462.0	Z3X_Max_Toleranz:DINT
+14:41:05,271 [DEBUG:main]    466.0	Z3Y_Max_Toleranz:DINT
+14:41:05,271 [DEBUG:main]    466.0	Z3Y_Max_Toleranz:DINT
+14:41:05,289 [DEBUG:main]    470.0	Z3Z_Max_Toleranz:DINT
+14:41:05,289 [DEBUG:main]    470.0	Z3Z_Max_Toleranz:DINT
+14:41:05,289 [DEBUG:main]    474.0	DauerVerzoegLastabschalt:S5TIME
+14:41:05,289 [DEBUG:main]    474.0	DauerVerzoegLastabschalt:S5TIME
+14:41:05,289 [DEBUG:main]    476.0	MaxGLDiffX:DINT
+14:41:05,289 [DEBUG:main]    476.0	MaxGLDiffX:DINT
+14:41:05,289 [DEBUG:main]    480.0	MaxGLDiffZ:DINT
+14:41:05,289 [DEBUG:main]    480.0	MaxGLDiffZ:DINT
+14:41:05,289 [DEBUG:main]    484.0	MaxGLStreckenDiff:DINT
+14:41:05,289 [DEBUG:main]    484.0	MaxGLStreckenDiff:DINT
+14:41:05,290 [DEBUG:main] END_STRUCT DB1: 488
+14:41:05,290 [DEBUG:main] END_STRUCT DB1: 488
+14:41:05,290 [DEBUG:main] STRUCT UDT10
+14:41:05,290 [DEBUG:main] STRUCT UDT10
+14:41:05,290 [DEBUG:main]    0.0	Sub: ARRAY[4] OF INT
+14:41:05,290 [DEBUG:main]    0.0	Sub: ARRAY[4] OF INT
+14:41:05,290 [DEBUG:main] END_STRUCT UDT10: 8
+14:41:05,290 [DEBUG:main] END_STRUCT UDT10: 8
+14:41:05,290 [DEBUG:main] STRUCT DB2006
+14:41:05,290 [DEBUG:main] STRUCT DB2006
+14:41:05,290 [DEBUG:main]    0.0	leererState:UDT10
+14:41:05,290 [DEBUG:main]    0.0	leererState:UDT10
+14:41:05,291 [DEBUG:main]    8.0	SequencerCallstack: ARRAY[4] OF UDT10
+14:41:05,291 [DEBUG:main]    8.0	SequencerCallstack: ARRAY[4] OF UDT10
+14:41:05,291 [DEBUG:main]    40.0	BildnummerSoll:INT
+14:41:05,291 [DEBUG:main]    40.0	BildnummerSoll:INT
+14:41:05,291 [DEBUG:main]    42.0	BildnummerIst:INT
+14:41:05,291 [DEBUG:main]    42.0	BildnummerIst:INT
+14:41:05,291 [DEBUG:main] END_STRUCT DB2006: 44
+14:41:05,291 [DEBUG:main] END_STRUCT DB2006: 44
+14:41:05,291 [DEBUG:main] STRUCT DB2005
+14:41:05,291 [DEBUG:main] STRUCT DB2005
+14:41:05,291 [DEBUG:main]    0.0	leererState:UDT10
+14:41:05,291 [DEBUG:main]    0.0	leererState:UDT10
+14:41:05,291 [DEBUG:main]    8.0	SequencerCallstack: ARRAY[4] OF UDT10
+14:41:05,291 [DEBUG:main]    8.0	SequencerCallstack: ARRAY[4] OF UDT10
+14:41:05,292 [DEBUG:main]    40.0	BildnummerSoll:INT
+14:41:05,292 [DEBUG:main]    40.0	BildnummerSoll:INT
+14:41:05,292 [DEBUG:main]    42.0	BildnummerIst:INT
+14:41:05,292 [DEBUG:main]    42.0	BildnummerIst:INT
+14:41:05,292 [DEBUG:main] END_STRUCT DB2005: 44
+14:41:05,292 [DEBUG:main] END_STRUCT DB2005: 44
+14:41:05,292 [DEBUG:main] STRUCT DB1000
+14:41:05,292 [DEBUG:main] STRUCT DB1000
+14:41:05,293 [DEBUG:main] >>>> nested
+14:41:05,293 [DEBUG:main] >>>> nested
+14:41:05,293 [DEBUG:main] STRUCT DB1000$0
+14:41:05,293 [DEBUG:main] STRUCT DB1000$0
+14:41:05,293 [DEBUG:main]    0.0	BefehlAuf: ARRAY[3] OF BOOL
+14:41:05,293 [DEBUG:main]    0.0	BefehlAuf: ARRAY[3] OF BOOL
+14:41:05,293 [DEBUG:main]    2.0	BefehlAb: ARRAY[3] OF BOOL
+14:41:05,293 [DEBUG:main]    2.0	BefehlAb: ARRAY[3] OF BOOL
+14:41:05,293 [DEBUG:main]    4.0	BefehlStopp: ARRAY[3] OF BOOL
+14:41:05,293 [DEBUG:main]    4.0	BefehlStopp: ARRAY[3] OF BOOL
+14:41:05,293 [DEBUG:main]    6.0	Timeout:TIME
+14:41:05,293 [DEBUG:main]    6.0	Timeout:TIME
+14:41:05,293 [DEBUG:main] END_STRUCT DB1000$0: 10
+14:41:05,293 [DEBUG:main] END_STRUCT DB1000$0: 10
+14:41:05,293 [DEBUG:main] <<<< nested
+14:41:05,293 [DEBUG:main] <<<< nested
+14:41:05,293 [DEBUG:main]    0.0	DrivePillars:DB1000$0
+14:41:05,293 [DEBUG:main]    0.0	DrivePillars:DB1000$0
+14:41:05,293 [DEBUG:main] >>>> nested
+14:41:05,293 [DEBUG:main] >>>> nested
+14:41:05,293 [DEBUG:main] STRUCT DB1000$1
+14:41:05,293 [DEBUG:main] STRUCT DB1000$1
+14:41:05,294 [DEBUG:main]    0.0	BefehlFix:BOOL
+14:41:05,294 [DEBUG:main]    0.0	BefehlFix:BOOL
+14:41:05,294 [DEBUG:main]    0.1	BefehlLoesen:BOOL
+14:41:05,294 [DEBUG:main]    0.1	BefehlLoesen:BOOL
+14:41:05,294 [DEBUG:main]    0.2	BefehlStopp:BOOL
+14:41:05,294 [DEBUG:main]    0.2	BefehlStopp:BOOL
+14:41:05,294 [DEBUG:main]    2.0	Timeout:TIME
+14:41:05,294 [DEBUG:main]    2.0	Timeout:TIME
+14:41:05,294 [DEBUG:main] END_STRUCT DB1000$1: 6
+14:41:05,294 [DEBUG:main] END_STRUCT DB1000$1: 6
+14:41:05,294 [DEBUG:main] <<<< nested
+14:41:05,294 [DEBUG:main] <<<< nested
+14:41:05,294 [DEBUG:main]    10.0	LockPillars:DB1000$1
+14:41:05,294 [DEBUG:main]    10.0	LockPillars:DB1000$1
+14:41:05,294 [DEBUG:main] END_STRUCT DB1000: 16
+14:41:05,294 [DEBUG:main] END_STRUCT DB1000: 16
+14:41:05,295 [DEBUG:main] STRUCT DB125
+14:41:05,295 [DEBUG:main] STRUCT DB125
+14:41:05,295 [DEBUG:main]    0.0	DATA_FIELD: ARRAY[50] OF BYTE
+14:41:05,295 [DEBUG:main]    0.0	DATA_FIELD: ARRAY[50] OF BYTE
+14:41:05,295 [DEBUG:main]    50.0	SUM_SLAVES_DIAG:INT
+14:41:05,295 [DEBUG:main]    50.0	SUM_SLAVES_DIAG:INT
+14:41:05,295 [DEBUG:main]    52.0	LIST_SLAVES_NOT_PRESENT: ARRAY[128] OF BOOL
+14:41:05,295 [DEBUG:main]    52.0	LIST_SLAVES_NOT_PRESENT: ARRAY[128] OF BOOL
+14:41:05,295 [DEBUG:main]    68.0	LIST_SLAVES_ERROR: ARRAY[128] OF BOOL
+14:41:05,295 [DEBUG:main]    68.0	LIST_SLAVES_ERROR: ARRAY[128] OF BOOL
+14:41:05,295 [DEBUG:main]    84.0	RETVAL:INT
+14:41:05,295 [DEBUG:main]    84.0	RETVAL:INT
+14:41:05,295 [DEBUG:main]    86.0	BUSY:BOOL
+14:41:05,295 [DEBUG:main]    86.0	BUSY:BOOL
+14:41:05,296 [DEBUG:main] END_STRUCT DB125: 88
+14:41:05,296 [DEBUG:main] END_STRUCT DB125: 88
+14:41:05,296 [DEBUG:main] STRUCT DB2004
+14:41:05,296 [DEBUG:main] STRUCT DB2004
+14:41:05,296 [DEBUG:main]    0.0	leererState:UDT10
+14:41:05,296 [DEBUG:main]    0.0	leererState:UDT10
+14:41:05,296 [DEBUG:main]    8.0	SequencerCallstack: ARRAY[4] OF UDT10
+14:41:05,296 [DEBUG:main]    8.0	SequencerCallstack: ARRAY[4] OF UDT10
+14:41:05,296 [DEBUG:main]    40.0	BildnummerSoll:INT
+14:41:05,296 [DEBUG:main]    40.0	BildnummerSoll:INT
+14:41:05,296 [DEBUG:main]    42.0	BildnummerIst:INT
+14:41:05,296 [DEBUG:main]    42.0	BildnummerIst:INT
+14:41:05,296 [DEBUG:main] END_STRUCT DB2004: 44
+14:41:05,296 [DEBUG:main] END_STRUCT DB2004: 44
+14:41:05,297 [DEBUG:main] STRUCT DB47
+14:41:05,297 [DEBUG:main] STRUCT DB47
+14:41:05,297 [DEBUG:main]    0.0	Ist:UDT24
+14:41:05,297 [DEBUG:main]    0.0	Ist:UDT24
+14:41:05,297 [DEBUG:main]    36.0	Soll:UDT24
+14:41:05,297 [DEBUG:main]    36.0	Soll:UDT24
+14:41:05,297 [DEBUG:main]    72.0	Vorbereitungsposition: ARRAY[4] OF UDT24
+14:41:05,297 [DEBUG:main]    72.0	Vorbereitungsposition: ARRAY[4] OF UDT24
+14:41:05,297 [DEBUG:main]    216.0	Kontrollposition:UDT24
+14:41:05,297 [DEBUG:main]    216.0	Kontrollposition:UDT24
+14:41:05,312 [DEBUG:main]    252.0	Vorfuegepositionen:UDT24
+14:41:05,312 [DEBUG:main]    252.0	Vorfuegepositionen:UDT24
+14:41:05,312 [DEBUG:main]    288.0	Reinigungsoffset:UDT24
+14:41:05,312 [DEBUG:main]    288.0	Reinigungsoffset:UDT24
+14:41:05,312 [DEBUG:main]    324.0	Fuegepositionen:UDT24
+14:41:05,312 [DEBUG:main]    324.0	Fuegepositionen:UDT24
+14:41:05,312 [DEBUG:main]    360.0	Abschwenkposition:UDT24
+14:41:05,312 [DEBUG:main]    360.0	Abschwenkposition:UDT24
+14:41:05,312 [DEBUG:main]    396.0	Uebernahmeposition:UDT24
+14:41:05,312 [DEBUG:main]    396.0	Uebernahmeposition:UDT24
+14:41:05,312 [DEBUG:main]    432.0	TheoretischeMontagePos:UDT24
+14:41:05,312 [DEBUG:main]    432.0	TheoretischeMontagePos:UDT24
+14:41:05,313 [DEBUG:main] END_STRUCT DB47: 468
+14:41:05,313 [DEBUG:main] END_STRUCT DB47: 468
+14:41:05,313 [DEBUG:main] STRUCT DB2003
+14:41:05,313 [DEBUG:main] STRUCT DB2003
+14:41:05,313 [DEBUG:main]    0.0	leererState:UDT10
+14:41:05,313 [DEBUG:main]    0.0	leererState:UDT10
+14:41:05,313 [DEBUG:main]    8.0	SequencerCallstack: ARRAY[4] OF UDT10
+14:41:05,313 [DEBUG:main]    8.0	SequencerCallstack: ARRAY[4] OF UDT10
+14:41:05,313 [DEBUG:main]    40.0	BildnummerSoll:INT
+14:41:05,313 [DEBUG:main]    40.0	BildnummerSoll:INT
+14:41:05,313 [DEBUG:main]    42.0	BildnummerIst:INT
+14:41:05,313 [DEBUG:main]    42.0	BildnummerIst:INT
+14:41:05,313 [DEBUG:main] END_STRUCT DB2003: 44
+14:41:05,313 [DEBUG:main] END_STRUCT DB2003: 44
+14:41:05,314 [DEBUG:main] STRUCT DB2002
+14:41:05,314 [DEBUG:main] STRUCT DB2002
+14:41:05,314 [DEBUG:main]    0.0	leererState:UDT10
+14:41:05,314 [DEBUG:main]    0.0	leererState:UDT10
+14:41:05,314 [DEBUG:main]    8.0	SequencerCallstack: ARRAY[4] OF UDT10
+14:41:05,314 [DEBUG:main]    8.0	SequencerCallstack: ARRAY[4] OF UDT10
+14:41:05,314 [DEBUG:main]    40.0	BildnummerSoll:INT
+14:41:05,314 [DEBUG:main]    40.0	BildnummerSoll:INT
+14:41:05,314 [DEBUG:main]    42.0	BildnummerIst:INT
+14:41:05,314 [DEBUG:main]    42.0	BildnummerIst:INT
+14:41:05,314 [DEBUG:main] END_STRUCT DB2002: 44
+14:41:05,314 [DEBUG:main] END_STRUCT DB2002: 44
+14:41:05,315 [DEBUG:main] STRUCT DB2001
+14:41:05,315 [DEBUG:main] STRUCT DB2001
+14:41:05,315 [DEBUG:main]    0.0	leererState:UDT10
+14:41:05,315 [DEBUG:main]    0.0	leererState:UDT10
+14:41:05,315 [DEBUG:main]    8.0	SequencerCallstack: ARRAY[4] OF UDT10
+14:41:05,315 [DEBUG:main]    8.0	SequencerCallstack: ARRAY[4] OF UDT10
+14:41:05,315 [DEBUG:main]    40.0	BildnummerSoll:INT
+14:41:05,315 [DEBUG:main]    40.0	BildnummerSoll:INT
+14:41:05,315 [DEBUG:main]    42.0	BildnummerIst:INT
+14:41:05,315 [DEBUG:main]    42.0	BildnummerIst:INT
+14:41:05,315 [DEBUG:main] END_STRUCT DB2001: 44
+14:41:05,315 [DEBUG:main] END_STRUCT DB2001: 44
+14:41:05,407 [INFO:main] reading symbol list ...
+14:41:05,407 [INFO:main] reading symbol list ...
+14:41:05,537 [INFO:main]   adding var SeqDat: DB2001
+14:41:05,537 [INFO:main]   adding var SeqDat: DB2001
+14:41:05,537 [INFO:main]   adding var SeqDat_Hand: DB2002
+14:41:05,537 [INFO:main]   adding var SeqDat_Hand: DB2002
+14:41:05,537 [INFO:main]   adding var SeqDat_QS: DB2005
+14:41:05,537 [INFO:main]   adding var SeqDat_QS: DB2005
+14:41:05,538 [INFO:main]   adding var SeqDat_Referenz: DB2006
+14:41:05,538 [INFO:main]   adding var SeqDat_Referenz: DB2006
+14:41:05,538 [INFO:main]   adding var SeqDat_Relativ: DB2004
+14:41:05,538 [INFO:main]   adding var SeqDat_Relativ: DB2004
+14:41:05,538 [INFO:main]   adding var SeqDat_Schwenk: DB2003
+14:41:05,538 [INFO:main]   adding var SeqDat_Schwenk: DB2003
+14:41:05,556 [DEBUG:main]  !! SKIPPING IDB_Handbedienung(DB10): invalid type
+14:41:05,556 [DEBUG:main]  !! SKIPPING IDB_Handbedienung(DB10): invalid type
+14:41:05,557 [DEBUG:main]  !! SKIPPING IDB_Handrad(DB120): invalid type
+14:41:05,557 [DEBUG:main]  !! SKIPPING IDB_Handrad(DB120): invalid type
+14:41:05,557 [DEBUG:main]  !! SKIPPING IDB_QS(DB13): invalid type
+14:41:05,557 [DEBUG:main]  !! SKIPPING IDB_QS(DB13): invalid type
+14:41:05,557 [DEBUG:main]  !! SKIPPING IDB_RefSetzenGeber(DB98): invalid type
+14:41:05,557 [DEBUG:main]  !! SKIPPING IDB_RefSetzenGeber(DB98): invalid type
+14:41:05,557 [DEBUG:main]  !! SKIPPING IDB_Referenz(DB14): invalid type
+14:41:05,557 [DEBUG:main]  !! SKIPPING IDB_Referenz(DB14): invalid type
+14:41:05,558 [DEBUG:main]  !! SKIPPING IDB_Relativfahrt(DB12): invalid type
+14:41:05,558 [DEBUG:main]  !! SKIPPING IDB_Relativfahrt(DB12): invalid type
+14:41:05,558 [DEBUG:main]  !! SKIPPING IDB_Schwenken(DB11): invalid type
+14:41:05,558 [DEBUG:main]  !! SKIPPING IDB_Schwenken(DB11): invalid type
+14:41:05,558 [DEBUG:main]  !! SKIPPING IDB_Sequencer(DB9): invalid type
+14:41:05,558 [DEBUG:main]  !! SKIPPING IDB_Sequencer(DB9): invalid type
+14:41:05,569 [INFO:main]   adding var DB_Pic_Relativ: DB492
+14:41:05,569 [INFO:main]   adding var DB_Pic_Relativ: DB492
+14:41:05,569 [INFO:main]   adding var DB_Pic_Schwenken: DB491
+14:41:05,569 [INFO:main]   adding var DB_Pic_Schwenken: DB491
+14:41:05,569 [INFO:main]   adding var DB_RAPPositionen: DB47
+14:41:05,569 [INFO:main]   adding var DB_RAPPositionen: DB47
+14:41:05,569 [INFO:main]   adding var DB_ReferenzCmds: DB96
+14:41:05,569 [INFO:main]   adding var DB_ReferenzCmds: DB96
+14:41:05,570 [INFO:main]   adding var DB_SK_S01: DB501
+14:41:05,570 [INFO:main]   adding var DB_SK_S01: DB501
+14:41:05,570 [INFO:main]   adding var DB_SK_S04: DB504
+14:41:05,570 [INFO:main]   adding var DB_SK_S04: DB504
+14:41:05,570 [INFO:main]   adding var DB_SPS_to_HMI: DB499
+14:41:05,570 [INFO:main]   adding var DB_SPS_to_HMI: DB499
+14:41:05,570 [INFO:main]   adding var DB_Schritt: DB2
+14:41:05,570 [INFO:main]   adding var DB_Schritt: DB2
+14:41:05,571 [INFO:main]   adding var DB_SimGleichlauf: DB1988
+14:41:05,571 [INFO:main]   adding var DB_SimGleichlauf: DB1988
+14:41:05,571 [INFO:main]   adding var DB_TechnologieBefehle: DB1000
+14:41:05,571 [INFO:main]   adding var DB_TechnologieBefehle: DB1000
+14:41:05,571 [INFO:main]   adding var DB_WR: DB103
+14:41:05,571 [INFO:main]   adding var DB_WR: DB103
+14:41:05,573 [DEBUG:main]  !! SKIPPING IDBAntriebX1(DB1801): invalid type
+14:41:05,573 [DEBUG:main]  !! SKIPPING IDBAntriebX1(DB1801): invalid type
+14:41:05,573 [DEBUG:main]  !! SKIPPING IDBAntriebX2(DB1802): invalid type
+14:41:05,573 [DEBUG:main]  !! SKIPPING IDBAntriebX2(DB1802): invalid type
+14:41:05,573 [DEBUG:main]  !! SKIPPING IDBAntriebY(DB1803): invalid type
+14:41:05,573 [DEBUG:main]  !! SKIPPING IDBAntriebY(DB1803): invalid type
+14:41:05,573 [DEBUG:main]  !! SKIPPING IDBAntriebZ1(DB1804): invalid type
+14:41:05,573 [DEBUG:main]  !! SKIPPING IDBAntriebZ1(DB1804): invalid type
+14:41:05,574 [DEBUG:main]  !! SKIPPING IDBAntriebZ2(DB1805): invalid type
+14:41:05,574 [DEBUG:main]  !! SKIPPING IDBAntriebZ2(DB1805): invalid type
+14:41:05,574 [DEBUG:main]  !! SKIPPING IDBAntriebZ3(DB1806): invalid type
+14:41:05,574 [DEBUG:main]  !! SKIPPING IDBAntriebZ3(DB1806): invalid type
+14:41:05,574 [DEBUG:main]  !! SKIPPING IDBAntriebe(DB1900): invalid type
+14:41:05,574 [DEBUG:main]  !! SKIPPING IDBAntriebe(DB1900): invalid type
+14:41:05,574 [DEBUG:main]  !! SKIPPING IDBAntriebssteuerung(DB1901): invalid type
+14:41:05,574 [DEBUG:main]  !! SKIPPING IDBAntriebssteuerung(DB1901): invalid type
+14:41:05,574 [DEBUG:main]  !! SKIPPING IDB_FB_Technologie(DB26): invalid type
+14:41:05,574 [DEBUG:main]  !! SKIPPING IDB_FB_Technologie(DB26): invalid type
+14:41:05,575 [DEBUG:main]  !! SKIPPING IDB_Fahrkommandos(DB1903): invalid type
+14:41:05,575 [DEBUG:main]  !! SKIPPING IDB_Fahrkommandos(DB1903): invalid type
+14:41:05,585 [INFO:main]   adding var DB_Antriebe: DB1930
+14:41:05,585 [INFO:main]   adding var DB_Antriebe: DB1930
+14:41:05,585 [INFO:main]   adding var DB_Bedingung: DB81
+14:41:05,585 [INFO:main]   adding var DB_Bedingung: DB81
+14:41:05,585 [INFO:main]   adding var DB_FahrCmds: DB1902
+14:41:05,585 [INFO:main]   adding var DB_FahrCmds: DB1902
+14:41:05,585 [INFO:main]   adding var DB_FahrdatenAktiv: DB1904
+14:41:05,585 [INFO:main]   adding var DB_FahrdatenAktiv: DB1904
+14:41:05,585 [INFO:main]   adding var DB_HMI_to_SPS: DB500
+14:41:05,585 [INFO:main]   adding var DB_HMI_to_SPS: DB500
+14:41:05,585 [INFO:main]   adding var DB_InfoDB81: DB82
+14:41:05,585 [INFO:main]   adding var DB_InfoDB81: DB82
+14:41:05,586 [INFO:main]   adding var DB_Konstanten: DB1
+14:41:05,586 [INFO:main]   adding var DB_Konstanten: DB1
+14:41:05,586 [INFO:main]   adding var DB_Messages: DB490
+14:41:05,586 [INFO:main]   adding var DB_Messages: DB490
+14:41:05,586 [INFO:main]   adding var DB_Permanentfenster: DB498
+14:41:05,586 [INFO:main]   adding var DB_Permanentfenster: DB498
+14:41:05,586 [INFO:main]   adding var DB_Pic_Admin: DB497
+14:41:05,586 [INFO:main]   adding var DB_Pic_Admin: DB497
+14:41:05,586 [INFO:main]   adding var DB_Pic_BBU: DB496
+14:41:05,586 [INFO:main]   adding var DB_Pic_BBU: DB496
+14:41:05,586 [INFO:main]   adding var DB_Pic_Hand: DB495
+14:41:05,586 [INFO:main]   adding var DB_Pic_Hand: DB495
+14:41:05,586 [INFO:main]   adding var DB_Pic_QS_Messung: DB494
+14:41:05,586 [INFO:main]   adding var DB_Pic_QS_Messung: DB494
+14:41:05,586 [INFO:main]   adding var DB_Pic_Referenz_Messung: DB493
+14:41:05,586 [INFO:main]   adding var DB_Pic_Referenz_Messung: DB493
+14:41:05,597 [INFO:main]   adding var GLOBAL_DIAG_DB: DB125
+14:41:05,597 [INFO:main]   adding var GLOBAL_DIAG_DB: DB125
+14:41:05,603 [INFO:main]   adding var DB_Debugging: DB999
+14:41:05,603 [INFO:main]   adding var DB_Debugging: DB999
+14:41:05,603 [DEBUG:main]  !! SKIPPING IDB_Gleichlauftest(DB1920): invalid type
+14:41:05,603 [DEBUG:main]  !! SKIPPING IDB_Gleichlauftest(DB1920): invalid type
+14:41:05,603 [INFO:main]   adding var DB_Prozesswerte: DB3
+14:41:05,603 [INFO:main]   adding var DB_Prozesswerte: DB3
+14:41:05,603 [INFO:main]   adding var DB_Log_Buf: DB201
+14:41:05,603 [INFO:main]   adding var DB_Log_Buf: DB201
+14:41:05,604 [INFO:main]   adding var DB_SBuff: DB202
+14:41:05,604 [INFO:main]   adding var DB_SBuff: DB202
+14:41:05,604 [INFO:main] ... symbol list read
+14:41:05,604 [INFO:main] ... symbol list read
