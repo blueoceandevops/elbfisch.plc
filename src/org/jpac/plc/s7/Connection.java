@@ -47,6 +47,7 @@ public class Connection extends org.jpac.plc.Connection{
     private static final int VRSN                  = 0x03; //value of the first byte of the ISO header (version of the protocol)
     private static final int PLCPORT               = 102;  //S7 PLC's communicate ISO over TCP on this port
     private static final int SOMEOVERHEAD          = 32;   //TODO get exact value
+    private static final int SIMPDULENGTH          = 232;  //assumed pdu length for test purposes only
     private InputStream      in;
     private OutputStream     out;
     private Socket           socket;
@@ -93,6 +94,9 @@ public class Connection extends org.jpac.plc.Connection{
                 connected  = false;
                 throw exc;
             }
+        }
+        else{
+            this.maxPDULength = SIMPDULENGTH;  
         }
     }
             

@@ -1,26 +1,43 @@
 /**
  * PROJECT   : jPac PLC communication library
  * MODULE    : ReadRequest.java
- * VERSION   : -
- * DATE      : -
- * PURPOSE   : 
- * AUTHOR    : Bernd Schuster, MSK Gesellschaft fuer Automatisierung mbH, Schenefeld
+ * VERSION   : $Revision: 1.6 $
+ * DATE      : $Date: 2012/09/12 12:04:40 $
+ * PURPOSE   : represents a read request
+ * AUTHOR    : Andreas Ulbrich, MSK Gesellschaft fuer Automatisierung mbH, Schenefeld
  * REMARKS   : -
  * CHANGES   : CH#n <Kuerzel> <datum> <Beschreibung>
+ * LOG       : $Log: ReadRequest.java,v $
+ * LOG       : Revision 1.6  2012/09/12 12:04:40  ulbrich
+ * LOG       : Stand fuer DaubThermoRoll R.1.0.0.0b
+ * LOG       :
+ * LOG       : Revision 1.5  2012/07/11 11:20:30  nouza
+ * LOG       : Staende zusammengefuehrt
+ * LOG       :
+ * LOG       : Revision 1.4  2012/03/19 10:03:38  ulbrich
+ * LOG       : mapResponseData() in Abhaengigkeit vom Fun ctionCode mit ByteSwapping implementiert
+ * LOG       :
+ * LOG       : Revision 1.3  2012/03/14 14:38:41  ulbrich
+ * LOG       : modbus: Analog In & Output is implemented to be handled via register access
+ * LOG       :
+ * LOG       : Revision 1.2  2012/03/13 15:14:22  ulbrich
+ * LOG       : modbus - ReceiveRequest & TransmitRequest - waitForByte(): timeout reduced to 10 milliseconds, implementation changed from sleep() to loop
+ * LOG       :
  *
- * This file is part of the jPac process automation controller.
- * jPac is free software: you can redistribute it and/or modify
+ * This file is part of the jPac PLC communication library.
+ * The jPac PLC communication library is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * jPac is distributed in the hope that it will be useful,
+ * The jPac PLC communication library is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with the jPac If not, see <http://www.gnu.org/licenses/>.
+ * along with the jPac PLC communication library.  If not, see <http://www.gnu.org/licenses/>.
+ *
  */
 
 package org.jpac.plc.modbus;
@@ -34,6 +51,7 @@ import org.jpac.plc.AddressException;
 import org.jpac.plc.Request;
 import org.jpac.plc.modbus.Address.AREA;
 import org.jpac.plc.modbus.util.Modbus;
+import org.jpac.plc.s7.ReadMultipleData;
 
 /**
  * represents a read request. Can be added to a an instance of {@link ReadMultipleData} and will contain the
@@ -47,6 +65,8 @@ public class ReadRequest extends org.jpac.plc.ReadRequest {
     private final int ONETICK     =       1; //duration of one tick in milliseconds
     private final byte[]    bitMask = {(byte)0x01,(byte)0x02,(byte)0x04,(byte)0x08,(byte)0x10,(byte)0x20,(byte)0x40,(byte)0x80};
 
+    private long maxWaitForBytesTime;
+ 
     /**
      * useful, if the Data item is supplied externally
      * @param dataType actually two data types are supported: DATATYPE.BIT for accessing BOOL type data items and DATATYPE.BYTE for all other data types
@@ -68,6 +88,7 @@ public class ReadRequest extends org.jpac.plc.ReadRequest {
         this.address     = new Address(area, byteAddress, bitAddress, dataLength);
         this.dataOffset  = dataOffset;
         buffer = new byte[Modbus.MAX_MESSAGE_LENGTH];
+        maxWaitForBytesTime = 0;
     }
 
     /**
@@ -80,6 +101,7 @@ public class ReadRequest extends org.jpac.plc.ReadRequest {
     public ReadRequest(DATATYPE dataType, org.jpac.plc.Address address, int dataOffset) throws ValueOutOfRangeException, IndexOutOfRangeException{
         super(dataType, address, dataOffset, null);
         buffer = new byte[Modbus.MAX_MESSAGE_LENGTH];
+        maxWaitForBytesTime = 0;
     }
 
     /**
@@ -93,6 +115,7 @@ public class ReadRequest extends org.jpac.plc.ReadRequest {
     public ReadRequest(DATATYPE dataType, org.jpac.plc.Address address, int dataOffset, Data data) throws ValueOutOfRangeException, IndexOutOfRangeException{
         super(dataType, address, dataOffset, data);
         buffer = new byte[Modbus.MAX_MESSAGE_LENGTH];
+        maxWaitForBytesTime = 0;
     }
 
     public int getReference() throws ValueOutOfRangeException {
@@ -162,7 +185,7 @@ public class ReadRequest extends org.jpac.plc.ReadRequest {
         ownConn.getOutputStream().writeByte(0); // unit identifier is not used and will therefore always be 0
         ownConn.getOutputStream().writeByte(getFunctionCode()); // write function code of read request
         writeData(conn); // write MODBUS request data
-        ownConn.getInputStream().skipBytes(ownConn.getInputStream().available());// empty input stream before new request written
+//        ownConn.getInputStream().skipBytes(ownConn.getInputStream().available());// empty input stream before new request written
         ownConn.getOutputStream().flush(); // flushing the data to the peer now
     }
 
@@ -179,11 +202,12 @@ public class ReadRequest extends org.jpac.plc.ReadRequest {
         synchronized(buffer) {
             // wait for response sequence header to load
             //read to byte length of message
-            try { waitForBytes(ownConn.getInputStream(), 9); }
-            catch(IOException ex) {
-                Log.error("Invalid modbus protocol found while reading ReadRequest response header: ", ex);
-                throw ex;
-            }
+            // TODO: jetzt auf Transaction-Ebene pruefen
+//            try { waitForBytes(ownConn.getInputStream(), 9); }
+//            catch(IOException ex) {
+//                Log.error("Invalid modbus protocol found while reading ReadRequest response header: ", ex);
+//                throw ex;
+//            }
             //read to byte length of message           
             int transID = ownConn.getInputStream().readUnsignedShort(); // read transaction id of the request
             int protocolID = ownConn.getInputStream().readUnsignedShort(); // read the protocol id of the request
@@ -314,8 +338,13 @@ public class ReadRequest extends org.jpac.plc.ReadRequest {
     private void waitForBytes(DataInputStream stream, int n)throws IOException
     {
         long actual_nanotime   = System.nanoTime();
-        long max_wait_nanotime = actual_nanotime + 10000000L;
+        long max_wait_nanotime = actual_nanotime + 1000000000L;//10000000L;TODO nur für Test !!!!!!
         while((stream.available() < n) && System.nanoTime() < max_wait_nanotime);
+        long tmp_waitForByteTime = System.nanoTime() - actual_nanotime;
+        if(maxWaitForBytesTime < tmp_waitForByteTime) {
+            maxWaitForBytesTime = tmp_waitForByteTime;
+            Log.error("MaxWaitForBytesTime: " + maxWaitForBytesTime);
+        }
         //System.out.println("wait time: " + (System.nanoTime() - actual_nanotime));
         if (System.nanoTime() > max_wait_nanotime){
             throw new IOException("incomplete data packet received from Plc controller");

@@ -1,33 +1,42 @@
 /**
  * PROJECT   : jPac PLC communication library
  * MODULE    : TransmitTransaction.java
- * VERSION   : -
- * DATE      : -
- * PURPOSE   : 
- * AUTHOR    : Bernd Schuster, MSK Gesellschaft fuer Automatisierung mbH, Schenefeld
+ * VERSION   : $Revision: 1.2 $
+ * DATE      : $Date: 2012/09/12 12:04:40 $
+ * PURPOSE   : represents a transmit transaction
+ * AUTHOR    : Andreas Ulbrich, MSK Gesellschaft fuer Automatisierung mbH, Schenefeld
  * REMARKS   : -
  * CHANGES   : CH#n <Kuerzel> <datum> <Beschreibung>
+ * LOG       : $Log: TransmitTransaction.java,v $
+ * LOG       : Revision 1.2  2012/09/12 12:04:40  ulbrich
+ * LOG       : Stand fuer DaubThermoRoll R.1.0.0.0b
+ * LOG       :
  *
- * This file is part of the jPac process automation controller.
- * jPac is free software: you can redistribute it and/or modify
+ * This file is part of the jPac PLC communication library.
+ * The jPac PLC communication library is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * jPac is distributed in the hope that it will be useful,
+ * The jPac PLC communication library is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with the jPac If not, see <http://www.gnu.org/licenses/>.
+ * along with the jPac PLC communication library.  If not, see <http://www.gnu.org/licenses/>.
+ *
  */
 
 package org.jpac.plc.modbus;
 
 import java.io.IOException;
-import org.jpac.NthCycle;
+import org.jpac.EventTimedoutException;
+import org.jpac.JPac;
+import org.jpac.NextCycle;
+import org.jpac.ProcessEvent;
 import org.jpac.ProcessException;
+import org.jpac.ShutdownRequestException;
 import org.jpac.plc.WrongOrdinaryException;
 
 /**
@@ -35,12 +44,30 @@ import org.jpac.plc.WrongOrdinaryException;
  * @author Ulbrich
  */
 public class TransmitTransaction extends org.jpac.plc.TransmitTransaction {
-    NthCycle nthCycle;
-    int      waitCycles;
-
+    public long timeout;
+    private ProcessEvent modbusAnswerAvailable;
+    
+    class BytesAvailableEvent extends ProcessEvent {
+        @Override
+        public boolean fire() throws ProcessException {
+            boolean rt = false;
+            if(getConnection() != null) {
+                try {
+                    rt = ((org.jpac.plc.modbus.Connection)getConnection()).getInputStream().available() != 0;
+                } catch (IOException ex) {
+                    Log.error("IOException in BytesAvailableEvent", ex);
+                }
+            }
+            return rt;
+        }
+        
+    }
+    
     public TransmitTransaction(Connection conn) {
         super(conn);
-        waitCycles = 0;
+        // TODO test !!!!!modbusAnswerAvailable = new BytesAvailableEvent();
+        modbusAnswerAvailable = new NextCycle();
+        timeout = 3 * JPac.getInstance().getCycleTime();
     }
 
     @Override
@@ -48,7 +75,17 @@ public class TransmitTransaction extends org.jpac.plc.TransmitTransaction {
         while(!requestQueue.isEmpty()) {
             WriteRequest request = (org.jpac.plc.modbus.WriteRequest)requestQueue.poll();
             //write request message
+            if (((org.jpac.plc.modbus.Connection)getConnection()).getInputStream().available() != 0){
+                //TODO Log.error("write input queue enthält noch Daten !!!!! ");
+                ((org.jpac.plc.modbus.Connection)getConnection()).getInputStream().skip(2000L);
+            }
             request.write(getConnection());
+            try {
+                modbusAnswerAvailable.await(timeout);
+            } 
+            catch (ProcessException ex) {
+                throw new IOException("receive error", ex);
+            }
             try {
                //read response message
                request.read(getConnection());
@@ -56,34 +93,11 @@ public class TransmitTransaction extends org.jpac.plc.TransmitTransaction {
                Log.error("Error: ", ex);
             }
         }
-        if(Log.isDebugEnabled()) Log.debug("Modbus-TransmitTransaction transacted");
+        Log.debug("Modbus-TransmitTransaction transacted");
     }
 
     @Override
     public void transact(int waitCycles) throws IOException, ProcessException {
-        if (nthCycle == null){
-            nthCycle = new NthCycle(waitCycles);
-        }
-        else{
-            nthCycle.setN(waitCycles);
-        }
-        while(!requestQueue.isEmpty()) {
-             WriteRequest request = (org.jpac.plc.modbus.WriteRequest)requestQueue.poll();
-             //write request message
-             request.write(getConnection());
-             nthCycle.await();
-             if (((org.jpac.plc.modbus.Connection)getConnection()).getInputStream().available() == 0){
-                 //if the plc did not respond in time, throw an IO exception
-                 throw new IOException("transmit transaction timed out");
-             }
-             try{
-                 //read response message
-                 request.read(getConnection());
-             }
-             catch(WrongOrdinaryException exc){
-                 throw new IOException(exc);
-             }
-        }
-        if(Log.isDebugEnabled()) Log.debug("Modbus-TransmitTransaction transacted");
+        throw new UnsupportedOperationException("Not supported yet.");
     }
 }
